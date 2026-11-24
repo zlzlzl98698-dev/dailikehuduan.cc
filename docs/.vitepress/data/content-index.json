@@ -1,0 +1,3736 @@
+{
+  "generatedAt": "2026-11-24",
+  "count": 186,
+  "entries": [
+    {
+      "url": "/about/",
+      "pillar": "safety",
+      "title": "关于本站与编辑部｜独立评测方法学、证据分级与商业透明度声明",
+      "h1": "关于本站与编辑部：评测方法学、证据分级与商业透明度声明",
+      "description": "代理客户端（dailikehuduan.cc）关于本站与编辑团队：深入披露编辑部独立评测准则、五级数据置信度规范（Verified/Measured/Vendor/Historical/Unverified）、推广链接免责声明及利益冲突回避原则。",
+      "parentTopic": "/safety/privacy/",
+      "primaryKeyword": "代理客户端关于本站与评测准则",
+      "searchIntent": "Informational",
+      "category": "站点与信任指南",
+      "relatedSlugs": [
+        "/safety/privacy/",
+        "/safety/security/",
+        "/safety/avoid-scams/",
+        "/brands/reviews/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2020
+    },
+    {
+      "url": "/ai-streaming/",
+      "pillar": "ai-streaming",
+      "title": "AI 与流媒体节点兼容总览：ChatGPT、Netflix 与原生 IP 排查",
+      "h1": "AI 与流媒体兼容性总览：场景风控原理、原生 IP 辨析与实测验证指南",
+      "description": "场景兼容与验证型指南：深入解析 ChatGPT 1020 风控、Claude 封号机制、Gemini 与 YouTube 送中排查、Netflix 自制剧 vs 非自制剧、Disney+ Error 83、原生 IP vs 双 ISP 辨析、curl 自测方法及品牌数据证据分级。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 10396
+    },
+    {
+      "url": "/ai-streaming/chatgpt-region-and-block-fix/",
+      "pillar": "ai-streaming",
+      "title": "ChatGPT 无法访问、提示地区不支持与降智排查：5 层定位与分流修复实操",
+      "h1": "ChatGPT 无法访问、提示地区不支持与降智排查：5 层定位与分流修复实操",
+      "description": "从 OpenAI 支持地区白名单（香港不可用）、数据中心 ASN 触发 Cloudflare 1020/403、App 与 Web 校验及降智信号、geosite:openai Mihomo 策略组固定与 dns.respect-rules 配置，到浏览器 WebRTC/Cookie/QUIC 缓存清理的 5 层故障排查与修复实操，附品牌库 AI 声明差异核查。",
+      "parentTopic": "/ai-streaming/chatgpt/",
+      "primaryKeyword": "ChatGPT 提示地区不支持怎么办",
+      "searchIntent": "Troubleshooting",
+      "category": "AI 与流媒体",
+      "relatedSlugs": [
+        "/ai-streaming/chatgpt/",
+        "/ai-streaming/claude/",
+        "/guides/routing/",
+        "/brands/guangsuyun/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "muguang",
+        "weifeng",
+        "sujie"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3782
+    },
+    {
+      "url": "/ai-streaming/chatgpt/",
+      "pillar": "ai-streaming",
+      "title": "ChatGPT 机场节点兼容指南：白名单、1020/403 降智排查与分流",
+      "h1": "ChatGPT 机场与节点兼容性指南：地区白名单、Cloudflare 1020/403 降智排查与分流规则",
+      "description": "深度剖析 ChatGPT（OpenAI）地区白名单与香港节点限制、Cloudflare 1020/403 拦截与 PoW 算力降智机制、网页端与 iOS/Android 官方 App（Play Integrity 与 WebRTC 语音）差异、完整 geosite:openai 分流规则及 31 家机场品牌库证据核查。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7375
+    },
+    {
+      "url": "/ai-streaming/claude/",
+      "pillar": "ai-streaming",
+      "title": "Claude 机场与节点防封指南：Anthropic 严苛 ASN 风控、防跳 IP 策略与分流配置",
+      "h1": "Claude 机场与节点防封指南：Anthropic 严苛 ASN 风控、防跳 IP 策略与分流配置",
+      "description": "深度拆解 Anthropic Claude（claude.ai 与 API）极严地区白名单与机房 ASN 审查机制，剖析客户端开启 load-balance 或短周期 url-test 引发秒封账号的底层原理，提供 select 固定单节点分流规则及 31 家机场品牌库 Claude 支持状态核查。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7092
+    },
+    {
+      "url": "/ai-streaming/disney/",
+      "pillar": "ai-streaming",
+      "title": "Disney+、HBO Max、TikTok 与 Spotify 兼容性及流媒体安全自测指南",
+      "h1": "Disney+、HBO Max、TikTok 与 Spotify 兼容性及流媒体安全自测指南",
+      "description": "系统解析 Disney+ Error 83 与多域名统一出站、Max (原 HBO Max) 地区限制、TikTok 手机 App SIM 卡 MCC/MNC + 系统区域 + IP 复合校验与免拔卡边界（结合无忧链接/光速云/灵动云真实品牌记录）、Spotify 14 天跨区校验及安全流媒体自测方法。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7174
+    },
+    {
+      "url": "/ai-streaming/gemini/",
+      "pillar": "ai-streaming",
+      "title": "Gemini 机场与节点兼容性指南：地区判定三要素、Google 送中排查修复与分流规则",
+      "h1": "Gemini 机场与节点兼容性指南：地区判定三要素、Google 送中排查修复与分流规则",
+      "description": "深度解析 Google Gemini（gemini.google.com）与 Google AI Studio 地区不支持的三大判定要素、节点明明在美国或日本却提示地区受限的 IP 送中成因、Google 报告页与命令行核查方法、完整非港统一锁定分流规则及 31 家机场品牌库 Gemini 标注核验。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7262
+    },
+    {
+      "url": "/ai-streaming/netflix-unlock-check-guide/",
+      "pillar": "ai-streaming",
+      "title": "Netflix 解锁失败与只看自制剧怎么检查？非原生 IP 识别与测试片号方法",
+      "h1": "Netflix 解锁失败与只看自制剧怎么检查？非原生 IP 识别与测试片号方法",
+      "description": "手把手教你用测试片号 80197526 / 80018499（自制剧）与 70143836（《绝命毒师》/《风骚律师》等非自制版权剧）10 秒自测 Netflix 解锁级别；识别非原生 DNS 解锁中转与原生 ISP IP 区别，结合灵动云 2026-07 与光速云 2026-08-19 归档台湾识别跨区实证，给出 M7111-5059 报错完整修复步骤。",
+      "parentTopic": "/ai-streaming/netflix/",
+      "primaryKeyword": "Netflix 解锁失败如何检查",
+      "searchIntent": "How-to",
+      "category": "AI 与流媒体",
+      "relatedSlugs": [
+        "/ai-streaming/netflix/",
+        "/ai-streaming/disney/",
+        "/ai-streaming/youtube/",
+        "/brands/lingdong/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "lingdong",
+        "feimao"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3802
+    },
+    {
+      "url": "/ai-streaming/netflix/",
+      "pillar": "ai-streaming",
+      "title": "Netflix 解锁判断标准：自制剧 vs 全区剧差异、测试片号自测与 DNS/原生 IP 原理",
+      "h1": "Netflix 解锁判断标准：自制剧 vs 全区剧差异、测试片号自测与 DNS/原生 IP 原理",
+      "description": "全面拆解 Netflix 三级解锁状态（完全屏蔽 / 仅自制剧 Originals / 全区解锁），手把手教你用测试片号 70143836 与 80018499 及 fast.com 10 秒自测，深入对比机房 IDC ASN、原生 ISP ASN 与 DNS 解锁中转的工作原理，解决 TV/移动端硬编码 DNS 与 IPv6 绕过拦截，并核查 31 家品牌库流媒体证据。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 6980
+    },
+    {
+      "url": "/ai-streaming/youtube/",
+      "pillar": "ai-streaming",
+      "title": "YouTube 4K/8K 缓冲诊断：Stats 解读、送中修复与倍率预警",
+      "h1": "YouTube 加速与 4K/8K 缓冲诊断：Stats for nerds 解读、QUIC 回落、送中修复与倍率预警",
+      "description": "全面解决 YouTube 看 4K/8K 视频卡顿转圈、晚高峰单线程吞吐不足、UDP 443 (QUIC) 限速强制回落 TCP、YouTube 顶部显示 CN 送中与 Premium 失效，以及高倍率节点看 4K 瞬间耗尽流量的避坑方案。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5038
+    },
+    {
+      "url": "/airport/",
+      "pillar": "airport",
+      "title": "机场推荐与选型指南总览：2026 机场排行口径、靠谱指标与晚高峰实测框架",
+      "h1": "机场推荐与选型指南总览",
+      "description": "代理客户端机场选型总览：公开披露编辑精选合作权重与客观数据边界，汇总 31 家品牌真实月付、年付折算、客户端模式、IEPL/IPLC 线路、AI/流媒体兼容与 20:00–23:30 晚高峰实测方法。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 13027
+    },
+    {
+      "url": "/airport/beginner/",
+      "pillar": "airport",
+      "title": "新手机场推荐与零基础入门指南：月付 ¥14.9–¥25 止损、客户端抉择与首日验真（2026）",
+      "h1": "新手机场推荐与零基础入门指南：防坑止损与首日验真全流程",
+      "description": "适合新手的机场怎么选？完整梳理首次购买防坑铁律、¥14.9–¥25 真实月付试错止损线、一键专属端与开源客户端抉择，以及购后首日 5 步验真清单。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5742
+    },
+    {
+      "url": "/airport/client-vs-third-party-subscription/",
+      "pillar": "airport",
+      "title": "自研专属客户端机场 vs 第三方通用订阅机场：新手与进阶分水岭全解析",
+      "h1": "自研专属客户端机场 vs 第三方通用订阅机场：新手与进阶分水岭全解析",
+      "description": "基于 2026-11-23 快照的 31 家机场品牌客户端模式（clientMode）全量归类（自研+第三方订阅 11 家、第三方通用订阅 2 家、仅专属客户端 8 家、待核实 10 家），深入拆解封闭专属端的 5 大现实限制、零配置新手适用边界及向开源生态迁移路径。",
+      "parentTopic": "/airport/beginner/",
+      "primaryKeyword": "自研客户端机场和第三方订阅哪个好",
+      "searchIntent": "Comparison",
+      "category": "机场选型",
+      "relatedSlugs": [
+        "/airport/beginner/",
+        "/brands/alternatives/",
+        "/compare/guangsuyun-vs-feimao/",
+        "/reviews/feimao/",
+        "/reviews/guangsuyun/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "feimao",
+        "wuyou",
+        "yifan",
+        "kexin"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4137
+    },
+    {
+      "url": "/airport/evening-peak-stability-test/",
+      "pillar": "airport",
+      "title": "如何判断机场晚高峰是否稳定？20:00–23:30 标准化验证与路由跟踪指南",
+      "h1": "如何判断机场晚高峰是否稳定？20:00–23:30 标准化验证与路由跟踪指南",
+      "description": "拆解为什么 2026-10-19 非晚高峰历史汇总无法代表晚上 20:00–23:30 的三网拥堵表现，提供从真月付试错入手的四步标准化自测教程：curl.exe TTFB 与 TLSconnect 采样、25MB/50MB 单线程下载对比多线程测速假象、NextTrace/MTR 跳点丢包追踪与 3 天对比日志，并结合光速云 2026-08-19 河北联通 vs 长沙电信/广西移动延迟反差与灵动云 2026-07 归档案例详述判读标准。",
+      "parentTopic": "/airport/stable/",
+      "primaryKeyword": "如何判断机场晚高峰是否稳定",
+      "searchIntent": "How-to",
+      "category": "机场测速与排障",
+      "relatedSlugs": [
+        "/airport/stable/",
+        "/routes/latency/",
+        "/brands/guangsuyun/",
+        "/brands/lingdong/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "lingdong",
+        "yifan"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3910
+    },
+    {
+      "url": "/airport/iepl-meaning-and-value/",
+      "pillar": "airport",
+      "title": "机场推荐里的 IEPL 专线有什么意义？真实收益、溢价边界与真假查验",
+      "h1": "机场推荐里的 IEPL 专线有什么意义？真实收益、溢价边界与真假查验",
+      "description": "深度解析机场推荐榜单中常见的 IEPL 专线到底有什么意义：剖析晚高峰跨境丢包与运营商 QoS 抑制下的真实收益、政企按 Mbps 采购的成本底线与 10 元以内低价专线质疑、结合光速云/唯兔云/可信云资料库拆解 vendor 宣传与实测差异，帮助判断自己究竟需要 IEPL 还是干净的 BGP/TLS 中转。",
+      "parentTopic": "/airport/recommend/",
+      "primaryKeyword": "机场 IEPL 专线有什么意义",
+      "searchIntent": "Informational",
+      "category": "选型与线路认知",
+      "relatedSlugs": [
+        "/airport/recommend/",
+        "/routes/iepl/",
+        "/routes/iepl-vs-iplc-difference/",
+        "/airport/reliable/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "weitu",
+        "kexin"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4685
+    },
+    {
+      "url": "/airport/multi-device/",
+      "pillar": "airport",
+      "title": "多设备机场与家庭共享方案：不限设备机制、品牌核对表与软路由 OpenClash/Nikki 收敛指南",
+      "h1": "多设备机场与家庭共享方案：不限设备风控边界与软路由收敛指南",
+      "description": "机场宣称的不限设备数能给几个人用？深入解析并发 IP 与连接数风控机制、库内标注不限设备品牌真实客户端限制、OpenClash 与 Nikki 局域网单 IP 收敛原理及防超支规则。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5725
+    },
+    {
+      "url": "/airport/ranking/",
+      "pillar": "airport",
+      "title": "2026 机场排行榜与排序口径说明：区分商业编辑精选与可验证实测数据",
+      "h1": "2026 机场排行榜与排序口径说明：区分商业编辑精选与可验证实测数据",
+      "description": "全面解析2026机场排行榜与机场综合排名规则：严格区分编辑推广排序与客观参数排序，深度拆解2026-10-19非晚高峰汇总数据局限、灵动云2026-07实测与光速云2026-08归档截图，附31家品牌按月付、年付、协议与完整度多维分类榜。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 8961
+    },
+    {
+      "url": "/airport/recommend/",
+      "pillar": "airport",
+      "title": "机场推荐与选择方法：好用的机场四步筛选漏斗与31家品牌样本实证（2026）",
+      "h1": "机场推荐与选择方法：好用的机场四步筛选漏斗与代表样本实证",
+      "description": "机场怎么选才不踩坑？本文整合好用的机场评估标准与四层筛选漏斗，从客户端订阅兼容度、真实月付试错门槛、协议与倍率透明度到晚高峰实测，附31家品牌分类对照与风险边界。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 9315
+    },
+    {
+      "url": "/airport/reliable/",
+      "pillar": "airport",
+      "title": "靠谱机场判断指标与核验方法：协议透明度、价格诚实度与风险审计（2026）",
+      "h1": "靠谱机场判断指标与核验方法：六维可验证审计标尺",
+      "description": "如何判断一家机场是否靠谱？本文拆解协议与客户端透明度、价格倍率诚实度、数据缺口坦诚度、退款条款、域名链接异常与运营年限核验六大可验证维度，附31家品牌对照。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5127
+    },
+    {
+      "url": "/airport/stable/",
+      "pillar": "airport",
+      "title": "稳定机场与晚高峰测试规范：20:00–23:30 单线程 TTFB、丢包与主备切换指南",
+      "h1": "稳定机场与晚高峰测试规范：20:00–23:30 抗衰减与容灾配置全解",
+      "description": "为什么白天测速跑满带宽的机场一到晚上就卡死？本文定义 20:00–23:30 晚高峰稳定标准，拆解 TCP/TLS RTT 与 ICMP 区别、单线程衰减率、丢包脚本与主备 fallback 配置。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5408
+    },
+    {
+      "url": "/brands/",
+      "pillar": "brands",
+      "title": "机场品牌库总览（31家去重档案）：可核验评测、价格折算与官网入口审计",
+      "h1": "机场品牌库总览（31家去重档案）：可核验评测、价格折算与官网入口审计",
+      "description": "dailikehuduan.cc 机场品牌库总览：汇总 31 家去重机场品牌（High 13 / Medium 7 / Basic 11），严格区分编辑精选排序与客观性能、五级证据口径、真实月付门槛与年付折算、官网入口异常审计及优惠码核实。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 11321
+    },
+    {
+      "url": "/brands/alternatives/",
+      "pillar": "brands",
+      "title": "同类品牌替代方案：按客户端开放度、协议与不限时备用包匹配平替",
+      "h1": "同类品牌替代方案：按客户端、协议与不限时包精准匹配平替",
+      "description": "当主力机场涨价、停服或锁定专属客户端时，如何按 VLESS/Reality/Hysteria2 协议、第三方订阅开放度、同预算档位及 100G-247G 不限时包快速匹配平替与 Mihomo 自动容灾配置。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5034
+    },
+    {
+      "url": "/brands/comparisons/",
+      "pillar": "brands",
+      "title": "机场对比中心：同价位档差异、自研端与第三方订阅横向评测",
+      "h1": "机场品牌横向对比中心：同价位档差异与客户端架构拆解",
+      "description": "结构化横向对比 6 组主流机场梯队：光速云 vs 全球云 vs 暮光加速、5.6元极限平价五家同源差异、18元档极连云 vs 光年梯、25元档可信云 vs 速界 vs SOGO云、IPLC 专属端三强与双支持方案。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5087
+    },
+    {
+      "url": "/brands/coupons/",
+      "pillar": "brands",
+      "title": "套餐优惠与优惠码核验台账：31家品牌折扣规则、双码冲突与真实账单验算",
+      "h1": "套餐优惠与优惠码核验台账：31家品牌折扣规则与冲突披露",
+      "description": "汇总 31 家去重机场品牌的历史优惠码、年付/永久包排除条款、双优惠码冲突审计、折后实付账单验算方法及官方推广入口核验指南。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5029
+    },
+    {
+      "url": "/brands/dalaoyun/",
+      "pillar": "brands",
+      "title": "大佬云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "大佬云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "大佬云（dalaoyun）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（dly888）适用条件、自研+第三方订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "大佬云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/dalaoyun/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "dalaoyun",
+        "shandianshu",
+        "yunjiexian",
+        "liulianyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2072
+    },
+    {
+      "url": "/brands/directory/",
+      "pillar": "brands",
+      "title": "品牌数据库检索中心｜31家机场品牌库多维筛选与价格查询大全",
+      "h1": "品牌数据库检索中心｜31家机场品牌库多维筛选与价格查询大全",
+      "description": "交互式检索31家去重机场品牌库与机场品牌大全：支持按年付折算单价、真实月付门槛、自研或第三方通用订阅客户端模式、传输协议、覆盖地区与证据状态五维过滤并同屏比对。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 6155
+    },
+    {
+      "url": "/brands/edgenova/",
+      "pillar": "brands",
+      "title": "边缘节点 EdgeNova套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "边缘节点 EdgeNova套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "边缘节点 EdgeNova（EdgeNova/边缘节点）商业详情与价格查询页：汇总 6 档可核实套餐价格、每 GB 单价核算、优惠码（TH888）适用条件、待核实说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "边缘节点 EdgeNova价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/edgenova/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "edgenova",
+        "lingdong",
+        "langwang",
+        "weifeng"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2255
+    },
+    {
+      "url": "/brands/ermao/",
+      "pillar": "brands",
+      "title": "二猫云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "二猫云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "二猫云（ermao/2mao）商业详情与价格查询页：汇总 6 档可核实套餐价格、每 GB 单价核算、优惠码（ermao5555）适用条件、待核实说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "二猫云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/ermao/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "ermao",
+        "xingdaomeng",
+        "u1s1",
+        "muguang"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2246
+    },
+    {
+      "url": "/brands/feimao/",
+      "pillar": "brands",
+      "title": "飞猫云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "飞猫云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "飞猫云（feimao/FlyCat）商业详情与价格查询页：汇总 7 档可核实套餐价格、每 GB 单价核算、优惠码（flycat888）适用条件、仅专属客户端说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "飞猫云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/feimao/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "feimao",
+        "wuyou",
+        "tiziyun",
+        "lingmao"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2353
+    },
+    {
+      "url": "/brands/firefly/",
+      "pillar": "brands",
+      "title": "Firefly（萤火虫）套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "Firefly（萤火虫）套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "Firefly（萤火虫）（Firefly/Firefly 萤火虫）商业详情与价格查询页：汇总 6 档可核实套餐价格、每 GB 单价核算、优惠码（firefly）适用条件、仅专属客户端说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "Firefly（萤火虫）价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/firefly/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "firefly",
+        "weifeng",
+        "shanyue",
+        "weitu"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2419
+    },
+    {
+      "url": "/brands/guangnian/",
+      "pillar": "brands",
+      "title": "光年梯套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "光年梯套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "光年梯（guangnian）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（gnt6666）适用条件、自研+第三方订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "光年梯价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/guangnian/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "guangnian",
+        "jilian",
+        "sujie",
+        "yifan"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1900
+    },
+    {
+      "url": "/brands/guangsuyun/",
+      "pillar": "brands",
+      "title": "光速云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "光速云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "光速云（GSY）商业详情与价格查询页：汇总 7 档可核实套餐价格、每 GB 单价核算、优惠码（AMM）适用条件、自研+第三方订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "光速云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/guangsuyun/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "muguang",
+        "feimao",
+        "quanqiu"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2879
+    },
+    {
+      "url": "/brands/how-to-verify-airport-legitimacy/",
+      "pillar": "brands",
+      "title": "如何核实机场官网真伪、运营时间与评测可信度？购买前六项尽调清单",
+      "h1": "如何核实机场官网真伪、运营时间与评测可信度？购买前六项尽调清单",
+      "description": "购买代理订阅前必读的官网真伪与评测可信度尽调清单：拆解 SSPanel/V2Board/XBoard 高仿钓鱼站识别、运营年限与域名轮换核验、yunjiexian/huanqiuti/liulianyun 链接异常与 Firefly 去重实例、2026-10-19 同质化软文鉴别、客户端开放度与月付止损规则。",
+      "parentTopic": "/brands/status/",
+      "primaryKeyword": "如何判断机场官网是否真实",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌核验与风险审计",
+      "relatedSlugs": [
+        "/brands/status/",
+        "/airport/reliable/",
+        "/safety/how-to-verify-airport-closure/",
+        "/brands/firefly/"
+      ],
+      "relatedBrands": [
+        "firefly",
+        "yunjiexian",
+        "huanqiuti",
+        "guangsuyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4806
+    },
+    {
+      "url": "/brands/huanqiuti/",
+      "pillar": "brands",
+      "title": "环球梯套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "环球梯套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "环球梯（huanqiuti）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（HQ66）适用条件、自研+第三方订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "环球梯价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/huanqiuti/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "huanqiuti",
+        "yunjiexian",
+        "shandianshu",
+        "dalaoyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2002
+    },
+    {
+      "url": "/brands/jilian/",
+      "pillar": "brands",
+      "title": "极连云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "极连云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "极连云（jilian）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（ji8888）适用条件、自研+第三方订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "极连云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/jilian/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "jilian",
+        "guangnian",
+        "sujie",
+        "kexin"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1917
+    },
+    {
+      "url": "/brands/kexin/",
+      "pillar": "brands",
+      "title": "可信云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "可信云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "可信云（kexin/Kosing）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（kkk333）适用条件、第三方通用订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "可信云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/kexin/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "kexin",
+        "sujie",
+        "sogo",
+        "jilian"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1956
+    },
+    {
+      "url": "/brands/langwang/",
+      "pillar": "brands",
+      "title": "浪网套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "浪网套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "浪网（langwang/WaveNet）商业详情与价格查询页：汇总 9 档可核实套餐价格、每 GB 单价核算、优惠码（以面板为准）适用条件、待核实说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "浪网价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/langwang/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "langwang",
+        "lingdong",
+        "muguang",
+        "edgenova"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2318
+    },
+    {
+      "url": "/brands/lingdong/",
+      "pillar": "brands",
+      "title": "灵动云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "灵动云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "灵动云（lingdong）商业详情与价格查询页：汇总 9 档可核实套餐价格、每 GB 单价核算、优惠码（以面板为准）适用条件、待核实说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "灵动云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/lingdong/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "lingdong",
+        "langwang",
+        "edgenova",
+        "muguang"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2398
+    },
+    {
+      "url": "/brands/lingmao/",
+      "pillar": "brands",
+      "title": "灵猫网络套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "灵猫网络套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "灵猫网络（lingmao/CivetNet）商业详情与价格查询页：汇总 6 档可核实套餐价格、每 GB 单价核算、优惠码（lmao888 / lingmao）适用条件、仅专属客户端说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "灵猫网络价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/lingmao/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "lingmao",
+        "feimao",
+        "wuyou",
+        "tiziyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2380
+    },
+    {
+      "url": "/brands/liulianyun/",
+      "pillar": "brands",
+      "title": "榴莲云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "榴莲云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "榴莲云（liulianyun）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（ll88）适用条件、自研+第三方订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "榴莲云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/liulianyun/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "liulianyun",
+        "dalaoyun",
+        "shandianshu",
+        "yunjiexian"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2035
+    },
+    {
+      "url": "/brands/muguang/",
+      "pillar": "brands",
+      "title": "暮光加速套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "暮光加速套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "暮光加速（muguang/Twilight）商业详情与价格查询页：汇总 9 档可核实套餐价格、每 GB 单价核算、优惠码（muguang5555）适用条件、待核实说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "暮光加速价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/muguang/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "muguang",
+        "guangsuyun",
+        "xingdaomeng",
+        "lingdong"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2504
+    },
+    {
+      "url": "/brands/quanqiu/",
+      "pillar": "brands",
+      "title": "全球云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "全球云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "全球云（quanqiu/GlobalCloud）商业详情与价格查询页：汇总 9 档可核实套餐价格、每 GB 单价核算、优惠码（qqy7777 / qq88）适用条件、仅专属客户端说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "全球云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/quanqiu/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "quanqiu",
+        "sogo",
+        "guangsuyun",
+        "muguang"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2325
+    },
+    {
+      "url": "/brands/reviews/",
+      "pillar": "brands",
+      "title": "品牌独立评测名录｜31家去重机场评测分级、五级证据标准与档案索引",
+      "h1": "品牌独立评测名录｜31家去重机场评测分级、五级证据标准与档案索引",
+      "description": "基于五级证据链（Measured/Vendor/Historical/Inferred/Unknown）与资料完整度（高13家、中7家、基础11家）整理的31家去重机场评测与机场测评总名录，逐一点评各品牌套餐结构、历史测速与冲突台账。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7384
+    },
+    {
+      "url": "/brands/shandianshu/",
+      "pillar": "brands",
+      "title": "闪电鼠套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "闪电鼠套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "闪电鼠（shandianshu）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（sd88）适用条件、自研+第三方订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "闪电鼠价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/shandianshu/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "shandianshu",
+        "dalaoyun",
+        "yunjiexian",
+        "liulianyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1932
+    },
+    {
+      "url": "/brands/shanyue/",
+      "pillar": "brands",
+      "title": "闪跃套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "闪跃套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "闪跃（shanyue/FlashLeap）商业详情与价格查询页：汇总 5 档可核实套餐价格、每 GB 单价核算、优惠码（shanyue）适用条件、仅专属客户端说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "闪跃价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/shanyue/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "shanyue",
+        "firefly",
+        "weitu",
+        "yinxingren"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2139
+    },
+    {
+      "url": "/brands/shenxing/",
+      "pillar": "brands",
+      "title": "神行加速套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "神行加速套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "神行加速（shenxing）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（xs0077）适用条件、自研+第三方订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "神行加速价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/shenxing/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "shenxing",
+        "dalaoyun",
+        "shandianshu",
+        "jilian"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1948
+    },
+    {
+      "url": "/brands/sogo/",
+      "pillar": "brands",
+      "title": "SOGO 云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "SOGO 云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "SOGO 云（Sogo云/sogo）商业详情与价格查询页：汇总 9 档可核实套餐价格、每 GB 单价核算、优惠码（sss777 / SOGO10000）适用条件、仅专属客户端说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "SOGO 云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/sogo/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "sogo",
+        "quanqiu",
+        "yinxingren",
+        "tiziyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2198
+    },
+    {
+      "url": "/brands/status/",
+      "pillar": "brands",
+      "title": "品牌信息与近期变动：去重合并、历史快照、官网核实与链接异常审计",
+      "h1": "品牌信息与近期变动：去重合并、官网入口核实与异常审计台账",
+      "description": "跟踪 31 家机场品牌数据库的更新快照、Firefly 双条目合并记录、2026-08-09 历史扩展条目（灵动云/浪网/EdgeNova）、6 家 linkAnomaly 入口核查与跨表冲突台账。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5000
+    },
+    {
+      "url": "/brands/sujie/",
+      "pillar": "brands",
+      "title": "速界套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "速界套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "速界（sujie/SpeedWorld）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（sss1111）适用条件、自研+第三方订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "速界价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/sujie/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "sujie",
+        "kexin",
+        "jilian",
+        "guangnian"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1927
+    },
+    {
+      "url": "/brands/tiziyun/",
+      "pillar": "brands",
+      "title": "梯子云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "梯子云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "梯子云（tiziyun）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（tiziyun）适用条件、自研+第三方订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "梯子云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/tiziyun/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "tiziyun",
+        "yinxingren",
+        "guangsuyun",
+        "feimao"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1998
+    },
+    {
+      "url": "/brands/u1s1/",
+      "pillar": "brands",
+      "title": "U1S1套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "U1S1套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "U1S1（u1s1）商业详情与价格查询页：汇总 5 档可核实套餐价格、每 GB 单价核算、优惠码（akaka）适用条件、待核实说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "U1S1价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/u1s1/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "u1s1",
+        "ermao",
+        "muguang",
+        "yifan"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2007
+    },
+    {
+      "url": "/brands/weifeng/",
+      "pillar": "brands",
+      "title": "微风网络套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "微风网络套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "微风网络（Breeze/weifeng）商业详情与价格查询页：汇总 6 档可核实套餐价格、每 GB 单价核算、优惠码（flat888）适用条件、待核实说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "微风网络价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/weifeng/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "weifeng",
+        "firefly",
+        "xingdaomeng",
+        "guangsuyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2251
+    },
+    {
+      "url": "/brands/weitu/",
+      "pillar": "brands",
+      "title": "唯兔云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "唯兔云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "唯兔云（weitu/V2Yun）商业详情与价格查询页：汇总 10 档可核实套餐价格、每 GB 单价核算、优惠码（weitu666）适用条件、待核实说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "唯兔云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/weitu/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "weitu",
+        "firefly",
+        "xingdaomeng",
+        "guangsuyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2340
+    },
+    {
+      "url": "/brands/wuyou/",
+      "pillar": "brands",
+      "title": "无忧链接套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "无忧链接套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "无忧链接（wuyou/WorryFree）商业详情与价格查询页：汇总 7 档可核实套餐价格、每 GB 单价核算、优惠码（wuyou666）适用条件、仅专属客户端说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "无忧链接价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/wuyou/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "wuyou",
+        "feimao",
+        "tiziyun",
+        "weitu"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2318
+    },
+    {
+      "url": "/brands/xingdaomeng/",
+      "pillar": "brands",
+      "title": "星岛梦套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "星岛梦套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "星岛梦（xingdaomeng/XDM）商业详情与价格查询页：汇总 9 档可核实套餐价格、每 GB 单价核算、优惠码（nmw888）适用条件、待核实说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "星岛梦价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/xingdaomeng/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "xingdaomeng",
+        "guangsuyun",
+        "weitu",
+        "yifan"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2290
+    },
+    {
+      "url": "/brands/yifan/",
+      "pillar": "brands",
+      "title": "一翻云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "一翻云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "一翻云（yifan/1flyun）商业详情与价格查询页：汇总 8 档可核实套餐价格、每 GB 单价核算、优惠码（yfy6666 / 1FLYYUN）适用条件、第三方通用订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "一翻云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/yifan/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "yifan",
+        "guangsuyun",
+        "tiziyun",
+        "sujie"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2178
+    },
+    {
+      "url": "/brands/yinxingren/",
+      "pillar": "brands",
+      "title": "隐形人套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "隐形人套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "隐形人（yinxingren/Invisible）商业详情与价格查询页：汇总 9 档可核实套餐价格、每 GB 单价核算、优惠码（yxr888 / moon80）适用条件、仅专属客户端说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "隐形人价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/yinxingren/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "yinxingren",
+        "tiziyun",
+        "sogo",
+        "feimao"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2394
+    },
+    {
+      "url": "/brands/yunjiexian/",
+      "pillar": "brands",
+      "title": "云界线套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "云界线套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "云界线（yunjiexian）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（yjx888）适用条件、自研+第三方订阅说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "云界线价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/yunjiexian/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "yunjiexian",
+        "huanqiuti",
+        "shandianshu",
+        "dalaoyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2049
+    },
+    {
+      "url": "/brands/yuzhou/",
+      "pillar": "brands",
+      "title": "宇宙云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "h1": "宇宙云套餐价格表、优惠码核验与官方注册入口｜商业详情档案",
+      "description": "宇宙云（yuzhou）商业详情与价格查询页：汇总 1 档可核实套餐价格、每 GB 单价核算、优惠码（YUZHOU553）适用条件、待核实说明、购前注意事项及独立深度评测入口。",
+      "parentTopic": "/brands/directory/",
+      "primaryKeyword": "宇宙云价格套餐与优惠码",
+      "searchIntent": "Transactional",
+      "category": "品牌商业详情",
+      "relatedSlugs": [
+        "/reviews/yuzhou/",
+        "/brands/directory/",
+        "/brands/coupons/",
+        "/plans/monthly-under-20-guide/"
+      ],
+      "relatedBrands": [
+        "yuzhou",
+        "weitu",
+        "guangsuyun",
+        "kexin"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 2063
+    },
+    {
+      "url": "/clients/",
+      "pillar": "clients",
+      "title": "代理客户端全平台选型指南：Clash、v2rayN 与小火箭对比",
+      "h1": "客户端软件总览：全平台代理客户端选型与官方仓库核验中心",
+      "description": "全平台代理客户端下载与选型百科：集成交互式筛选器，深入对比 Clash Verge Rev、Clash Meta、v2rayN、v2rayNG、Shadowrocket、Mihomo 与 sing-box 生态、操作系统兼容矩阵、GitHub 官方仓库 SHA256 核验及订阅格式映射。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 10945
+    },
+    {
+      "url": "/clients/clash-meta/",
+      "pillar": "clients",
+      "title": "Clash Meta 客户端生态与 ClashMetaForAndroid（CMFA）安装配置教程",
+      "h1": "Clash Meta 客户端生态与 ClashMetaForAndroid（CMFA）安装配置教程",
+      "description": "基于 2026-11-23 核验数据，全面厘清原版 Clash、Clash.Meta 与 Mihomo 内核的演进时间线，详解 Android 端 ClashMetaForAndroid（CMFA）下载安装、订阅导入、分应用代理、后台保活及从停更 CFA/CFW 迁移指南。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 6545
+    },
+    {
+      "url": "/clients/clash-verge-rev/",
+      "pillar": "clients",
+      "title": "Clash Verge Rev 下载安装、订阅配置与 TUN 模式进阶教程",
+      "h1": "Clash Verge Rev 下载安装、订阅配置与 TUN 模式进阶教程",
+      "description": "基于 2026-11-23 核验快照，详解 Clash Verge Rev（Tauri 2 + Mihomo 内核）与旧版 Clash for Windows 的代差、全平台安装包选择与 SHA256 校验、订阅 User-Agent 机制、Service Mode 与 TUN 模式配置、Merge/Script 覆写及高频报错排障。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7069
+    },
+    {
+      "url": "/clients/flclash-vs-clash-verge/",
+      "pillar": "clients",
+      "title": "FlClash 与 Clash Verge Rev 有什么区别？内存占用、UI 框架与多端同步选型",
+      "h1": "FlClash 与 Clash Verge Rev 有什么区别？内存占用、UI 框架与多端同步选型",
+      "description": "深度横向对比同基于 Mihomo（Clash.Meta）内核的两款主流开源代理客户端 FlClash 与 Clash Verge Rev：核验 chen08209/FlClash 与 clash-verge-rev/clash-verge-rev 官方规格，拆解 Flutter 自绘与 Tauri 2/WebView2 架构及内存机制差异、Android 移动端覆盖与桌面专属边界、Merge/Script 脚本覆写深度、WebDAV 多端同步范围及 Service Mode/TUN 提权方案，提供清晰选型建议。",
+      "parentTopic": "/clients/clash-verge-rev/",
+      "primaryKeyword": "FlClash 与 Clash Verge Rev 区别",
+      "searchIntent": "Comparison",
+      "category": "客户端对比",
+      "relatedSlugs": [
+        "/clients/clash-verge-rev/",
+        "/clients/flclash/",
+        "/clients/mihomo/",
+        "/guides/clash-verge-rev-setup/"
+      ],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3884
+    },
+    {
+      "url": "/clients/flclash/",
+      "pillar": "clients",
+      "title": "FlClash 下载与配置教程：基于 Flutter 的全平台 Mihomo 客户端",
+      "h1": "FlClash 下载与配置教程：轻量全平台 Mihomo 客户端",
+      "description": "FlClash 官方 chen08209/FlClash 下载校验、Windows/Android/macOS/Linux 多端安装、Clash YAML 订阅导入、WebDAV 配置同步及芯片架构区分指南。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 939
+    },
+    {
+      "url": "/clients/hiddify/",
+      "pillar": "clients",
+      "title": "Hiddify 下载安装与全平台多协议订阅导入教程",
+      "h1": "Hiddify 下载安装与全平台多协议订阅导入教程",
+      "description": "Hiddify（原 Hiddify Next）官方 hiddify/hiddify-app 全平台下载指引、基于 sing-box 的多格式订阅自动识别、分流地区设置及 Clash 规则兼容性提醒。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 943
+    },
+    {
+      "url": "/clients/homeproxy/",
+      "pillar": "clients",
+      "title": "HomeProxy OpenWrt 指南：原生 sing-box 与 firewall4 软路由插件",
+      "h1": "HomeProxy OpenWrt 指南：原生 sing-box 与 firewall4 软路由插件",
+      "description": "HomeProxy（immortalwrt/homeproxy）OpenWrt/ImmortalWrt 插件详解：基于 sing-box 与 nftables/firewall4 的轻量透明代理、节点分享链接导入及不支持 Clash YAML 的边界说明。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 885
+    },
+    {
+      "url": "/clients/karing/",
+      "pillar": "clients",
+      "title": "Karing 下载与配置教程：全平台兼容 Clash 规则的 sing-box 客户端",
+      "h1": "Karing 下载与配置教程：规则兼容型全平台 sing-box 客户端",
+      "description": "Karing 官方 KaringX/karing 全平台下载指南、基于 sing-box 的 Clash YAML/sing-box/Base64 规则迁移能力解析、新手配置流程及 iOS 商店区域提示。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 1070
+    },
+    {
+      "url": "/clients/mihomo/",
+      "pillar": "clients",
+      "title": "Mihomo（原 Clash.Meta）开源内核架构、协议栈与配置详解",
+      "h1": "Mihomo（原 Clash.Meta）开源内核架构、协议栈与配置详解",
+      "description": "基于 2026-11-23 核验快照，深度解析 MetaCubeX/mihomo 核心架构与演进、VLESS-Reality/Hysteria 2/TUIC v5/AnyTLS/WireGuard/SSH 现代协议栈、Sniffer 域名嗅探原理、Fake-IP vs Redir-Host 内存映射机制、rule-providers（MRS 二进制规则集）与 Smart 策略组，以及桌面端、移动端与 OpenWrt 软路由生态全景。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5348
+    },
+    {
+      "url": "/clients/nekobox/",
+      "pillar": "clients",
+      "title": "NekoBox for Android（及 NekoRay）状态核实与下载安全警示",
+      "h1": "NekoBox for Android（及 NekoRay）状态核实与安全警示",
+      "description": "NekoBox for Android（MatsuriDayo/NekoBoxForAndroid）官方项目状态核实、严禁从 Google Play 下载第三方接管版本的特别警告、sing-box 兼容性说明与推荐替代客户端。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 994
+    },
+    {
+      "url": "/clients/nikki/",
+      "pillar": "clients",
+      "title": "Nikki（原 MihomoTProxy）OpenWrt 24.10+ 透明代理安装指南",
+      "h1": "Nikki（原 MihomoTProxy）OpenWrt 24.10+ 透明代理安装指南",
+      "description": "Nikki（nikkinikki-org/OpenWrt-nikki，原 MihomoTProxy）专题教程：明确 OpenWrt 24.10+ 与 nftables/firewall4 硬性要求、精简 TProxy/TUN 架构优势、配置导入与旧版系统避坑说明。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 935
+    },
+    {
+      "url": "/clients/openclash/",
+      "pillar": "clients",
+      "title": "OpenClash 软路由安装、依赖排查与透明代理配置教程",
+      "h1": "OpenClash 软路由安装、依赖排查与透明代理配置教程",
+      "description": "OpenClash（vernesong/OpenClash）OpenWrt 插件部署全流程：详解架构与 fw3/fw4 依赖（dnsmasq-full、kmod-tun）、Fake-IP vs Redir-Host 选择、订阅导入及禁用双插件冲突规则。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 1015
+    },
+    {
+      "url": "/clients/passwall2/",
+      "pillar": "clients",
+      "title": "PassWall2 OpenWrt 安装、多核心配置与闪存空间控制指南",
+      "h1": "PassWall2 OpenWrt 安装、多核心配置与闪存空间控制指南",
+      "description": "PassWall2（xiaorouji/openwrt-passwall2）OpenWrt 软路由部署教程：支持 sing-box 与 Xray 核心、节点订阅与直观分流规则配置、硬件闪存容量排查及与 OpenClash 选型对比。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 967
+    },
+    {
+      "url": "/clients/platform/android/",
+      "pillar": "clients",
+      "title": "Android 安卓客户端中心：官方 APK 校验与主流软件推荐",
+      "h1": "Android 安卓客户端中心：官方 APK 校验与软件选型",
+      "description": "Android 安卓代理客户端全对比：重点推荐 v2rayNG、FlClash、Hiddify、Karing 与 ClashMetaForAndroid，明确警示 NekoBox 的 Google Play 第三方渠道风险，附 APK 架构选择与后台保活指南。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 1058
+    },
+    {
+      "url": "/clients/platform/ios/",
+      "pillar": "clients",
+      "title": "iOS / iPadOS 客户端中心：外区 App Store 付费策略与软件对比",
+      "h1": "iOS / iPadOS 客户端中心：外区商店与付费客户端对比",
+      "description": "iPhone 与 iPad 代理客户端选型指南：对比 Shadowrocket、Stash、Quantumult X、Surge（含内购）、Karing 与 Hiddify，详解非大陆区 Apple ID 规范、免费 vs 付费策略及账号安全。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 1216
+    },
+    {
+      "url": "/clients/platform/linux/",
+      "pillar": "clients",
+      "title": "Linux 客户端中心：DEB/RPM/AppImage 桌面包与无桌面 v2rayA 方案",
+      "h1": "Linux 客户端中心：桌面安装包与无桌面服务器方案",
+      "description": "Linux 桌面端与无头（Headless）服务器代理客户端指南：区分 DEB/RPM/AppImage 发行版安装格式，对比 Clash Verge Rev、FlClash、v2rayN、Hiddify，以及服务器推荐的 v2rayA 与原生 Mihomo/sing-box 服务部署。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 912
+    },
+    {
+      "url": "/clients/platform/macos/",
+      "pillar": "clients",
+      "title": "macOS 代理客户端中心：M系列芯片与 Intel 版本安装区分",
+      "h1": "macOS 客户端中心：Apple Silicon 与 Intel 安装包区分",
+      "description": "macOS 苹果电脑代理客户端选型指南：对比 Clash Verge Rev、v2rayN、FlClash、Hiddify、Stash 与 Surge Mac，详解 arm64 与 x64 架构区分、Gatekeeper 隔离解除与系统代理/TUN 授权。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 952
+    },
+    {
+      "url": "/clients/platform/openwrt/",
+      "pillar": "clients",
+      "title": "OpenWrt 软路由中心：系统版本、CPU 架构与 fw3/fw4 插件选型",
+      "h1": "OpenWrt 软路由中心：版本、架构与 fw3/fw4 插件选型",
+      "description": "OpenWrt / ImmortalWrt 软路由代理插件权威选型指南：对比 OpenClash、PassWall2、Nikki（明确要求 OpenWrt 24.10+）与 HomeProxy，详解安装前系统版本、CPU 架构、nftables/fw4 及闪存容量核查命令。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 854
+    },
+    {
+      "url": "/clients/platform/windows/",
+      "pillar": "clients",
+      "title": "Windows 客户端中心：x64/ARM64 选型、WebView2 依赖与安全替代方案",
+      "h1": "Windows 客户端中心：x64/ARM64 选型与 WebView2 说明",
+      "description": "Windows 10/11 代理客户端选型与下载指引：明确区分已归档的 Clash for Windows 与现役 Clash Verge Rev、v2rayN、FlClash、Hiddify、Karing，附 WebView2 修复与 x64/ARM64 架构核对方法。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 886
+    },
+    {
+      "url": "/clients/quantumult-x/",
+      "pillar": "clients",
+      "title": "Quantumult X（圈 X）iOS 下载、节点资源与重写脚本使用指南",
+      "h1": "Quantumult X（圈 X）iOS 下载、节点资源与重写脚本使用指南",
+      "description": "Quantumult X（圈 X）App Store 官方页面信息、QX 专用配置与资源解析器（Parser）机制、Rewrite/MitM 优势以及不支持原生 Clash YAML 和新协议核查注意事项。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 1100
+    },
+    {
+      "url": "/clients/shadowrocket/",
+      "pillar": "clients",
+      "title": "Shadowrocket（小火箭）iOS 下载、订阅配置与分流规则教程",
+      "h1": "Shadowrocket（小火箭）iOS 下载、订阅配置与分流规则教程",
+      "description": "基于 2026-11-23 核验快照，详解 Shadowrocket（小火箭）外区 App Store 正版获取与防共享 Apple ID 锁机警告、VLESS-Reality/Hysteria 2 协议兼容、通用与 Clash 订阅导入、全局路由四种模式（配置/代理/直连/场景）、.conf 规则与模块重写、UDP 转发、按需连接及超时排障。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 6689
+    },
+    {
+      "url": "/clients/sing-box/",
+      "pillar": "clients",
+      "title": "sing-box 通用代理平台、SFA/SFI/SFM 官方端与 JSON 配置深度教程",
+      "h1": "sing-box 通用代理平台、SFA/SFI/SFM 官方端与 JSON 配置深度教程",
+      "description": "基于 2026-11-23 核验快照，详解 SagerNet/sing-box 通用代理平台架构、官方 SFA (Android) / SFI (iOS) / SFM (macOS) 与第三方封装端（Hiddify / Karing / NekoBox / HomeProxy）选型对比、inbounds/outbounds/route/dns/rule_set（.srs 二进制规则集）JSON 结构解析、1.10+ 新版规则迁移注意事项及 Clash 订阅转 sing-box 安全方案。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5353
+    },
+    {
+      "url": "/clients/stash/",
+      "pillar": "clients",
+      "title": "Stash（iOS / macOS）教程：兼容 Clash YAML 的苹果生态客户端",
+      "h1": "Stash（iOS / macOS）教程：兼容 Clash YAML 的苹果生态客户端",
+      "description": "Stash 商业客户端简介（官网 stash.ws）、iOS/macOS 原生兼容 Clash YAML 策略组与覆写（Override）能力解析、付费机制说明及与 Shadowrocket/Karing 的选型对比。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 1058
+    },
+    {
+      "url": "/clients/surge/",
+      "pillar": "clients",
+      "title": "Surge（Surge iOS / Surge Mac）专业网络套件与配置指南",
+      "h1": "Surge（Surge iOS / Surge Mac）专业网络套件与配置指南",
+      "description": "Surge（nssurge.com）官方套件简介：含免费下载与高阶内购授权机制说明、Surge .conf 配置体系、Ponte 内网穿透、macOS 网关接管及与 Clash 生态的配置转换注意事项。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 1034
+    },
+    {
+      "url": "/clients/v2rayn/",
+      "pillar": "clients",
+      "title": "v2rayN 下载安装、多核心切换与路由规则教程（2026 跨平台版）",
+      "h1": "v2rayN 下载安装、多核心切换与路由规则教程（2026 跨平台版）",
+      "description": "基于 2026-11-23 核验快照，详解 v2rayN 官方 2dust/v2rayN 跨平台安装（Windows/macOS/Linux）、WithCore 与 SelfContained 压缩包区分、Xray-core/sing-box/Mihomo 多核心按协议自动切换、Base64 与 Clash 订阅导入、TUN 提权、自定义路由规则及与安卓 v2rayNG 配置互通。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7083
+    },
+    {
+      "url": "/clients/v2rayng/",
+      "pillar": "clients",
+      "title": "v2rayNG 安卓下载安装、Base64 订阅与分应用代理教程",
+      "h1": "v2rayNG 安卓下载安装、订阅导入与分应用代理教程",
+      "description": "v2rayNG 官方 2dust/v2rayNG 下载指引、APK 架构区分、VLESS/VMess/Trojan Base64 订阅导入、路由分流模式设置及不支持复杂 Clash YAML 的注意事项。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 1129
+    },
+    {
+      "url": "/compare/feimao-vs-xingdaomeng/",
+      "pillar": "brands",
+      "title": "飞猫云 vs 星岛梦对比评测：84元学生年付与96元贴心小包新手选谁更合适？",
+      "h1": "飞猫云 vs 星岛梦对比评测：84元学生年付与96元贴心小包新手选谁更合适？",
+      "description": "飞猫云与星岛梦同口径深度横向对比：涵盖 百元内年付小包（¥84/50GB vs ¥96/60GB）、¥25/150GB 同价月付主力档、百元 100GB 不限时包有无、以及“明确仅专属客户端”与“客户端模式待核实”的选型差异，提供完整套餐单价对照表、协议与客户端开放度差异、适用人群及资料冲突审计。",
+      "parentTopic": "/brands/comparisons/",
+      "primaryKeyword": "飞猫云和星岛梦对比",
+      "searchIntent": "Comparison",
+      "category": "品牌横向对比",
+      "relatedSlugs": [
+        "/brands/comparisons/",
+        "/reviews/feimao/",
+        "/reviews/xingdaomeng/",
+        "/brands/feimao/",
+        "/brands/xingdaomeng/"
+      ],
+      "relatedBrands": [
+        "feimao",
+        "xingdaomeng"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1694
+    },
+    {
+      "url": "/compare/guangsuyun-vs-ermao/",
+      "pillar": "brands",
+      "title": "光速云 vs 二猫云套餐与架构对比：25元月付、百元不限时包与地区覆盖差异",
+      "h1": "光速云 vs 二猫云套餐与架构对比：25元月付、百元不限时包与地区覆盖差异",
+      "description": "光速云与二猫云同口径深度横向对比：涵盖 147元/247GB（¥0.595/GB）与 99元/100GB（¥0.99/GB）两大热门不限时备用包核算、25元/168GB 极速版与 20元/130GB 白猫月付对比、以及各自的历史资料冲突（59G/69G vs 新加坡节点文案矛盾），提供完整套餐单价对照表、协议与客户端开放度差异、适用人群及资料冲突审计。",
+      "parentTopic": "/brands/comparisons/",
+      "primaryKeyword": "光速云和二猫云哪个好",
+      "searchIntent": "Comparison",
+      "category": "品牌横向对比",
+      "relatedSlugs": [
+        "/brands/comparisons/",
+        "/reviews/guangsuyun/",
+        "/reviews/ermao/",
+        "/brands/guangsuyun/",
+        "/brands/ermao/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "ermao"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1854
+    },
+    {
+      "url": "/compare/guangsuyun-vs-feimao/",
+      "pillar": "brands",
+      "title": "光速云 vs 飞猫云深度对比：自研+第三方双模式与仅专属客户端该如何选？",
+      "h1": "光速云 vs 飞猫云深度对比：自研+第三方双模式与仅专属客户端该如何选？",
+      "description": "光速云与飞猫云同口径深度横向对比：涵盖 客户端开放度分水岭（Clash/小火箭/软路由支持 vs 仅专属客户端）、¥99/年 vs ¥84/年入门小包、¥25/月主力档（168GB vs 150GB）以及 ¥147/247GB 与 ¥680/1TB 不限时门槛差异，提供完整套餐单价对照表、协议与客户端开放度差异、适用人群及资料冲突审计。",
+      "parentTopic": "/brands/comparisons/",
+      "primaryKeyword": "光速云和飞猫云对比",
+      "searchIntent": "Comparison",
+      "category": "品牌横向对比",
+      "relatedSlugs": [
+        "/brands/comparisons/",
+        "/reviews/guangsuyun/",
+        "/reviews/feimao/",
+        "/brands/guangsuyun/",
+        "/brands/feimao/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "feimao"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1900
+    },
+    {
+      "url": "/compare/guangsuyun-vs-quanqiu/",
+      "pillar": "brands",
+      "title": "光速云 vs 全球云参数对比审计：高度相似价目下的品牌年限、协议与订阅区别",
+      "h1": "光速云 vs 全球云参数对比审计：高度相似价目下的品牌年限、协议与订阅区别",
+      "description": "光速云与全球云同口径深度横向对比：涵盖 为何两家均出现 ¥99/年轻量版与 ¥680/月独享版？深入拆解 2020 年双模老牌（VLESS + Clash/小火箭）与 2026 年汇总表新品牌（Trojan/SS + 仅专属客户端 + 双优惠码冲突）的本质区别，提供完整套餐单价对照表、协议与客户端开放度差异、适用人群及资料冲突审计。",
+      "parentTopic": "/brands/comparisons/",
+      "primaryKeyword": "光速云和全球云区别",
+      "searchIntent": "Comparison",
+      "category": "品牌横向对比",
+      "relatedSlugs": [
+        "/brands/comparisons/",
+        "/reviews/guangsuyun/",
+        "/reviews/quanqiu/",
+        "/brands/guangsuyun/",
+        "/brands/quanqiu/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "quanqiu"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1928
+    },
+    {
+      "url": "/compare/kexin-vs-sujie/",
+      "pillar": "brands",
+      "title": "可信云 vs 速界同价对比：25元 150GB、IEPL+VLESS 标注下的客户端与声明差异",
+      "h1": "可信云 vs 速界同价对比：25元 150GB、IEPL+VLESS 标注下的客户端与声明差异",
+      "description": "可信云与速界同口径深度横向对比：涵盖 两家在基础清单中同标“2025 年、¥25/月 150GB、IEPL+VLESS”，但可信云主打纯第三方通用订阅且诚实声明 AI/流媒体缺统一实测，速界则采用自研+第三方双模式并主打 AI 场景，提供完整套餐单价对照表、协议与客户端开放度差异、适用人群及资料冲突审计。",
+      "parentTopic": "/brands/comparisons/",
+      "primaryKeyword": "可信云和速界对比",
+      "searchIntent": "Comparison",
+      "category": "品牌横向对比",
+      "relatedSlugs": [
+        "/brands/comparisons/",
+        "/reviews/kexin/",
+        "/reviews/sujie/",
+        "/brands/kexin/",
+        "/brands/sujie/"
+      ],
+      "relatedBrands": [
+        "kexin",
+        "sujie"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1352
+    },
+    {
+      "url": "/compare/muguang-vs-weifeng/",
+      "pillar": "brands",
+      "title": "暮光加速 vs 微风网络对比：多档月付阶梯、起步价矛盾与 120G/200G 成本拆解",
+      "h1": "暮光加速 vs 微风网络对比：多档月付阶梯、起步价矛盾与 120G/200G 成本拆解",
+      "description": "暮光加速与微风网络同口径深度横向对比：涵盖 同为 2023 年创立的高完整度多档位品牌：月付 ¥20/120GB vs ¥27/200GB 单价核算、年付 ¥109/70GB vs 清风 ¥137/100GB（含 ¥7/50GB 起步冲突）、不限时包与客服声明对比，提供完整套餐单价对照表、协议与客户端开放度差异、适用人群及资料冲突审计。",
+      "parentTopic": "/brands/comparisons/",
+      "primaryKeyword": "暮光加速和微风网络对比",
+      "searchIntent": "Comparison",
+      "category": "品牌横向对比",
+      "relatedSlugs": [
+        "/brands/comparisons/",
+        "/reviews/muguang/",
+        "/reviews/weifeng/",
+        "/brands/muguang/",
+        "/brands/weifeng/"
+      ],
+      "relatedBrands": [
+        "muguang",
+        "weifeng"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1664
+    },
+    {
+      "url": "/compare/wuyou-vs-lingmao/",
+      "pillar": "brands",
+      "title": "无忧链接 vs 灵猫网络横向对比：仅专属客户端低价门槛与不限时方案差距",
+      "h1": "无忧链接 vs 灵猫网络横向对比：仅专属客户端低价门槛与不限时方案差距",
+      "description": "无忧链接与灵猫网络同口径深度横向对比：涵盖 同属 2026-10 强调“仅专属客户端”阵营的两大入门品牌：¥79/年（40GB）vs ¥85/年（45GB）、真月付 ¥19/100GB vs ¥25/150GB（含 19 元冲突记录）、以及 ¥108/100GB 不限时包有无，提供完整套餐单价对照表、协议与客户端开放度差异、适用人群及资料冲突审计。",
+      "parentTopic": "/brands/comparisons/",
+      "primaryKeyword": "无忧链接和灵猫网络对比",
+      "searchIntent": "Comparison",
+      "category": "品牌横向对比",
+      "relatedSlugs": [
+        "/brands/comparisons/",
+        "/reviews/wuyou/",
+        "/reviews/lingmao/",
+        "/brands/wuyou/",
+        "/brands/lingmao/"
+      ],
+      "relatedBrands": [
+        "wuyou",
+        "lingmao"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1629
+    },
+    {
+      "url": "/compare/yifan-vs-weitu/",
+      "pillar": "brands",
+      "title": "一翻云 vs 唯兔云全面对比：第三方通用订阅友好度、月付门槛与不限时包较量",
+      "h1": "一翻云 vs 唯兔云全面对比：第三方通用订阅友好度、月付门槛与不限时包较量",
+      "description": "一翻云与唯兔云同口径深度横向对比：涵盖 明确标注“第三方通用订阅”的一翻云（¥98/年·60GB、¥20/月·150GB、¥100/100GB 不限时）与拥有 10 档超细阶梯的唯兔云（¥79.9/年·45GB、¥14.9 限时月付、¥100–¥1399 不限时）全方位对决，提供完整套餐单价对照表、协议与客户端开放度差异、适用人群及资料冲突审计。",
+      "parentTopic": "/brands/comparisons/",
+      "primaryKeyword": "一翻云和唯兔云对比",
+      "searchIntent": "Comparison",
+      "category": "品牌横向对比",
+      "relatedSlugs": [
+        "/brands/comparisons/",
+        "/reviews/yifan/",
+        "/reviews/weitu/",
+        "/brands/yifan/",
+        "/brands/weitu/"
+      ],
+      "relatedBrands": [
+        "yifan",
+        "weitu"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 1646
+    },
+    {
+      "url": "/guides/",
+      "pillar": "guides",
+      "title": "使用教程总览：机场订阅、Clash 配置、分流规则与 TUN 模式全流程指南",
+      "h1": "使用教程总览：机场订阅、Clash 配置、分流规则与 TUN 模式全流程指南",
+      "description": "代理客户端从零上手全流程教程：涵盖使用前准备、Windows/Android/iPhone/macOS 分平台配置路线、Base64/Clash YAML/sing-box JSON 订阅导入、Rule/Global/Direct 代理模式、系统代理与 TUN 虚拟网卡、Fake-IP vs Redir-Host DNS、GEOSITE/Rule-Providers 分流、Merge/JS 覆写防覆盖、WebDAV 同步与 curl 命令行验证。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 10103
+    },
+    {
+      "url": "/guides/automatic-update/",
+      "pillar": "guides",
+      "title": "自动更新与配置备份：Merge/Script 覆写保护与多端同步方案",
+      "h1": "自动更新与配置备份：Merge/Script 覆写保护与多端同步方案",
+      "description": "代理订阅自动更新最佳实践：详解安全更新频率、使用 Clash Verge Rev 全局扩展配置（Merge）与 JavaScript 覆写（Script）保护自定义规则不被覆盖，以及 WebDAV 多设备同步与脱敏备份。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5033
+    },
+    {
+      "url": "/guides/clash-config/",
+      "pillar": "guides",
+      "title": "Clash YAML 配置详解：Mihomo 六大核心模块、DNS 防泄漏架构与语法校验",
+      "h1": "Clash YAML 配置详解：Mihomo 六大核心模块、DNS 防泄漏架构与语法校验",
+      "description": "深度拆解现代 Mihomo（Clash.Meta）与 Clash 标准 YAML 配置文件的六大核心模块（基础入站、DNS 解析、Sniffer 域名嗅探、proxies 节点池、proxy-groups 策略组、rules 分流规则），提供生产级可校验模板与语法排错手册。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5034
+    },
+    {
+      "url": "/guides/clash-rule-vs-global-mode/",
+      "pillar": "guides",
+      "title": "Clash 规则模式（Rule）与全局模式（Global）有什么区别？误用导致的流血与排障",
+      "h1": "Clash 规则模式（Rule）与全局模式（Global）有什么区别？误用导致的流血与排障",
+      "description": "深入解析 Clash 与 Mihomo 内核中 Rule 规则模式、Global 全局模式、Direct 直连模式及 Script 历史模式的底层路由机制，剖析误开 Global 导致流量大出血、银行风控与国内应用卡顿的技术成因，附自上而下规则匹配顺序与临时切换排障指南。",
+      "parentTopic": "/guides/routing/",
+      "primaryKeyword": "Clash 规则模式与全局模式区别",
+      "searchIntent": "Informational",
+      "category": "分流指南",
+      "relatedSlugs": [
+        "/guides/routing/",
+        "/guides/clash-config/",
+        "/ai-streaming/chatgpt-region-and-block-fix/",
+        "/troubleshooting/connected-no-internet-fix/"
+      ],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3065
+    },
+    {
+      "url": "/guides/clash-verge-rev-import-subscription/",
+      "pillar": "guides",
+      "title": "Clash Verge Rev 如何导入订阅与自动更新？完整步骤与 UA 排雷指南",
+      "h1": "Clash Verge Rev 如何导入订阅与自动更新？完整步骤与 UA 排雷指南",
+      "description": "详尽实操指南：详解 Clash Verge Rev 导入机场订阅的正确前置准备（关闭系统代理防环路）、Profiles 手动粘贴与 clash:// 一键导入失效修复、针对格式错误面板的 User-Agent 覆写技巧、定时自动更新安全频率，以及用 Global Merge 与 Script 防止规则被更新覆盖。",
+      "parentTopic": "/guides/subscription/",
+      "primaryKeyword": "Clash Verge Rev 如何导入订阅",
+      "searchIntent": "How-to",
+      "category": "订阅管理",
+      "relatedSlugs": [
+        "/guides/subscription/",
+        "/guides/clash-verge-rev-setup/",
+        "/guides/automatic-update/",
+        "/troubleshooting/subscription-200-empty-fix/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "yifan",
+        "ermao"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3983
+    },
+    {
+      "url": "/guides/clash-verge-rev-setup/",
+      "pillar": "guides",
+      "title": "Clash Verge Rev 从零安装到 TUN 接管全流程实操手册",
+      "h1": "Clash Verge Rev 从零安装到 TUN 接管全流程实操手册",
+      "description": "一站式 L3 深度实操教程：涵盖 Windows/macOS/Linux 架构与 WebView2/Quarantine 前置准备、GitHub 官方包 SHA256 校验、订阅导入测速、Service Mode 与 Merge TUN 防泄漏配置，以及 curl/Get-NetAdapter 终端全链路验证与多配置备份。",
+      "parentTopic": "/guides/installation/",
+      "primaryKeyword": "Clash Verge Rev 安装配置教程",
+      "searchIntent": "How-to",
+      "category": "客户端配置",
+      "relatedSlugs": [
+        "/clients/clash-verge-rev/",
+        "/guides/tun/",
+        "/troubleshooting/tun-wsl-docker-conflict/",
+        "/guides/system-time-tls-fix/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "yifan",
+        "weitu"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3918
+    },
+    {
+      "url": "/guides/installation/",
+      "pillar": "guides",
+      "title": "客户端安装标准流程：架构核对、SHA256 校验与系统权限授权",
+      "h1": "客户端安装标准流程：架构核对、SHA256 校验与系统权限授权",
+      "description": "全平台代理客户端安全安装标准流程：涵盖 GitHub 官方仓库溯源、Windows/macOS/Linux/Android/iOS/OpenWrt 架构识别、SHA256 哈希核验命令与权限依赖修复。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5051
+    },
+    {
+      "url": "/guides/routing/",
+      "pillar": "guides",
+      "title": "分流规则与策略组实战：首条命中原则、GEOSITE/MRS 规则集与 AI 定向分流",
+      "h1": "分流规则与策略组实战：首条命中原则、GEOSITE/MRS 规则集与 AI 定向分流",
+      "description": "全面解析 Clash/Mihomo 与 sing-box 分流规则配置：深度拆解自上而下首条命中机制、七大规则类型与 no-resolve 防 DNS 泄漏原理，提供国内直连、ChatGPT/Claude/Gemini 与 Netflix/YouTube 独立策略组完整实战模板。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5010
+    },
+    {
+      "url": "/guides/shadowrocket-ios-setup/",
+      "pillar": "guides",
+      "title": "Shadowrocket（小火箭）iPhone 如何添加订阅与开启配置分流？新手安全指南",
+      "h1": "Shadowrocket（小火箭）iPhone 如何添加订阅与开启配置分流？新手安全指南",
+      "description": "面向 iPhone 与 iPad 新手的 Shadowrocket（小火箭）安全装机与订阅分流指南：详解非大陆区 App Store 正版识别、严禁在主力 iCloud 登录共享 Apple ID 与安装企业签名 IPA 警示、Subscribe 订阅链接与扫码导入、全局路由配置/代理/直连切换、打开时自动更新、CONNECT/HTTPS 测速校准及 iOS VPN 权限与节点失效排障。",
+      "parentTopic": "/clients/shadowrocket/",
+      "primaryKeyword": "Shadowrocket 如何添加订阅",
+      "searchIntent": "How-to",
+      "category": "客户端配置",
+      "relatedSlugs": [
+        "/clients/shadowrocket/",
+        "/clients/platform/ios/",
+        "/guides/subscription/",
+        "/safety/security/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "yifan",
+        "muguang"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4467
+    },
+    {
+      "url": "/guides/subscription-formats-explained/",
+      "pillar": "guides",
+      "title": "2026 主流机场订阅格式深度解析：Clash YAML、Base64 与 sing-box JSON",
+      "h1": "2026 主流机场订阅格式深度解析：Clash YAML、Base64 与 sing-box JSON",
+      "description": "全面拆解主流代理订阅格式与传输协议：深度对比 Clash/Mihomo YAML、Base64 分享链接、SIP002/SIP008 与 sing-box JSON 结构差异，剖析 User-Agent 服务端自动协商机制、subscription-userinfo 流量字节解析公式，以及公共订阅转换站与本地转换的安全边界。",
+      "parentTopic": "/guides/subscription/",
+      "primaryKeyword": "Clash 订阅格式与 Base64 区别",
+      "searchIntent": "Informational",
+      "category": "订阅技术",
+      "relatedSlugs": [
+        "/guides/subscription/",
+        "/guides/clash-verge-rev-import-subscription/",
+        "/troubleshooting/subscription-200-empty-fix/",
+        "/clients/sing-box/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "yifan",
+        "ermao"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4115
+    },
+    {
+      "url": "/guides/subscription/",
+      "pillar": "guides",
+      "title": "机场订阅教程与导入更新管理：三大格式识别、User-Agent 分发原理与流量头解析",
+      "h1": "机场订阅教程与导入更新管理：三大格式识别、User-Agent 分发原理与流量头解析",
+      "description": "系统讲解机场订阅链接怎么用与跨平台导入流程：深度拆解 Clash/Mihomo YAML、通用 Base64 与 sing-box JSON 三大订阅格式特征，剖析 User-Agent 自动下发机制、subscription-userinfo 响应头计算、各平台导入步骤与防泄漏安全规范。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 6560
+    },
+    {
+      "url": "/guides/system-time-tls-fix/",
+      "pillar": "guides",
+      "title": "系统时间偏差导致 TLS 握手与节点全部超时修复指南",
+      "h1": "系统时间偏差导致 TLS 握手与节点全部超时修复指南",
+      "description": "深度排查系统时间不同步导致的 TLS 1.3 证书校验失败、VLESS-Reality（±90 秒时间窗）与 VMess 节点全部超时问题。涵盖 Windows w32tm、双系统 RealTimeIsUniversal 注册表修复、国内 NTP 备用池、macOS sntp、Linux timedatectl、主板 CMOS 电池排查与命令行验证。",
+      "parentTopic": "/troubleshooting/timeout/",
+      "primaryKeyword": "系统时间不同步导致节点超时",
+      "searchIntent": "Troubleshooting",
+      "category": "故障排查",
+      "relatedSlugs": [
+        "/troubleshooting/timeout/",
+        "/troubleshooting/all-nodes-timeout-check/",
+        "/guides/clash-verge-rev-setup/"
+      ],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4304
+    },
+    {
+      "url": "/guides/tun/",
+      "pillar": "guides",
+      "title": "TUN 模式深度配置：虚拟网卡原理、Fake-IP 与 Redir-Host 对比",
+      "h1": "TUN 模式深度配置：虚拟网卡原理、Fake-IP 与 Redir-Host 对比",
+      "description": "代理客户端 TUN 模式权威指南：解析系统代理与 TUN 虚拟网卡底层差异、Service Mode 与权限授予、Fake-IP vs Redir-Host 选型、DNS 劫持与 WSL2/Docker 路由冲突处理。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5006
+    },
+    {
+      "url": "/guides/v2rayn-subscription-and-core/",
+      "pillar": "guides",
+      "title": "v2rayN 如何导入订阅与切换 Xray/sing-box/Mihomo 多核心？跨平台操作教程",
+      "h1": "v2rayN 如何导入订阅与切换 Xray/sing-box/Mihomo 多核心？跨平台操作教程",
+      "description": "基于 2dust/v2rayN 跨平台版本（Windows / macOS / Linux），详细演示 WithCore 与基础压缩包选型、Base64 与 Clash YAML 订阅导入边界、User-Agent 请求头设置、Xray-core / sing-box / Mihomo 多核心按协议切换、Tun 虚拟网卡与绕过大陆规则配置，以及 curl 终端实测与常见报错定位。",
+      "parentTopic": "/clients/v2rayn/",
+      "primaryKeyword": "v2rayN 如何导入订阅链接",
+      "searchIntent": "How-to",
+      "category": "客户端配置",
+      "relatedSlugs": [
+        "/clients/v2rayn/",
+        "/guides/subscription-formats-explained/",
+        "/clients/sing-box/",
+        "/guides/installation/"
+      ],
+      "relatedBrands": [
+        "yifan",
+        "kexin",
+        "guangsuyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4256
+    },
+    {
+      "url": "/plans/",
+      "pillar": "plans",
+      "title": "机场价格与套餐指南总览：便宜、一元/一分、月付、不限时与年付折算成本全解",
+      "h1": "机场价格与套餐指南总览",
+      "description": "基于 31 家去重机场品牌数据库的价格决策指南：彻底拆解年付折算月均与真实月付门槛、核实一元/一分机场边界、核算不限时流量包与节点倍率真实单 GB 成本，并公开优惠码排除条款与隐藏成本。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 10170
+    },
+    {
+      "url": "/plans/annual-vs-monthly-cost/",
+      "pillar": "plans",
+      "title": "机场年付折算月价怎么算？百元内年付小包与月付盈亏平衡分析",
+      "h1": "机场年付折算月价怎么算？百元内年付小包与月付盈亏平衡分析",
+      "description": "基于 2026-11-23 快照 31 家品牌数据，拆解机场年付折算月价公式与真实门槛：对比 5.6 元/月档 5 家、无忧链接 ¥79、唯兔云 ¥79.9/¥120、飞猫云 ¥84、灵猫 ¥85、星岛梦 ¥96、一翻云 ¥98、光速云 ¥99（含 59G/69G 冲突与 AMM 不打折）以及不限时备用包与关停盈亏平衡模型。",
+      "parentTopic": "/plans/budget/",
+      "primaryKeyword": "机场年付折算月价怎么算",
+      "searchIntent": "Commercial Investigation",
+      "category": "套餐与价格",
+      "relatedSlugs": [
+        "/plans/budget/",
+        "/plans/monthly-under-20-guide/",
+        "/reviews/guangsuyun/",
+        "/reviews/feimao/",
+        "/reviews/xingdaomeng/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "feimao",
+        "xingdaomeng",
+        "wuyou",
+        "muguang"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4748
+    },
+    {
+      "url": "/plans/budget/",
+      "pillar": "plans",
+      "title": "便宜机场与年付低价小包边界：5.6元年付折算、百元内年付与15–20元真月付深度拆解",
+      "h1": "便宜机场与年付低价小包边界：5.6元年付折算、百元内年付与15–20元真月付深度拆解",
+      "description": "基于本站 31 家去重机场品牌数据库（2026-11-23 核验快照），完整拆解便宜机场的价格底线：对比大佬云/闪电鼠等 5 家 ¥5.6/月年付折算同规格矩阵、¥79–¥109/年百元级年付小包及 ¥14.9–¥20 真实月付入门档，揭示低价机场在带宽冗余、客户端锁死、优惠码排除与退款条款上的真实妥协。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 9949
+    },
+    {
+      "url": "/plans/monthly-under-20-guide/",
+      "pillar": "plans",
+      "title": "20 元以内月付机场怎么选？真实门槛核算与同价位品牌横评",
+      "h1": "20 元以内月付机场怎么选？真实门槛核算与同价位品牌横评",
+      "description": "基于 2026-11-23 快照的 31 家去重机场品牌数据库，筛选全部真实月付 ≤ ¥20 档位（唯兔云 ¥14.9/¥19.9、边缘节点 ¥15、极连云/光年梯 ¥18、无忧链接 ¥19、一翻云/二猫云/暮光加速/U1S1/全球云/灵动云 ¥20），厘清年付折算“假月付”陷阱、客户端开放度分化与资料冲突核查。",
+      "parentTopic": "/plans/monthly/",
+      "primaryKeyword": "20 元以内月付机场怎么选",
+      "searchIntent": "Commercial Investigation",
+      "category": "套餐与价格",
+      "relatedSlugs": [
+        "/plans/monthly/",
+        "/plans/annual-vs-monthly-cost/",
+        "/reviews/yifan/",
+        "/reviews/ermao/",
+        "/reviews/wuyou/",
+        "/reviews/muguang/"
+      ],
+      "relatedBrands": [
+        "yifan",
+        "ermao",
+        "wuyou",
+        "muguang",
+        "jilian",
+        "guangnian"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4984
+    },
+    {
+      "url": "/plans/monthly/",
+      "pillar": "plans",
+      "title": "月付机场推荐原则与 31 家品牌真实月付全量对照表：为什么首次评测必须选真月付？",
+      "h1": "月付机场推荐原则与 31 家品牌真实月付全量对照表",
+      "description": "基于本站 31 家去重机场品牌库（2026-11-23 快照），彻底厘清“真月付”与“年付折算月均”的区别，呈现全部 31 家品牌的单月实付档位全量对照表（含唯兔云 ¥14.9/¥19.9、边缘节点 ¥15、极连云/光年梯 ¥18、无忧链接 ¥19、暮光/二猫/U1S1/一翻云/全球云/灵动云 ¥20、隐形人/闪跃 ¥24、光速云/飞猫云/SOGO/Firefly/星岛梦/可信云/速界 ¥25 等），并提供 30 天测试日历与结账避坑要点。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5769
+    },
+    {
+      "url": "/plans/non-expiring/",
+      "pillar": "plans",
+      "title": "不限时机场与永久流量包全量横评：15家品牌每GB单价核算、存续风险边界与主备双订阅配置",
+      "h1": "不限时机场与永久流量包全量横评：15家品牌每GB单价核算、存续风险边界与主备双订阅配置",
+      "description": "基于本站 31 家去重机场品牌数据库（2026-11-23 核验快照），完整横评全部 15 家提供一次性不过期流量包的品牌（含二猫云 ¥99/100G、星岛梦/唯兔云/Firefly/一翻云/全球云 ¥100/100G、无忧链接 ¥108/100G、SOGO云 ¥120/120G、光速云斯诺克 ¥147/247G、灵动云/微风/暮光/隐形人/浪网/飞猫云等），核算真实每 GB 单价，剖析“永久=随服务存续”的财务风险边界，并提供 Clash/Mihomo 主+备双订阅 fallback 实操配置。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5243
+    },
+    {
+      "url": "/plans/one-cent/",
+      "pillar": "plans",
+      "title": "一分机场与极低价体验门槛核查：1分钱试用限制、自动续费排雷与零试用品牌低成本验证法",
+      "h1": "一分机场与极低价体验门槛核查：1分钱试用限制、自动续费排雷与零试用品牌低成本验证法",
+      "description": "基于本站 31 家去重机场品牌库（2026-11-23 核验快照），深度拆解市面上“一分机场/一分钱试用机场/1元体验套餐”的真实机制：有效期限与 1GB/24 小时流量锁、试用池与正式池隔离原理、免密自动续费与闭源专属客户端捆绑排查，并提供无试用品牌下的 ¥14.9–¥20 真月付验证方案。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 6507
+    },
+    {
+      "url": "/plans/one-yuan/",
+      "pillar": "plans",
+      "title": "一元机场真实成本与风险拆解：为什么1元套餐往往伴随高倍率、公网超售与高危风控",
+      "h1": "一元机场真实成本与风险拆解：为什么1元套餐往往伴随高倍率、公网超售与高危风控",
+      "description": "客观审计市面上“一元机场/12元包年机场”的底层财务账本与技术缺陷，如实声明本站 31 家去重机场品牌库（2026-11-23 快照）无 ¥1/月 常驻专线套餐，深度剖析直连超售、5x–10x 流量倍率暗扣、周抛跑路模型与隐私撞库风险，并提供最低门槛的正规替代方案。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7713
+    },
+    {
+      "url": "/plans/traffic-100gb-vs-300gb/",
+      "pillar": "plans",
+      "title": "100GB、300GB 与 500GB 机场流量够用多久？按日均场景与倍率实测核算",
+      "h1": "100GB、300GB 与 500GB 机场流量够用多久？按日均场景与倍率实测核算",
+      "description": "按网页/AI/代码同步、1080P 与 4K 视频码率建立日均消耗模型，拆解 100GB、300GB 与 500GB 机场流量真实可用天数；量化 1x 与 2x/3x 双向倍率扣费影响，并对照光速云、唯兔云、二猫云、微风网络在 2026-11-23 数据库中的真实套餐档位识别买大浪费陷阱。",
+      "parentTopic": "/plans/value/",
+      "primaryKeyword": "机场 100GB 流量够用多久",
+      "searchIntent": "Informational",
+      "category": "套餐与价格",
+      "relatedSlugs": [
+        "/plans/value/",
+        "/routes/multipliers/",
+        "/plans/non-expiring/",
+        "/brands/guangsuyun/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "weitu",
+        "ermao",
+        "weifeng"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3780
+    },
+    {
+      "url": "/plans/value/",
+      "pillar": "plans",
+      "title": "性价比机场、年付优惠与大流量套餐（500G/1TB）横评：有效每GB成本公式与三档矩阵",
+      "h1": "性价比机场、年付优惠与大流量套餐（500G/1TB）横评：有效每GB成本公式与三档矩阵",
+      "description": "基于本站 31 家去重机场品牌库（2026-11-23 核验快照），合并评测性价比机场套餐、年付机场长周期优惠与 500GB–1.6TB 大流量机场套餐。建立“(实付 × 折扣) ÷ (标称GB ÷ 倍率)”有效每 GB 成本公式，完整列出轻度年付小包、中度月付主力与重度大流量三档跨品牌矩阵，并详述优惠码排除条款与 EdgeNova 年付价格倒挂警示。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5968
+    },
+    {
+      "url": "/reviews/dalaoyun/",
+      "pillar": "brands",
+      "title": "大佬云评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "h1": "大佬云评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "description": "大佬云（dalaoyun）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、自研+第三方订阅兼容性、VLESS 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "大佬云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/dalaoyun/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "dalaoyun",
+        "shandianshu",
+        "yunjiexian",
+        "liulianyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5146
+    },
+    {
+      "url": "/reviews/edgenova/",
+      "pillar": "brands",
+      "title": "EdgeNova 深度评测：多线路分配、6档套餐精算与性能核验（2026）",
+      "h1": "边缘节点 EdgeNova 深度评测与历史资料审计：多线路自动分配定位、6档套餐精算与性能核验（2026）",
+      "description": "边缘节点 EdgeNova（edgenova）独立评测：基于 2026-08-09 历史档案深度拆解其 6 档套餐结构、多线路自动分配宣称、年付¥270周期倒挂精算、TH888 优惠码实效、待核实客户端交付模式与零晚高峰实测风控审计。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "EdgeNova怎么样？靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/edgenova/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "edgenova",
+        "lingdong",
+        "langwang",
+        "weifeng"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5702
+    },
+    {
+      "url": "/reviews/ermao/",
+      "pillar": "brands",
+      "title": "二猫云深度评测（2026）｜猫系6档套餐单价倒挂精算、不限设备边界与新加坡节点冲突审计",
+      "h1": "二猫云深度评测（2026）｜猫系6档套餐单价倒挂精算、不限设备边界与新加坡节点冲突审计",
+      "description": "二猫云（ermao / 2mao）独立深度评测：优先拆解猫系6档套餐（¥89年付小包、¥20白猫130GB月付、¥99百元内100GB不限时包）的每GB单价规律、不限设备多端并发条件，以及正文“无新加坡站”与2026-10-19测速表含新加坡/台湾的数据冲突。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "二猫云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "xingdaomeng",
+        "u1s1",
+        "muguang",
+        "yifan"
+      ],
+      "relatedBrands": [
+        "xingdaomeng",
+        "u1s1",
+        "muguang"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 7359
+    },
+    {
+      "url": "/reviews/feimao/",
+      "pillar": "brands",
+      "title": "飞猫云（FlyCat）深度评测：仅专属客户端模式优劣、84元学生年付与样式示例隔离审计（2026）",
+      "h1": "飞猫云（FlyCat）深度评测：仅专属客户端模式优劣、84元学生年付与样式示例隔离审计（2026）",
+      "description": "飞猫云（FlyCat）独立深度评测：优先剖析闭源专属客户端对新手与进阶用户的分水岭、¥84/年学生版与¥25–¥150月付阶梯、¥680/1TB不限时门槛，并澄清附件D 2026.6.1样式图非实测。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "飞猫云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/feimao/",
+        "/brands/reviews/",
+        "/compare/guangsuyun-vs-feimao/",
+        "/compare/feimao-vs-xingdaomeng/"
+      ],
+      "relatedBrands": [
+        "feimao",
+        "wuyou",
+        "lingmao",
+        "xingdaomeng"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 6538
+    },
+    {
+      "url": "/reviews/firefly/",
+      "pillar": "brands",
+      "title": "Firefly（萤火虫）深度评测与风险审计：仅专属客户端限制、6档套餐成本与同阵营横评（2026）",
+      "h1": "Firefly（萤火虫）深度评测与风险审计：仅专属客户端限制、6档套餐成本与同阵营横评（2026）",
+      "description": "Firefly（萤火虫）（Firefly/Firefly 萤火虫）独立深度评测：基于 2026-11-23 审计快照拆解其 6 档套餐真实每 GB 成本、仅专属客户端兼容性、VLESS 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "Firefly（萤火虫）怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/firefly/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "firefly",
+        "weifeng",
+        "shanyue",
+        "weitu"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5977
+    },
+    {
+      "url": "/reviews/guangnian/",
+      "pillar": "brands",
+      "title": "光年梯独立评测与资料缺口核查：入门定价核算、客户端模式与待核实清单（2026）",
+      "h1": "光年梯独立评测与资料缺口核查：入门定价核算、客户端模式与待核实清单（2026）",
+      "description": "光年梯（guangnian）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、自研+第三方订阅兼容性、VLESS 协议与线路声明、0 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "光年梯怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/guangnian/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "guangnian",
+        "jilian",
+        "sujie",
+        "yifan"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4749
+    },
+    {
+      "url": "/reviews/guangsuyun/",
+      "pillar": "brands",
+      "title": "光速云（GSY）万字深度评测：7档套餐、数据冲突与MiaoKo图复核",
+      "h1": "光速云（GSY）万字深度评测与资料审计：7档套餐精算、4项数据冲突与5张MiaoKo归档图复核（2026）",
+      "description": "光速云（GSY）独立深度评测：按五级证据链全面核查2020年运营背景、轻量版59GB/69GB冲突、IEPL/IPLC混线口径、7档套餐每GB真实成本、5张2026-08-19跨网MiaoKo测速解锁图、ASN落地与Clash/Shadowrocket实操。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "光速云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/guangsuyun/",
+        "/brands/reviews/",
+        "/compare/guangsuyun-vs-feimao/",
+        "/compare/guangsuyun-vs-ermao/",
+        "/compare/guangsuyun-vs-quanqiu/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "ermao",
+        "feimao",
+        "quanqiu"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 9125
+    },
+    {
+      "url": "/reviews/huanqiuti/",
+      "pillar": "brands",
+      "title": "环球梯评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "h1": "环球梯评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "description": "环球梯（huanqiuti）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、自研+第三方订阅兼容性、VLESS 协议与线路声明、0 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "环球梯怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/huanqiuti/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "huanqiuti",
+        "yunjiexian",
+        "shandianshu",
+        "dalaoyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5149
+    },
+    {
+      "url": "/reviews/jilian/",
+      "pillar": "brands",
+      "title": "极连云独立评测与资料缺口核查：入门定价核算、客户端模式与待核实清单（2026）",
+      "h1": "极连云独立评测与资料缺口核查：入门定价核算、客户端模式与待核实清单（2026）",
+      "description": "极连云（jilian）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、自研+第三方订阅兼容性、待核实 协议与线路声明、0 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "极连云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/jilian/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "jilian",
+        "guangnian",
+        "sujie",
+        "kexin"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4760
+    },
+    {
+      "url": "/reviews/kexin/",
+      "pillar": "brands",
+      "title": "可信云深度评测：第三方通用订阅兼容性、1档价格精算与晚高峰核验指南（2026）",
+      "h1": "可信云深度评测：第三方通用订阅兼容性、1档价格精算与晚高峰核验指南（2026）",
+      "description": "可信云（kexin/Kosing）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、第三方通用订阅兼容性、VLESS 协议与线路声明、0 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "可信云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/kexin/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "kexin",
+        "sujie",
+        "sogo",
+        "jilian"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4803
+    },
+    {
+      "url": "/reviews/langwang/",
+      "pillar": "brands",
+      "title": "浪网评测与历史快照审计：已知套餐拆解、缺失/遮挡字段披露与核验方法（2026）",
+      "h1": "浪网评测与历史快照审计：已知套餐拆解、缺失/遮挡字段披露与核验方法（2026）",
+      "description": "浪网（langwang/WaveNet）独立深度评测：基于 2026-11-23 审计快照拆解其 9 档套餐真实每 GB 成本、待核实兼容性、待核实 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "浪网怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/langwang/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "langwang",
+        "lingdong",
+        "muguang",
+        "edgenova"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5445
+    },
+    {
+      "url": "/reviews/lingdong/",
+      "pillar": "brands",
+      "title": "灵动云深度评测（2026）｜珠海联通9Gbps实测归档拆解、MB/s换算与2026-08历史快照审计",
+      "h1": "灵动云深度评测（2026）｜珠海联通9Gbps实测归档拆解、MB/s换算与2026-08历史快照审计",
+      "description": "灵动云（lingdong）独立深度评测：优先拆解全库罕见的2026-07-20/21珠海联通9Gbps 60节点实测归档（20–80 MB/s换算160–640 Mbps、OpenAI全解锁、美国01失败、新/台YouTube送中、TikTok多失败与台湾NF/D+识别西班牙ES）、VLESS/Trojan协议冲突、620元定制档截图遮挡及2026-08-09历史入口核实提醒。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "灵动云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "langwang",
+        "edgenova",
+        "muguang",
+        "guangsuyun"
+      ],
+      "relatedBrands": [
+        "langwang",
+        "edgenova",
+        "muguang"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 6189
+    },
+    {
+      "url": "/reviews/lingmao/",
+      "pillar": "brands",
+      "title": "灵猫网络深度评测与风险审计：仅专属客户端限制、6档套餐成本与同阵营横评（2026）",
+      "h1": "灵猫网络深度评测与风险审计：仅专属客户端限制、6档套餐成本与同阵营横评（2026）",
+      "description": "灵猫网络（lingmao/CivetNet）独立深度评测：基于 2026-11-23 审计快照拆解其 6 档套餐真实每 GB 成本、仅专属客户端兼容性、原文未标注 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "灵猫网络怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/lingmao/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "lingmao",
+        "feimao",
+        "wuyou",
+        "tiziyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5812
+    },
+    {
+      "url": "/reviews/liulianyun/",
+      "pillar": "brands",
+      "title": "榴莲云评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "h1": "榴莲云评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "description": "榴莲云（liulianyun）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、自研+第三方订阅兼容性、unknown（协议类型品牌资料未统一提供） 协议与线路声明、0 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "榴莲云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/liulianyun/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "liulianyun",
+        "dalaoyun",
+        "shandianshu",
+        "yunjiexian"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5159
+    },
+    {
+      "url": "/reviews/muguang/",
+      "pillar": "brands",
+      "title": "暮光加速深度评测与资料审计：9档全周期套餐核算、历史测速与冲突核查（2026）",
+      "h1": "暮光加速深度评测与资料审计：9档全周期套餐核算、历史测速与冲突核查（2026）",
+      "description": "暮光加速（muguang/Twilight）独立深度评测：基于 2026-11-23 审计快照拆解其 9 档套餐真实每 GB 成本、待核实兼容性、待核实（原文未明确协议名称） 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "暮光加速怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/muguang/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "muguang",
+        "guangsuyun",
+        "xingdaomeng",
+        "lingdong"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5809
+    },
+    {
+      "url": "/reviews/quanqiu/",
+      "pillar": "brands",
+      "title": "全球云深度评测与风险审计：仅专属客户端限制、9档套餐成本与同阵营横评（2026）",
+      "h1": "全球云深度评测与风险审计：仅专属客户端限制、9档套餐成本与同阵营横评（2026）",
+      "description": "全球云（quanqiu/GlobalCloud）独立深度评测：基于 2026-11-23 审计快照拆解其 9 档套餐真实每 GB 成本、仅专属客户端兼容性、Trojan/Shadowsocks 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "全球云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/quanqiu/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "quanqiu",
+        "sogo",
+        "guangsuyun",
+        "muguang"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5805
+    },
+    {
+      "url": "/reviews/shandianshu/",
+      "pillar": "brands",
+      "title": "闪电鼠评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "h1": "闪电鼠评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "description": "闪电鼠（shandianshu）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、自研+第三方订阅兼容性、VLESS 协议与线路声明、0 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "闪电鼠怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/shandianshu/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "shandianshu",
+        "dalaoyun",
+        "yunjiexian",
+        "liulianyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4996
+    },
+    {
+      "url": "/reviews/shanyue/",
+      "pillar": "brands",
+      "title": "闪跃深度评测与风险审计：仅专属客户端限制、5档套餐成本与同阵营横评（2026）",
+      "h1": "闪跃深度评测与风险审计：仅专属客户端限制、5档套餐成本与同阵营横评（2026）",
+      "description": "闪跃（shanyue/FlashLeap）独立深度评测：基于 2026-11-23 审计快照拆解其 5 档套餐真实每 GB 成本、仅专属客户端兼容性、原文未标注 协议与线路声明、0 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "闪跃怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/shanyue/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "shanyue",
+        "firefly",
+        "weitu",
+        "yinxingren"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5530
+    },
+    {
+      "url": "/reviews/shenxing/",
+      "pillar": "brands",
+      "title": "神行加速评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "h1": "神行加速评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "description": "神行加速（shenxing）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、自研+第三方订阅兼容性、VLESS 协议与线路声明、0 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "神行加速怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/shenxing/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "shenxing",
+        "dalaoyun",
+        "shandianshu",
+        "jilian"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5018
+    },
+    {
+      "url": "/reviews/sogo/",
+      "pillar": "brands",
+      "title": "SOGO 云深度评测与风险审计：仅专属客户端限制、9档套餐成本与同阵营横评（2026）",
+      "h1": "SOGO 云深度评测与风险审计：仅专属客户端限制、9档套餐成本与同阵营横评（2026）",
+      "description": "SOGO 云（Sogo云/sogo）独立深度评测：基于 2026-11-23 审计快照拆解其 9 档套餐真实每 GB 成本、仅专属客户端兼容性、VLESS 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "SOGO 云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/sogo/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "sogo",
+        "quanqiu",
+        "yinxingren",
+        "tiziyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5761
+    },
+    {
+      "url": "/reviews/sujie/",
+      "pillar": "brands",
+      "title": "速界独立评测与资料缺口核查：入门定价核算、客户端模式与待核实清单（2026）",
+      "h1": "速界独立评测与资料缺口核查：入门定价核算、客户端模式与待核实清单（2026）",
+      "description": "速界（sujie/SpeedWorld）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、自研+第三方订阅兼容性、VLESS 协议与线路声明、0 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "速界怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/sujie/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "sujie",
+        "kexin",
+        "jilian",
+        "guangnian"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4780
+    },
+    {
+      "url": "/reviews/tiziyun/",
+      "pillar": "brands",
+      "title": "梯子云评测与历史快照审计：已知套餐拆解、缺失/遮挡字段披露与核验方法（2026）",
+      "h1": "梯子云评测与历史快照审计：已知套餐拆解、缺失/遮挡字段披露与核验方法（2026）",
+      "description": "梯子云（tiziyun）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、自研+第三方订阅兼容性、VLESS 协议与线路声明、0 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "梯子云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/tiziyun/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "tiziyun",
+        "yinxingren",
+        "guangsuyun",
+        "feimao"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5139
+    },
+    {
+      "url": "/reviews/u1s1/",
+      "pillar": "brands",
+      "title": "U1S1评测与历史快照审计：已知套餐拆解、缺失/遮挡字段披露与核验方法（2026）",
+      "h1": "U1S1评测与历史快照审计：已知套餐拆解、缺失/遮挡字段披露与核验方法（2026）",
+      "description": "U1S1（u1s1）独立深度评测：基于 2026-11-23 审计快照拆解其 5 档套餐真实每 GB 成本、待核实兼容性、待核实 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "U1S1怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/u1s1/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "u1s1",
+        "ermao",
+        "muguang",
+        "yifan"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5085
+    },
+    {
+      "url": "/reviews/weifeng/",
+      "pillar": "brands",
+      "title": "微风网络深度评测与资料审计：6档全周期套餐核算、历史测速与冲突核查（2026）",
+      "h1": "微风网络深度评测与资料审计：6档全周期套餐核算、历史测速与冲突核查（2026）",
+      "description": "微风网络（Breeze/weifeng）独立深度评测：基于 2026-11-23 审计快照拆解其 6 档套餐真实每 GB 成本、待核实兼容性、VLESS 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "微风网络怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/weifeng/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "weifeng",
+        "firefly",
+        "xingdaomeng",
+        "guangsuyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5465
+    },
+    {
+      "url": "/reviews/weitu/",
+      "pillar": "brands",
+      "title": "唯兔云深度评测与资料审计：10档全周期套餐核算、历史测速与冲突核查（2026）",
+      "h1": "唯兔云深度评测与资料审计：10档全周期套餐核算、历史测速与冲突核查（2026）",
+      "description": "唯兔云（weitu/V2Yun）独立深度评测：基于 2026-11-23 审计快照拆解其 10 档套餐真实每 GB 成本、待核实兼容性、Trojan 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "唯兔云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/weitu/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "weitu",
+        "firefly",
+        "xingdaomeng",
+        "guangsuyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5632
+    },
+    {
+      "url": "/reviews/wuyou/",
+      "pillar": "brands",
+      "title": "无忧链接深度评测与风险审计：仅专属客户端限制、7档套餐成本与同阵营横评（2026）",
+      "h1": "无忧链接深度评测与风险审计：仅专属客户端限制、7档套餐成本与同阵营横评（2026）",
+      "description": "无忧链接（wuyou/WorryFree）独立深度评测：基于 2026-11-23 审计快照拆解其 7 档套餐真实每 GB 成本、仅专属客户端兼容性、待核实（原文未明确列出协议） 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "无忧链接怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/wuyou/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "wuyou",
+        "feimao",
+        "tiziyun",
+        "weitu"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 6000
+    },
+    {
+      "url": "/reviews/xingdaomeng/",
+      "pillar": "brands",
+      "title": "星岛梦深度评测（2026）｜韩与东南亚节点版图、9档全1倍套餐精算与Trojan客户端核查",
+      "h1": "星岛梦深度评测（2026）｜韩与东南亚节点版图、9档全1倍套餐精算与Trojan客户端核查",
+      "description": "星岛梦（xingdaomeng / XDM）独立深度评测：优先解析港台日新美+韩国/东南亚节点布局、9档全周期1倍流量套餐（¥96贴心年付、¥25–¥130月付、¥100–¥600永久不限时包与¥680定制）的多场景选型条件，以及Trojan协议客户端开放度核验方法。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "星岛梦怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "guangsuyun",
+        "weitu",
+        "yifan",
+        "ermao"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "weitu",
+        "yifan"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3677
+    },
+    {
+      "url": "/reviews/yifan/",
+      "pillar": "brands",
+      "title": "一翻云深度评测：第三方通用订阅兼容性、8档价格精算与晚高峰核验指南（2026）",
+      "h1": "一翻云深度评测：第三方通用订阅兼容性、8档价格精算与晚高峰核验指南（2026）",
+      "description": "一翻云（yifan/1flyun）独立深度评测：基于 2026-11-23 审计快照拆解其 8 档套餐真实每 GB 成本、第三方通用订阅兼容性、Hysteria 2/VLESS-Reality/Shadowsocks 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "一翻云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/yifan/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "yifan",
+        "guangsuyun",
+        "tiziyun",
+        "sujie"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5348
+    },
+    {
+      "url": "/reviews/yinxingren/",
+      "pillar": "brands",
+      "title": "隐形人深度评测（2026）｜专属客户端封锁边界、零实测与晚高峰承诺审计及100G/144G冲突拆解",
+      "h1": "隐形人深度评测（2026）｜专属客户端封锁边界、零实测与晚高峰承诺审计及100G/144G冲突拆解",
+      "description": "隐形人（yinxingren / Invisible）独立深度评测：优先剖析仅支持自带专属客户端（无Clash/小火箭第三方订阅）的硬性限制、品牌方“晚高峰零卡顿/1小时修复”宣传与0实测数据的证据落差，以及白银纪元100GB vs 144GB、yxr888 vs moon80双优惠码冲突与9档套餐精算。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "隐形人怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "tiziyun",
+        "sogo",
+        "feimao",
+        "shanyue"
+      ],
+      "relatedBrands": [
+        "tiziyun",
+        "sogo",
+        "feimao"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 6165
+    },
+    {
+      "url": "/reviews/yunjiexian/",
+      "pillar": "brands",
+      "title": "云界线评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "h1": "云界线评测与风险核查：超低价年付折算真相、链接/协议异常审计与安全选型边界（2026）",
+      "description": "云界线（yunjiexian）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、自研+第三方订阅兼容性、VLESS 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "云界线怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/yunjiexian/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "yunjiexian",
+        "huanqiuti",
+        "shandianshu",
+        "dalaoyun"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5218
+    },
+    {
+      "url": "/reviews/yuzhou/",
+      "pillar": "brands",
+      "title": "宇宙云独立评测与资料缺口核查：入门定价核算、客户端模式与待核实清单（2026）",
+      "h1": "宇宙云独立评测与资料缺口核查：入门定价核算、客户端模式与待核实清单（2026）",
+      "description": "宇宙云（yuzhou）独立深度评测：基于 2026-11-23 审计快照拆解其 1 档套餐真实每 GB 成本、待核实兼容性、VLESS 协议与线路声明、1 项数据冲突及同价位替代方案。",
+      "parentTopic": "/brands/reviews/",
+      "primaryKeyword": "宇宙云怎么样 靠谱吗",
+      "searchIntent": "Commercial Investigation",
+      "category": "品牌独立评测",
+      "relatedSlugs": [
+        "/brands/yuzhou/",
+        "/brands/reviews/",
+        "/brands/comparisons/",
+        "/plans/monthly-under-20-guide/",
+        "/airport/client-vs-third-party-subscription/"
+      ],
+      "relatedBrands": [
+        "yuzhou",
+        "weitu",
+        "guangsuyun",
+        "kexin"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5278
+    },
+    {
+      "url": "/routes/",
+      "pillar": "routes",
+      "title": "线路与节点技术指南：IEPL/IPLC 专线术语、香港日本节点、延迟测速与倍率核算",
+      "h1": "线路与节点技术指南：专线术语、地区特性、测速口径与倍率核算",
+      "description": "系统拆解代理线路三段式架构（直连/CN2 GIA/BGP中转/IEPL/IPLC）、香港与日本（IIJ/SoftBank/NTT）及新台美欧节点特性、ICMP/TCPing/TLS RTT/HTTPS TTFB 延迟差异、Mbps 与 MB/s 换算、0.5x–5x 倍率双向计费、IDC/原生/家宽 IP、2026-10-19 测速边界与晚高峰 20:00–23:30 实测标准。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 10541
+    },
+    {
+      "url": "/routes/hong-kong/",
+      "pillar": "routes",
+      "title": "香港节点特性深度解析：HKIX 极低延迟优势、ASN 家宽/商宽辨析与 AI 自动分流实战",
+      "h1": "香港节点特性深度解析：HKIX 极低延迟优势、ASN 家宽/商宽辨析与 AI 自动分流实战",
+      "description": "全面解析香港代理节点的核心优势与边界：基于 HKIX 交换中心的亚太最低延迟（广东10-25ms/华东25-40ms/北方40-55ms）、HGC/HKT/HKBN/Equinix/Akari 等常见香港机房 ASN 辨析、为什么香港节点不适合直连 ChatGPT/Claude/Gemini/TikTok，以及客户端默认走香港+AI自动分流到日/新/美的完整配置方案。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5270
+    },
+    {
+      "url": "/routes/iepl-vs-iplc-difference/",
+      "pillar": "routes",
+      "title": "IEPL 与 IPLC 专线有什么区别？企业级跨境传输架构与常见营销误区拆解",
+      "h1": "IEPL 与 IPLC 专线有什么区别？企业级跨境传输架构与常见营销误区拆解",
+      "description": "深入解析 IEPL（Layer 2 国际以太网专线）、IPLC（Layer 1 TDM/SDH 物理私有电路）与 Layer 3 公网 BGP 加密中转的技术差异，拆解商业机场“境内 BGP 入口 + 混合专线/公网出口”的真实落地架构，结合光速云、唯兔云、隐形人品牌资料库冲突实例与 10 元以内低价专线质疑逻辑，剖析专线对延迟、QoS 与丢包率的实际影响。",
+      "parentTopic": "/routes/iepl/",
+      "primaryKeyword": "IEPL 和 IPLC 有什么区别",
+      "searchIntent": "Informational",
+      "category": "线路技术",
+      "relatedSlugs": [
+        "/routes/iepl/",
+        "/routes/iplc/",
+        "/airport/iepl-meaning-and-value/",
+        "/routes/latency/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "weitu",
+        "yinxingren"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3510
+    },
+    {
+      "url": "/routes/iepl/",
+      "pillar": "routes",
+      "title": "IEPL 专线技术解析与真假查验：二层以太网过境原理、成本模型与 31 家品牌核对",
+      "h1": "IEPL 专线技术解析与真假查验：二层以太网过境原理、成本模型与 31 家品牌核对",
+      "description": "深度拆解 IEPL（国际以太网专线）在代理网络中的二层 MAC 帧传输机制、绕过公网国际出口拥塞的底层逻辑、政企带宽采购成本模型，提供四步交叉查验伪专线的实操命令与 31 家机场品牌库 IEPL 证据状态盘点。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 8188
+    },
+    {
+      "url": "/routes/iplc/",
+      "pillar": "routes",
+      "title": "IPLC 国际专线技术解析与查验：TDM/SDH 点对点原理、四大线路架构对比与品牌核对",
+      "h1": "IPLC 国际专线技术解析与查验：TDM/SDH 点对点原理、四大线路架构对比与品牌核对",
+      "description": "深入拆解 IPLC（国际私有租用电路）的 Layer 1 物理层时分复用原理，通过四维技术矩阵对比 IPLC、IEPL、CN2 GIA/CMIN2/9929 与普通 BGP 中转的本质差异，盘点广港/沪日/沪美海陆缆路径及 31 家品牌库中 8 家 IPLC 关联品牌的数据与冲突状态。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 6747
+    },
+    {
+      "url": "/routes/japan/",
+      "pillar": "routes",
+      "title": "日本与新加坡节点对比：海缆拓扑、上游线路与 AI 落地实操",
+      "h1": "日本与新加坡节点深度对比：东京/大阪海缆拓扑、NTT/IIJ/SoftBank/Singtel 上游差异及 AI/4K 落地实操",
+      "description": "合并解析日本（东京/大阪）与新加坡两大亚太黄金落地节点：跨海光缆路径、日本 45–75ms 与新加坡 40–70ms 延迟差异、NTT/IIJ/SoftBank/KDDI 与 Singtel/PCCW 上游特征、15 家品牌库 2026-10-19 历史测速对照、AI 与 4K 流媒体主力分流，以及台日/欧日定位偏移排查。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7338
+    },
+    {
+      "url": "/routes/latency/",
+      "pillar": "routes",
+      "title": "低延迟节点与测速口径详解：RTT 差异、单位换算与晚高峰测速",
+      "h1": "低延迟节点、丢包与机场测速口径详解：ICMP/TCPing/TLS RTT/HTTPS 204 差异、8 倍单位换算与晚高峰标准化脚本",
+      "description": "合并解析低延迟节点甄别、晚高峰丢包与抖动原理及机场测速口径：对比 ICMP Ping、TCPing、TLS RTT 与 HTTPS generate_204 TTFB 四类延迟测试差异，拆解为什么显示 30ms 仍卡顿、1 MB/s = 8 Mbps 换算表、brands.ts 中 15 家品牌 2026-10-19 非晚高峰历史汇总与 2026-07 灵动云实测（20–80 MB/s）判读边界，提供晚高峰 20:00–23:30 标准化自测脚本。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5956
+    },
+    {
+      "url": "/routes/multiplier-billing-explained/",
+      "pillar": "routes",
+      "title": "机场线路倍率怎么算？双向流量扣费、0.2x–5x 倍率实算与 Mihomo 防偷跑过滤",
+      "h1": "机场线路倍率怎么算？双向流量扣费、0.2x–5x 倍率实算与 Mihomo 防偷跑过滤",
+      "description": "深度解析机场线路倍率计费规则：拆解 (上行+下行) × 节点倍率 的双向扣费公式，附 100GB 套餐在 0.2x 至 5x 倍率下的真实可用流量矩阵、光速云/唯兔云/星岛梦/无忧链接等品牌库倍率核查，以及 Mihomo 全局脚本与 exclude-filter 防偷跑配置与验证教程。",
+      "parentTopic": "/routes/multipliers/",
+      "primaryKeyword": "机场线路倍率怎么算",
+      "searchIntent": "How-to",
+      "category": "线路技术",
+      "relatedSlugs": [
+        "/routes/multipliers/",
+        "/guides/automatic-update/",
+        "/plans/traffic-100gb-vs-300gb/",
+        "/brands/weitu/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "weitu",
+        "xingdaomeng",
+        "wuyou"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3955
+    },
+    {
+      "url": "/routes/multipliers/",
+      "pillar": "routes",
+      "title": "线路倍率与计费完全指南：扣费公式、单价模拟与防坑盘点",
+      "h1": "线路倍率与流量计费机制完全指南：双向扣费公式、0.2x–5x 单价模拟、Mihomo 隔离防坑与 1 倍品牌盘点",
+      "description": "深度拆解机场流量倍率怎么算：核心双向计费公式 实际扣减流量 = (上行 + 下行) × 节点倍率、0.2x 闲时节点 vs 1x 标准节点 vs 2x–5x 家宽/IEPL 高倍率节点真实每 GB 单价模拟表、为什么 url-test 混入高倍节点会跑空月包、Mihomo exclude-filter 隔离配置，以及星岛梦/无忧链接/唯兔云/灵猫网络/光速云极速版等 1 倍品牌盘点。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5763
+    },
+    {
+      "url": "/safety/",
+      "pillar": "safety",
+      "title": "风险与替代方案总览：机场避坑、状态核验、退款留证与安全迁移指南",
+      "h1": "风险与替代方案总览：机场避坑、状态核验、退款留证与安全迁移指南",
+      "description": "代理消费风险识别与备选决策中心：系统拆解机场停服与域名阻断命令行核验（dig/nslookup/curl）、高风险收费模式、年付锁定与退款边界、HTTPS/CA 根证书隐私红线、配置平滑迁移与多品牌容灾方案，附五级证据分级标准。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 10299
+    },
+    {
+      "url": "/safety/alternatives/",
+      "pillar": "safety",
+      "title": "服务异常时的替代方案：双机场主备容灾配置、平滑迁移与不限时备用包策略",
+      "h1": "服务异常时的替代方案：平滑迁移配置与双机场主备容灾策略",
+      "description": "如何构建高可用的机场替代方案与双机场主备容灾配置？详解主力月付搭配 100GB-247GB 不限时备用包的跨体系组合策略，并提供 Clash Verge Rev / Mihomo proxy-providers 自动 fallback 故障转移完整 YAML 模板。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 6640
+    },
+    {
+      "url": "/safety/avoid-scams/",
+      "pillar": "safety",
+      "title": "机场选择与避坑核查清单：识别夸大宣传、隐性倍率、折算低价与预付锁仓陷阱",
+      "h1": "机场选择与避坑核查清单：识别夸大宣传、隐性倍率与预付锁定风险",
+      "description": "购买代理服务前必读的机场避坑与机场购买注意事项指南：深度剖析购前八大高危营销信号，结合 2026-11-23 数据库真实冲突样本教你看穿晚高峰0丢包话术、年付折算月均障眼法、隐瞒高倍率与伪造测速图。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7143
+    },
+    {
+      "url": "/safety/closures/",
+      "pillar": "safety",
+      "title": "机场停服与状态核验：客观区分域名阻断、节点维护与长期失联的完整排查标准",
+      "h1": "机场停服与状态核验：客观区分域名阻断、节点维护与长期失联",
+      "description": "如何进行机场跑路核验、机场停运判断与机场状态查询？提供 nslookup/dig、curl 与代理分流四级命令行排查流程，明确五级风险证据采信边界，结合 2026-11-23 数据库快照客观区分本地故障、DNS/SNI 阻断与长期停服。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 8233
+    },
+    {
+      "url": "/safety/how-to-verify-airport-closure/",
+      "pillar": "safety",
+      "title": "如何区分机场临时维护、域名被墙与停止运营？跑路核验流程与应急迁移",
+      "h1": "如何区分机场临时维护、域名被墙与停止运营？跑路核验流程与应急迁移",
+      "description": "当机场官网无法打开或节点全部超时，如何客观区分本地 DNS/SNI 阻断、上游机房临时维护与服务商真实停运失联？附 4 维技术核验命令与双订阅不限时灾备迁移方案。",
+      "parentTopic": "/safety/closures/",
+      "primaryKeyword": "如何确认机场是否停运跑路",
+      "searchIntent": "Informational",
+      "category": "风险与替代",
+      "relatedSlugs": [
+        "/safety/closures/",
+        "/safety/alternatives/",
+        "/brands/status/",
+        "/safety/subscription-leak-and-refund-evidence/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "yifan",
+        "weitu"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3754
+    },
+    {
+      "url": "/safety/privacy/",
+      "pillar": "safety",
+      "title": "代理隐私与日志风险认知：机场安全吗、HTTPS 加密边界、CA 证书红线与订阅泄露防护",
+      "h1": "代理隐私与日志风险认知：机场安全吗、加密边界与订阅泄露防护",
+      "description": "全面解答“机场安全吗”与代理隐私与日志风险核心技术问题：精确拆解 HTTPS/TLS 端到端加密的保护边界、代理节点可见元数据（源 IP、时间戳、SNI/DNS 与流量）、严禁安装未知 MitM 根证书红线、订阅链接 Token 泄露与在线订阅转换网站风险及重置方法、以及账号密码隔离实战指南。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7129
+    },
+    {
+      "url": "/safety/refunds/",
+      "pillar": "safety",
+      "title": "机场退款政策与维权资料留存：条款边界解析、下单四项取证快照与小额试错止损指南",
+      "h1": "机场退款政策与维权资料留存：条款边界拆解、购买留证与止损原则",
+      "description": "购买代理机场与客户端前必读的机场退款政策、机场售后维权与虚拟服务购买留证指南：深度拆解“特殊商品不支持退款”与扣除手续费/已用流量折算条款，提供下单前四项证据快照清单、三套标准化争议沟通话术、以及为何将首单试错控制在不高于 25 元月付的最优风控逻辑。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7080
+    },
+    {
+      "url": "/safety/security/",
+      "pillar": "safety",
+      "title": "客户端下载安全与防钓鱼指南：18 款主流工具官方仓库核对、SHA256 校验与停更软件清理",
+      "h1": "客户端下载安全与防钓鱼指南：官方源头核对、SHA256 校验与停更软件清理",
+      "description": "全网代理客户端下载安全、防山寨钓鱼网站与 GitHub SHA256 校验教程：深度剖析假冒 Clash for Windows 中文网、假 v2rayN 官网与假小火箭安装包植入剪贴板木马的完整攻击链，核对 18 款主流客户端唯一下载源，提供 PowerShell Get-FileHash 与 macOS/Linux shasum 逐步校验指令，以及 NekoBox Google Play 非官方版警告与已归档 CFW/CFA 安全清理手册。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5654
+    },
+    {
+      "url": "/safety/subscription-leak-and-refund-evidence/",
+      "pillar": "safety",
+      "title": "机场订阅链接泄露风险与付费凭证留存指南：退款边界与账号防护操作",
+      "h1": "机场订阅链接泄露风险与付费凭证留存指南：退款边界与账号防护操作",
+      "description": "详解为什么机场订阅链接等同于免密 Token 与全量节点私钥，剖析公共在线订阅转换站、未加密网盘与群聊截图三大泄露渠道，并提供订阅重置步骤与购前四项退款维权取证规范。",
+      "parentTopic": "/safety/privacy/",
+      "primaryKeyword": "机场订阅链接泄露有什么风险",
+      "searchIntent": "Informational",
+      "category": "风险与替代",
+      "relatedSlugs": [
+        "/safety/privacy/",
+        "/safety/refunds/",
+        "/safety/avoid-scams/",
+        "/safety/how-to-verify-airport-closure/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "muguang"
+      ],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3662
+    },
+    {
+      "url": "/troubleshooting/",
+      "pillar": "troubleshooting",
+      "title": "代理客户端故障排查中心：节点超时、订阅失败、DNS 异常与网络恢复全指南",
+      "h1": "代理客户端故障排查中心：按症状、系统与内核定位根因",
+      "description": "结构化代理客户端故障排查中心：内置本地诊断向导，按“现象→可能原因→检查步骤→处理方法→验证结果→下一步”全流程排查节点超时、所有节点不可用、订阅 200+0 字节、客户端无法启动、DNS/Fake-IP 残留、系统代理与 TUN/WSL2 冲突。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 14036
+    },
+    {
+      "url": "/troubleshooting/all-nodes-timeout-check/",
+      "pillar": "troubleshooting",
+      "title": "所有机场节点突然全部超时怎么办？6 步快速定位客户端与服务端",
+      "h1": "所有机场节点突然全部超时怎么办？6 步快速定位客户端与服务端",
+      "description": "面对所有机场节点突然全部超时、真连接全报 -1ms 的应急排查手册。按症状判断表与 6 层排查树依次排除本地系统时钟、套餐到期与倍率消耗、内核协议过旧（AnyTLS/Reality）、防火墙与杀软拦截、校园网 UDP 阻断及上游全站波动，附 PowerShell Test-NetConnection 与 curl -I --proxy 实测验证步骤。",
+      "parentTopic": "/troubleshooting/timeout/",
+      "primaryKeyword": "所有机场节点突然超时怎么办",
+      "searchIntent": "Troubleshooting",
+      "category": "故障排查",
+      "relatedSlugs": [
+        "/troubleshooting/timeout/",
+        "/guides/system-time-tls-fix/",
+        "/safety/how-to-verify-airport-closure/",
+        "/troubleshooting/subscription-200-empty-fix/"
+      ],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4498
+    },
+    {
+      "url": "/troubleshooting/connected-no-internet-fix/",
+      "pillar": "troubleshooting",
+      "title": "节点连接成功但打不开网页怎么办？端口占用、残留系统代理与异常退出修复",
+      "h1": "节点连接成功但打不开网页怎么办？端口占用、残留系统代理与异常退出修复",
+      "description": "系统排查代理节点测速正常（延迟 30ms）但浏览器打不开网页、报 ERR_PROXY_CONNECTION_FAILED、关闭代理后电脑全断网，以及仅浏览器通或仅终端不通的五大根因。涵盖 WinINET 注册表 ProxyEnable=1 残留、7897/7890 端口冲突、WinHTTP 残留、防火墙拦截与浏览器扩展冲突，附 PowerShell 一键诊断与修复命令。",
+      "parentTopic": "/troubleshooting/disconnected/",
+      "primaryKeyword": "节点连接成功但打不开网页怎么办",
+      "searchIntent": "Troubleshooting",
+      "category": "故障排查",
+      "relatedSlugs": [
+        "/troubleshooting/disconnected/",
+        "/troubleshooting/tun/",
+        "/troubleshooting/startup/",
+        "/troubleshooting/dns-leak-and-hijack-fix/"
+      ],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4477
+    },
+    {
+      "url": "/troubleshooting/disconnected/",
+      "pillar": "troubleshooting",
+      "title": "代理连接成功没网络、网页打不开与频繁断线排查：端口冲突、后台杀进程与晚高峰降速定位",
+      "h1": "代理连接成功没网络、网页打不开与频繁断线排查指南",
+      "description": "深度排查代理客户端连接成功但网页打不开、节点频繁断线以及晚高峰速度慢的六大核心根因：涵盖 7890/7897/10808 本地端口抢占、SwitchyOmega 扩展覆盖、Direct 模式与规则集未就绪、Android/iOS 后台保活与 OOM、套餐并发设备数踢出以及本地 Wi-Fi/MTU 与节点拥塞区分法。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 6801
+    },
+    {
+      "url": "/troubleshooting/dns-leak-and-hijack-fix/",
+      "pillar": "troubleshooting",
+      "title": "DNS 错误与代理环境下的 DNS 泄漏怎么排查？Fake-IP 残留一键恢复方案",
+      "h1": "DNS 错误与代理环境下的 DNS 泄漏怎么排查？Fake-IP 残留一键恢复方案",
+      "description": "系统排查代理客户端 DNS 解析错误、退出代理后因 198.18.0.0/16 Fake-IP 残留或网卡锁定 127.0.0.1 导致的断网、运营商 DNS 劫持与 Google/YouTube 送中现象。深度讲解 dnsleaktest 泄漏原理、Mihomo nameserver/fallback/respect-rules 配置逻辑及浏览器安全 DNS 冲突清理方案，附一键恢复与验证命令。",
+      "parentTopic": "/troubleshooting/dns/",
+      "primaryKeyword": "代理 DNS 错误与泄漏怎么排查",
+      "searchIntent": "Troubleshooting",
+      "category": "故障排查",
+      "relatedSlugs": [
+        "/troubleshooting/dns/",
+        "/guides/tun/",
+        "/ai-streaming/youtube/",
+        "/guides/clash-config/"
+      ],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 4429
+    },
+    {
+      "url": "/troubleshooting/dns/",
+      "pillar": "troubleshooting",
+      "title": "DNS 错误与代理 DNS 解析失败排查：Fake-IP 残留一键修复、分流防送中与泄漏检测",
+      "h1": "DNS 错误与代理 DNS 解析失败排查：Fake-IP 残留修复、分流防送中与泄漏检测",
+      "description": "全面解决代理客户端 DNS 错误、代理 DNS 解析失败、退出代理后残留 198.18.0.0/16 Fake-IP 或 127.0.0.1 导致断网、企业内网 OA/NAS 域名被劫持、nameserver/fallback/nameserver-policy 分流防污染与防 ECS 送中，以及 IPv6 与 WebRTC 泄漏检测关闭方法。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5181
+    },
+    {
+      "url": "/troubleshooting/startup/",
+      "pillar": "troubleshooting",
+      "title": "客户端无法启动排查：白屏、启动失败、误杀与系统隔离修复",
+      "h1": "客户端无法启动排查：Clash Verge 白屏、v2rayN 启动失败与核心崩溃修复",
+      "description": "全面解决代理客户端无法启动、双击无反应、Clash Verge Rev 白屏闪退与 v2rayN 启动失败：涵盖 WebView2 Runtime 与 .NET 运行时检测、Defender/杀毒软件误杀 mihomo.exe/xray.exe 恢复、9090/7897 僵尸进程清理、macOS Gatekeeper 与 arm64/x64 架构校验以及损坏配置文件目录安全重置。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5279
+    },
+    {
+      "url": "/troubleshooting/subscription-200-empty-fix/",
+      "pillar": "troubleshooting",
+      "title": "订阅链接返回 200 但内容为空或更新失败怎么办？代理环路与 UA 拦截修复",
+      "h1": "订阅链接返回 200 但内容为空或更新失败怎么办？代理环路与 UA 拦截修复",
+      "description": "系统排查代理订阅链接返回 HTTP 200 但内容为空（0 字节）、返回 HTML 拦截页或 yaml 解析报错问题。覆盖代理环路死循环、User-Agent 拦截、DNS 污染与 SNI 阻断、UTF-8 BOM 编码错误及 Token 过期五大根因，附 curl.exe -i 与 curl -A 脱敏诊断及修复验证流程。",
+      "parentTopic": "/troubleshooting/subscription/",
+      "primaryKeyword": "订阅链接返回 200 但内容为空",
+      "searchIntent": "Troubleshooting",
+      "category": "故障排查",
+      "relatedSlugs": [
+        "/troubleshooting/subscription/",
+        "/guides/subscription/",
+        "/guides/subscription-formats-explained/",
+        "/troubleshooting/dns-leak-and-hijack-fix/"
+      ],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 5042
+    },
+    {
+      "url": "/troubleshooting/subscription/",
+      "pillar": "troubleshooting",
+      "title": "订阅更新失败与 200+0 字节排查：代理死循环、UA 拦截与格式报错修复",
+      "h1": "订阅更新失败与 `200+0 字节` 排查：代理死循环、UA 拦截与 Clash 订阅导入报错修复",
+      "description": "系统解决代理客户端订阅更新失败、返回 HTTP 200 但 0 字节（200+0 字节）、Clash 订阅导入报错 yaml unmarshal errors、DNS 污染及 SSL 证书校验失败，附本地安全脱敏 curl -v -I 诊断步骤。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7287
+    },
+    {
+      "url": "/troubleshooting/timeout/",
+      "pillar": "troubleshooting",
+      "title": "节点全部超时排查：时间偏差、真连接 -1ms、UDP 阻断与全节点失效定位",
+      "h1": "节点全部超时排查：节点连接超时、真连接 `-1ms` 与全节点突然失效定位",
+      "description": "深度拆解代理客户端节点连接超时、机场节点全部超时与真连接测试 -1ms 的 6 层排查矩阵。涵盖系统时钟偏差 >90s 修复、套餐到期与流量核验、ICMP/TCPing/URLTest 机制差异、校园网 UDP 拦截及上游入口故障定位。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 8166
+    },
+    {
+      "url": "/troubleshooting/tun-wsl-docker-conflict/",
+      "pillar": "troubleshooting",
+      "title": "Windows TUN 模式与 WSL2、Docker Desktop 网络冲突完全排查指南",
+      "h1": "Windows TUN 模式与 WSL2、Docker Desktop 网络冲突完全排查指南",
+      "description": "针对 Windows 开发环境的 TUN 虚拟网卡深度排障指南：解析 Wintun 与 Hyper-V vEthernet 路由表抢占、Mihomo tun.route-exclude-address 排除私有网段、WSL2 networkingMode=mirrored 与 NAT 10.255.255.254 DNS 劫持冲突，以及 Docker Desktop 代理与 curl 实测验证方案。",
+      "parentTopic": "/troubleshooting/tun/",
+      "primaryKeyword": "Clash TUN 模式与 WSL2 Docker 冲突",
+      "searchIntent": "Troubleshooting",
+      "category": "故障排查",
+      "relatedSlugs": [
+        "/guides/tun/",
+        "/troubleshooting/tun/",
+        "/guides/clash-verge-rev-setup/",
+        "/troubleshooting/connected-no-internet-fix/"
+      ],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3565
+    },
+    {
+      "url": "/troubleshooting/tun/",
+      "pillar": "troubleshooting",
+      "title": "TUN 模式无法启动、系统代理冲突与关闭代理后无法上网排查指南",
+      "h1": "TUN 模式无法启动、系统代理冲突与关闭代理后无法上网排查",
+      "description": "深度解决代理客户端 TUN 模式无法启动、开关自动弹回、双虚拟网卡抢路由、系统代理冲突以及关闭代理后浏览器报 ERR_PROXY_CONNECTION_FAILED 无法上网的问题。覆盖 Windows Service Mode 服务重装、游戏加速器/企业 VPN 共存、注册表 ProxyEnable 复位、Wintun 防火墙放行与 WSL2/Docker 冲突导引。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 5414
+    },
+    {
+      "url": "/vpn/",
+      "pillar": "vpn",
+      "title": "VPN、规则代理机场与游戏加速器深度对比：协议原理、手机与电脑选型指南",
+      "h1": "VPN、规则代理机场与游戏加速器深度对比：协议原理、手机与电脑选型指南",
+      "description": "dailikehuduan.cc 专题总览：厘清传统商业 VPN（WireGuard/OpenVPN）、规则代理机场（Mihomo/sing-box）与游戏加速器的技术边界，覆盖免费 VPN 风险、Android VpnService 与 iOS NEPacketTunnelProvider 差异、Windows/macOS 选型、无日志审计及 10 大常见问题。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 10864
+    },
+    {
+      "url": "/vpn/android/",
+      "pillar": "vpn",
+      "title": "安卓 VPN 与代理区别深度解析：VpnService 底层机制、分应用代理与 APK 安全校验",
+      "h1": "安卓 VPN 与代理区别深度解析：VpnService 底层机制、分应用代理与 APK 安全校验",
+      "description": "彻底讲透 Android VpnService 虚拟网卡接口（tun0）与 protect() 防死循环机制、为什么代理客户端也显示 VPN 钥匙图标、分应用代理白名单与黑名单实战配置、GitHub Releases APK 架构选择（arm64-v8a vs armeabi-v7a）与 SHA256 核验，以及 Google Play NekoBox 假冒接管包安全警示。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 6362
+    },
+    {
+      "url": "/vpn/compare/",
+      "pillar": "vpn",
+      "title": "VPN 和代理的区别全解：OSI 协议栈、VPN 与机场对比、加速器差异及 12 大场景选型矩阵",
+      "h1": "VPN 和代理的区别全解：OSI 协议栈、VPN 与机场对比、加速器差异及 12 大场景选型矩阵",
+      "description": "合并深剖 VPN 与代理技术原理区别及 VPN、规则代理机场、游戏加速器三类工具的工程差异：从 OSI 第 3 层 IP 隧道 vs 第 4/7 层 SOCKS5/VLESS/Trojan + Mihomo/sing-box 规则引擎、加密粒度、国内直连分流精度，到 12 大真实使用场景的一站式选型决策矩阵。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7072
+    },
+    {
+      "url": "/vpn/free/",
+      "pillar": "vpn",
+      "title": "免费 VPN 使用限制与安全代价：商业变现拆解、IP 连坐风控与泄漏自测",
+      "h1": "免费 VPN 使用限制与安全代价：商业变现拆解、IP 连坐风控与泄漏自测",
+      "description": "深度剖析免费 VPN 的三种商业变现逻辑（Freemium 限流、广告遥测 SDK 与 P2P 住宅带宽劫持），详解共享出口 IP 导致 ChatGPT/Google 连坐封锁的机理，并提供 DNS/WebRTC 泄漏自测与低成本合规替代策略。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7151
+    },
+    {
+      "url": "/vpn/gaming/",
+      "pillar": "vpn",
+      "title": "游戏加速器与代理机场原理解析：UDP 低抖动传输、FullCone NAT 穿透与驱动劫持机制",
+      "h1": "游戏加速器与代理机场原理解析：UDP 低抖动传输、FullCone NAT 穿透与驱动劫持机制",
+      "description": "深度拆解游戏加速器为什么不能用普通网页 VPN 或高速机场平替：剖析实时联机对 UDP 低抖动（Jitter）与零丢包的严苛要求、FullCone/Restricted/Symmetric NAT 对 Switch/PS5/Xbox/PC P2P 联机的影响、Windows WFP/LSP/虚拟网卡驱动拦截机制、普通机场打 FPS 瞬移成因以及何时采用 TUN 配合 UDP 节点。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7012
+    },
+    {
+      "url": "/vpn/mobile/",
+      "pillar": "vpn",
+      "title": "手机 VPN 与移动端代理选型指南：iOS 内存机制、安卓后台保活、切网重连与省电调优",
+      "h1": "手机 VPN 与移动端代理选型指南：iOS 内存机制、安卓后台保活、切网重连与省电调优",
+      "description": "深度解析 iOS 与安卓手机 VPN 及代理客户端的底层架构差异：拆解 iOS NEPacketTunnelProvider 50MB 内存硬上限与 JetSam 崩溃机理、Android 电池优化与后台保活方案、Wi-Fi 与 5G 蜂窝网络切换重连机制、Always-On VPN 与 Kill Switch 实战配置及移动端选型矩阵。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7312
+    },
+    {
+      "url": "/vpn/recommend/",
+      "pillar": "vpn",
+      "title": "VPN 推荐的评价维度：独立审计、管辖地、协议栈与桌面端选型评测",
+      "h1": "VPN 推荐的评价维度：独立审计、管辖地、协议栈与桌面端选型评测",
+      "description": "拒绝盲目软文榜单，从独立第三方安全审计（Cure53/PwC/Deloitte）、五眼/十四眼司法管辖地、RAM-only 无盘服务器、WireGuard/OpenVPN 跨境局限及 Windows/macOS 桌面端评测方法五个硬核维度拆解 VPN 选型。",
+      "parentTopic": null,
+      "primaryKeyword": null,
+      "searchIntent": null,
+      "category": null,
+      "relatedSlugs": [],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-23",
+      "hanChars": 7006
+    },
+    {
+      "url": "/vpn/vpn-vs-proxy-difference/",
+      "pillar": "vpn",
+      "title": "VPN 与代理机场、游戏加速器有什么本质区别？技术栈与 12 场景选型指南",
+      "h1": "VPN 与代理机场、游戏加速器有什么本质区别？技术栈与 12 场景选型指南",
+      "description": "从 OSI 网络协议栈深度拆解传统商业 VPN（Layer 3 IP 隧道）、规则代理机场（Layer 4-7 VLESS/SS/Hysteria2/Trojan）与游戏加速器（UDP 冗余与 FullCone NAT）的本质差异，提供覆盖代码开发、AI、流媒体、网游、远程办公与网银的 12 场景选型矩阵，并剖析商业 VPN 与 TUN 代理同时开启破坏路由的底层原因。",
+      "parentTopic": "/vpn/compare/",
+      "primaryKeyword": "VPN 与代理有什么区别",
+      "searchIntent": "Comparison",
+      "category": "VPN 与选型对比",
+      "relatedSlugs": [
+        "/vpn/compare/",
+        "/vpn/gaming/",
+        "/vpn/recommend/",
+        "/troubleshooting/tun-wsl-docker-conflict/"
+      ],
+      "relatedBrands": [],
+      "lastUpdated": "2026-11-24",
+      "hanChars": 3584
+    }
+  ]
+}

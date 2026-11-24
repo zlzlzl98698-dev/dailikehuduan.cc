@@ -1,0 +1,69 @@
+# Apache 静态部署配置 — 代理客户端 (dailikehuduan.cc)
+# 适配 VitePress cleanUrls: true 构建产物（/foo/bar/ -> /foo/bar/index.html 或 /foo/bar.html）
+# 注意：绝不将未知路径无条件回落到首页，缺失资源必须返回 404 状态码与 /404.html。
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 若需强制 HTTPS（视宿主机 SSL/反向代理条件启用）
+  # RewriteCond %{HTTPS} !=on
+  # RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # WWW -> 非 WWW 统一 301 重定向到正式主域名 (dailikehuduan.cc)
+  RewriteCond %{HTTP_HOST} ^www\.dailikehuduan\.cc$ [NC]
+  RewriteRule ^(.*)$ https://dailikehuduan.cc/$1 [L,R=301]
+
+  # 1. 已存在的真实文件直接放行
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+
+  # 2. 已存在的目录且包含 index.html 直接放行
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^ - [L]
+
+  # 3. 去除末尾斜杠后若存在同名 .html 文件，则内部重写到 .html（避免无目录只有 .html 时 404）
+  RewriteCond %{REQUEST_URI} ^/(.+?)/?$
+  RewriteCond %{DOCUMENT_ROOT}/%1.html -f
+  RewriteRule ^(.+?)/?$ /$1.html [L]
+
+  # 4. 目录尾部补全 index.html
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^(.*)/$ /$1/index.html [L]
+</IfModule>
+
+# 自定义 404 错误页（VitePress 静态输出根目录生成 404.html）
+ErrorDocument 404 /404.html
+
+# 默认字符集
+AddDefaultCharset UTF-8
+
+# 静态资源缓存策略
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 5 minutes"
+  ExpiresByType application/xml "access plus 1 hour"
+  ExpiresByType text/plain "access plus 1 hour"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+# 安全响应头
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Gzip / Deflate 压缩
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json application/xml image/svg+xml
+</IfModule>

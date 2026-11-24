@@ -1,0 +1,22 @@
+{
+  "name": "dailikehuduan-cc",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "代理客户端 (dailikehuduan.cc) — 多级网络工具文档知识库、客户端安装教程中心、机场品牌评测数据库与套餐比较平台",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs && node scripts/postbuild-apache.mjs",
+    "docs:preview": "vitepress preview docs",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs && node scripts/postbuild-apache.mjs",
+    "preview": "vitepress preview docs",
+    "audit:qa": "node scripts/audit-site.mjs",
+    "import:keywords": "node scripts/import-keywords-csv.mjs"
+  },
+  "devDependencies": {
+    "lucide-vue-next": "^1.0.0",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.46"
+  }
+}

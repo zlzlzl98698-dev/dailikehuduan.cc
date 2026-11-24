@@ -1,0 +1,300 @@
+{
+  "crawlIndex": {
+    "robots": {
+      "content": "User-agent: *\nAllow: /\n\nDisallow: /audit/\n\nSitemap: https://dailikehuduan.cc/sitemap.xml\n",
+      "disallows": [
+        "/audit/"
+      ],
+      "sitemapDeclared": true,
+      "blocksAssets": false
+    },
+    "sitemap": {
+      "totalUrls": 187,
+      "has404": false,
+      "nonHttps": [],
+      "sampleUrls": [
+        "https://dailikehuduan.cc/about/",
+        "https://dailikehuduan.cc/ai-streaming/chatgpt-region-and-block-fix/",
+        "https://dailikehuduan.cc/ai-streaming/chatgpt/",
+        "https://dailikehuduan.cc/ai-streaming/claude/",
+        "https://dailikehuduan.cc/ai-streaming/disney/"
+      ]
+    },
+    "canonical": {
+      "sampled": [
+        {
+          "rel": "404.html",
+          "href": "https://dailikehuduan.cc/404/"
+        },
+        {
+          "rel": "about/index.html",
+          "href": "https://dailikehuduan.cc/about/"
+        },
+        {
+          "rel": "ai-streaming/chatgpt/index.html",
+          "href": "https://dailikehuduan.cc/ai-streaming/chatgpt/"
+        },
+        {
+          "rel": "ai-streaming/chatgpt-region-and-block-fix/index.html",
+          "href": "https://dailikehuduan.cc/ai-streaming/chatgpt-region-and-block-fix/"
+        },
+        {
+          "rel": "ai-streaming/claude/index.html",
+          "href": "https://dailikehuduan.cc/ai-streaming/claude/"
+        },
+        {
+          "rel": "ai-streaming/disney/index.html",
+          "href": "https://dailikehuduan.cc/ai-streaming/disney/"
+        },
+        {
+          "rel": "ai-streaming/gemini/index.html",
+          "href": "https://dailikehuduan.cc/ai-streaming/gemini/"
+        },
+        {
+          "rel": "ai-streaming/index.html",
+          "href": "https://dailikehuduan.cc/ai-streaming/"
+        },
+        {
+          "rel": "ai-streaming/netflix/index.html",
+          "href": "https://dailikehuduan.cc/ai-streaming/netflix/"
+        },
+        {
+          "rel": "ai-streaming/netflix-unlock-check-guide/index.html",
+          "href": "https://dailikehuduan.cc/ai-streaming/netflix-unlock-check-guide/"
+        }
+      ],
+      "missing": [],
+      "invalid": []
+    },
+    "links": {
+      "emptyATagsCount": 0,
+      "emptyATagsSample": [],
+      "jsATagsCount": 0,
+      "jsATagsSample": []
+    }
+  },
+  "riskControl": {
+    "outbound": {
+      "totalOutbound": 255,
+      "unflaggedCount": 38,
+      "unflaggedSample": [
+        {
+          "rel": "clients/clash-meta/index.html",
+          "href": "https://github.com/MetaCubeX/ClashMetaForAndroid",
+          "relAttr": "noreferrer"
+        },
+        {
+          "rel": "clients/clash-verge-rev/index.html",
+          "href": "https://github.com/clash-verge-rev/clash-verge-rev",
+          "relAttr": "noreferrer"
+        },
+        {
+          "rel": "clients/flclash/index.html",
+          "href": "https://github.com/chen08209/FlClash",
+          "relAttr": "noreferrer"
+        },
+        {
+          "rel": "clients/hiddify/index.html",
+          "href": "https://github.com/hiddify/hiddify-app",
+          "relAttr": "noreferrer"
+        },
+        {
+          "rel": "clients/homeproxy/index.html",
+          "href": "https://github.com/immortalwrt/homeproxy",
+          "relAttr": "noreferrer"
+        },
+        {
+          "rel": "clients/index.html",
+          "href": "https://github.com/clash-verge-rev/clash-verge-rev",
+          "relAttr": "noopener noreferrer"
+        },
+        {
+          "rel": "clients/index.html",
+          "href": "https://github.com/2dust/v2rayN",
+          "relAttr": "noopener noreferrer"
+        },
+        {
+          "rel": "clients/index.html",
+          "href": "https://github.com/chen08209/FlClash",
+          "relAttr": "noopener noreferrer"
+        },
+        {
+          "rel": "clients/index.html",
+          "href": "https://github.com/hiddify/hiddify-app",
+          "relAttr": "noopener noreferrer"
+        },
+        {
+          "rel": "clients/index.html",
+          "href": "https://github.com/KaringX/karing",
+          "relAttr": "noopener noreferrer"
+        }
+      ],
+      "uniqueOutboundHosts": [
+        "sahude.gsyvipaff.com",
+        "varnexa.twilightaff.com",
+        "guangs.flycataff.com",
+        "guangs.1flyunaff.cc",
+        "yinxingren1.invisibleaff.com",
+        "vip02.fireflyaff.com",
+        "vip01.civetnet.com",
+        "guangs.sogoyunaff.cc",
+        "vip02.flashleapaff.com",
+        "guangs.gcvipaff.com",
+        "edp01.breezenetaff.com",
+        "qwerty.dalaoyunaff.com",
+        "guangs.xingdaomeng.com",
+        "guangs.2maoyunaff.cc",
+        "wep01.worryfreeaff.com",
+        "guangs.v2yunvipaff.com",
+        "guangs.vipaff.cc",
+        "tiziyun3.ladderaff.com",
+        "guangs.kosingaff.com",
+        "guangs.speedworldaff.cc",
+        "guangs.jlyvipaff.com",
+        "guangs.gntaff.com",
+        "wzjc.yuzoucloud.cc",
+        "qwerty.shandianshuaff.com",
+        "qwerty.shenxingaff.com",
+        "qwerty.yunjiexianaff.com",
+        "qwerty.liulianyunaff.com",
+        "qwerty.huanqiutiaff.com",
+        "work.edgenovaaff.cc",
+        "varnexa.lingdongaff.com",
+        "varnexa.wavenetaff.com",
+        "github.com",
+        "apps.apple.com",
+        "stash.ws",
+        "nssurge.com",
+        "sing-box.sagernet.org"
+      ]
+    },
+    "leaks": [
+      {
+        "rel": "airport/multi-device/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "clients/clash-meta/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "clients/clash-verge-rev/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "clients/shadowrocket/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "clients/sing-box/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "clients/v2rayn/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "guides/automatic-update/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "guides/clash-config/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "guides/clash-rule-vs-global-mode/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "guides/clash-verge-rev-import-subscription/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "guides/clash-verge-rev-setup/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "guides/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "guides/routing/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "guides/tun/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "guides/v2rayn-subscription-and-core/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "routes/multiplier-billing-explained/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "troubleshooting/disconnected/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "troubleshooting/dns/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "troubleshooting/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "troubleshooting/subscription/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "troubleshooting/tun/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "troubleshooting/tun-wsl-docker-conflict/index.html",
+        "type": "Windows local user path"
+      },
+      {
+        "rel": "troubleshooting/tun-wsl-docker-conflict/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "vpn/android/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "vpn/free/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "vpn/mobile/index.html",
+        "type": "Internal private IP"
+      },
+      {
+        "rel": "vpn/vpn-vs-proxy-difference/index.html",
+        "type": "Internal private IP"
+      }
+    ],
+    "analytics": {
+      "detectedFiles": 0
+    }
+  },
+  "contentGEO": {
+    "thinPages": [],
+    "wordCountStats": {
+      "total": 188,
+      "min": 0,
+      "max": 14711,
+      "avg": 5235
+    }
+  },
+  "schemaSERP": {
+    "titleDuplicates": [],
+    "descDuplicates": [],
+    "schemaCount": 602,
+    "schemaErrors": []
+  }
+}

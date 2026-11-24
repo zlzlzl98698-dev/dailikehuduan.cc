@@ -1,0 +1,3734 @@
+{
+  "schemaVersion": "2.0.0",
+  "generatedAt": "2026-11-24",
+  "evidencePolicy": "No fabricated search volume, KD, or rankings. Unverified candidate topics marked discovered-unverified.",
+  "totalPlannedAndPublishedTasks": 97,
+  "totalDiscoveredBacklog": 306,
+  "tasks": [
+    {
+      "keyword": "Clash Verge Rev 安装配置教程",
+      "primaryKeyword": "Clash Verge Rev 安装配置教程",
+      "secondaryKeywords": [
+        "Clash Verge TUN 模式怎么设置",
+        "Clash Verge Service Mode 安装",
+        "Clash Verge Rev 订阅导入"
+      ],
+      "longTailQuestions": [
+        "Clash Verge Rev 如何安装？",
+        "Clash Verge TUN 模式怎么设置？",
+        "Service Mode 点击安装没反应怎么办？"
+      ],
+      "searchIntent": "How-to",
+      "audience": "Windows / macOS / Linux 桌面端用户",
+      "contentType": "教程文章",
+      "parentTopic": "/guides/installation/",
+      "parentCluster": "集群 C：装机后的订阅接入与 TUN 初始化",
+      "targetUrl": "/guides/clash-verge-rev-setup/",
+      "articleTitle": "Clash Verge Rev 从零安装到 TUN 接管全流程实操手册",
+      "contentOutline": [],
+      "existingUrl": "/guides/clash-verge-rev-setup/",
+      "relatedArticles": [
+        "/clients/clash-verge-rev/",
+        "/guides/tun/",
+        "/troubleshooting/tun-wsl-docker-conflict/",
+        "/guides/system-time-tls-fix/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "yifan",
+        "weitu"
+      ],
+      "conversionIntent": "tutorial-assistant",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1154,
+      "sourceRequirements": "官方 GitHub clash-verge-rev 发布规范、Mihomo 配置结构与实机 PowerShell/Terminal 验证命令",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "系统时间不同步导致节点超时",
+      "primaryKeyword": "系统时间不同步导致节点超时",
+      "secondaryKeywords": [
+        "Windows 双系统时间差 8 小时",
+        "TLS 握手超时修复",
+        "Reality 时间偏差限制"
+      ],
+      "longTailQuestions": [
+        "系统时间差 2 分钟为什么节点全超时？",
+        "Windows 和 Linux 双系统时间不一致怎么解决？",
+        "w32tm 无法同步怎么换国内 NTP？"
+      ],
+      "searchIntent": "Troubleshooting",
+      "audience": "遇到全节点超时或双系统切换异常的用户",
+      "contentType": "排障文章",
+      "parentTopic": "/troubleshooting/timeout/",
+      "parentCluster": "集群 1：系统时钟、TLS 握手与协议鉴权排障",
+      "targetUrl": "/guides/system-time-tls-fix/",
+      "articleTitle": "系统时间偏差导致 TLS 握手与节点全部超时修复指南",
+      "contentOutline": [],
+      "existingUrl": "/guides/system-time-tls-fix/",
+      "relatedArticles": [
+        "/troubleshooting/timeout/",
+        "/troubleshooting/all-nodes-timeout-check/",
+        "/guides/clash-verge-rev-setup/"
+      ],
+      "relatedBrands": [],
+      "conversionIntent": "pure-troubleshooting",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1107,
+      "sourceRequirements": "NTP 同步命令、TLS/VLESS-Reality ±90s 窗口机制、Windows 注册表 RealTimeIsUniversal 参数",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "Clash 订阅格式与 Base64 区别",
+      "primaryKeyword": "Clash 订阅格式与 Base64 区别",
+      "secondaryKeywords": [
+        "sing-box JSON 订阅转换",
+        "SIP002 协议 URI",
+        "User-Agent 订阅分发"
+      ],
+      "longTailQuestions": [
+        "为什么 Clash 订阅导入 v2rayN 报错？",
+        "怎么安全转换不同格式订阅？",
+        "subscription-userinfo 响应头怎么看？"
+      ],
+      "searchIntent": "Informational",
+      "audience": "跨客户端使用并需要判断订阅兼容性的用户",
+      "contentType": "知识文章",
+      "parentTopic": "/guides/subscription/",
+      "parentCluster": "集群 1：订阅格式底层原理与多内核转换",
+      "targetUrl": "/guides/subscription-formats-explained/",
+      "articleTitle": "2026 主流机场订阅格式深度解析：Clash YAML、Base64 与 sing-box JSON",
+      "contentOutline": [],
+      "existingUrl": "/guides/subscription-formats-explained/",
+      "relatedArticles": [
+        "/guides/subscription/",
+        "/guides/clash-verge-rev-import-subscription/",
+        "/troubleshooting/subscription-200-empty-fix/",
+        "/clients/sing-box/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "yifan",
+        "ermao"
+      ],
+      "conversionIntent": "client-compatibility",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1194,
+      "sourceRequirements": "Mihomo YAML、Xray Base64、sing-box Outbounds JSON、Subconverter 与订阅响应头规范",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "Clash TUN 模式与 WSL2 Docker 冲突",
+      "primaryKeyword": "Clash TUN 模式与 WSL2 Docker 冲突",
+      "secondaryKeywords": [
+        "TUN 开启后 WSL 无法联网",
+        "dns-hijack 与 Hyper-V 冲突",
+        "route-exclude-address 配置"
+      ],
+      "longTailQuestions": [
+        "开启 Clash TUN 模式后 Docker 无法联网怎么办？",
+        "WSL2 mirrored 模式和 Clash TUN 怎么共存？",
+        "如何配置内网网段排除路由？"
+      ],
+      "searchIntent": "Troubleshooting",
+      "audience": "Windows 开发者与容器/WSL2 用户",
+      "contentType": "排障文章",
+      "parentTopic": "/troubleshooting/tun/",
+      "parentCluster": "TUN 虚拟网卡与系统路由冲突集群",
+      "targetUrl": "/troubleshooting/tun-wsl-docker-conflict/",
+      "articleTitle": "Windows TUN 模式与 WSL2、Docker Desktop 网络冲突完全排查指南",
+      "contentOutline": [],
+      "existingUrl": "/troubleshooting/tun-wsl-docker-conflict/",
+      "relatedArticles": [
+        "/guides/tun/",
+        "/troubleshooting/tun/",
+        "/guides/clash-verge-rev-setup/",
+        "/troubleshooting/connected-no-internet-fix/"
+      ],
+      "relatedBrands": [],
+      "conversionIntent": "pure-troubleshooting",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1043,
+      "sourceRequirements": "Mihomo tun.route-exclude-address、Windows Hyper-V vEthernet 路由表与 WSL2 .wslconfig 文档",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "20 元以内月付机场怎么选",
+      "primaryKeyword": "20 元以内月付机场怎么选",
+      "secondaryKeywords": [
+        "20元月付机场推荐",
+        "15到20元真月付",
+        "年付折算与真月付区别"
+      ],
+      "longTailQuestions": [
+        "20 元以内真实月付机场有哪些？",
+        "为什么 8 元月标价大多需要年付？",
+        "18-20 元月付怎么比较单位流量成本？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "预算控制在 15-20 元/月且拒绝年付锁仓的新手与轻中度用户",
+      "contentType": "价格文章",
+      "parentTopic": "/plans/monthly/",
+      "parentCluster": "¥15-¥25 月付止损与入门档横评集群",
+      "targetUrl": "/plans/monthly-under-20-guide/",
+      "articleTitle": "20 元以内月付机场怎么选？真实门槛核算与同价位品牌横评",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/plans/monthly/",
+        "/plans/annual-vs-monthly-cost/",
+        "/reviews/yifan/",
+        "/reviews/ermao/",
+        "/reviews/wuyou/",
+        "/reviews/muguang/"
+      ],
+      "relatedBrands": [
+        "yifan",
+        "ermao",
+        "wuyou",
+        "muguang",
+        "jilian",
+        "guangnian"
+      ],
+      "conversionIntent": "plan-comparison",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts 中所有 <=20 元真实月付记录与优惠条款、客户端开放度差异及冲突声明",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "机场年付折算月价怎么算",
+      "primaryKeyword": "机场年付折算月价怎么算",
+      "secondaryKeywords": [
+        "百元内年付机场划算吗",
+        "机场买月付还是年付",
+        "99元轻量版折算陷阱"
+      ],
+      "longTailQuestions": [
+        "新手第一次买机场应该选月付还是年付？",
+        "99 元年付轻量版折算月价怎么算？",
+        "什么时候买年付才不会亏？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "纠结百元内年付折算单价与月付试错成本的选购用户",
+      "contentType": "价格文章",
+      "parentTopic": "/plans/budget/",
+      "parentCluster": "百元内年付小包与折算成本核算集群",
+      "targetUrl": "/plans/annual-vs-monthly-cost/",
+      "articleTitle": "机场年付折算月价怎么算？百元内年付小包与月付盈亏平衡分析",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/plans/budget/",
+        "/plans/monthly-under-20-guide/",
+        "/reviews/guangsuyun/",
+        "/reviews/feimao/",
+        "/reviews/xingdaomeng/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "feimao",
+        "xingdaomeng",
+        "wuyou",
+        "muguang"
+      ],
+      "conversionIntent": "cost-calculator",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts 年付总价/流量/折扣限制真实数据（含光速云99不打折/飞猫84/星岛梦96/无忧79）",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "机场 100GB 流量够用多久",
+      "primaryKeyword": "机场 100GB 流量够用多久",
+      "secondaryKeywords": [
+        "300GB 和 500GB 机场套餐怎么选",
+        "看 4K YouTube 消耗多少流量",
+        "线路倍率怎么消耗流量"
+      ],
+      "longTailQuestions": [
+        "一个月 100GB 流量够看 YouTube 吗？",
+        "写代码和用 ChatGPT 每月消耗多少 GB？",
+        "300GB 与 500GB 套餐怎么对应家庭场景？"
+      ],
+      "searchIntent": "Informational",
+      "audience": "不清楚自身月流量消耗模型、容易买多浪费或买少限速的用户",
+      "contentType": "价格文章",
+      "parentTopic": "/plans/value/",
+      "parentCluster": "流量配额精算与大流量阶梯集群",
+      "targetUrl": "/plans/traffic-100gb-vs-300gb/",
+      "articleTitle": "100GB、300GB 与 500GB 机场流量够用多久？按日均场景与倍率实测核算",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/plans/value/",
+        "/routes/multiplier-billing-explained/",
+        "/plans/non-expiring/",
+        "/reviews/guangsuyun/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "weitu",
+        "ermao",
+        "weifeng"
+      ],
+      "conversionIntent": "plan-sizing",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "HTTP/HLS 视频码率带宽模型、1x vs 2x 倍率真实有效额度、多档代表套餐单价",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "如何判断机场晚高峰是否稳定",
+      "primaryKeyword": "如何判断机场晚高峰是否稳定",
+      "secondaryKeywords": [
+        "机场晚高峰测速方法",
+        "单线程 TTFB 验证",
+        "丢包率与抖动判断"
+      ],
+      "longTailQuestions": [
+        "怎样在晚高峰实测机场稳不稳定？",
+        "非晚高峰测速 500Mbps 为什么晚上会卡？",
+        "如何用 curl 和 mtr 排查跨网丢包？"
+      ],
+      "searchIntent": "How-to",
+      "audience": "希望用客观方法验证月付试用机场真实晚高峰表现的用户",
+      "contentType": "教程文章",
+      "parentTopic": "/airport/stable/",
+      "parentCluster": "晚高峰稳定性核验与抗丢包集群",
+      "targetUrl": "/airport/evening-peak-stability-test/",
+      "articleTitle": "如何判断机场晚高峰是否稳定？20:00–23:30 标准化验证与路由跟踪指南",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/airport/stable/",
+        "/routes/latency/",
+        "/reviews/guangsuyun/",
+        "/reviews/lingdong/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "lingdong",
+        "yifan"
+      ],
+      "conversionIntent": "evaluation-method",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "curl -w TTFB 测试脚本、NextTrace/MTR 路径排查与 2026-10-19 非晚高峰样本限制披露",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "机场 IEPL 专线有什么意义",
+      "primaryKeyword": "机场 IEPL 专线有什么意义",
+      "secondaryKeywords": [
+        "如何识别虚假 IEPL 宣传",
+        "IEPL 机场值得买吗",
+        "隧道中转与专线区别"
+      ],
+      "longTailQuestions": [
+        "机场宣传的 IEPL 专线真的有用吗？",
+        "5 元月付写全 IEPL 可信吗？",
+        "普通用户需要为 IEPL 支付更高月费吗？"
+      ],
+      "searchIntent": "Informational",
+      "audience": "被各种“全线 IEPL”宣传搞混、想判断性价比边界的用户",
+      "contentType": "知识文章",
+      "parentTopic": "/airport/recommend/",
+      "parentCluster": "机场推荐核心指标与线路鉴伪集群",
+      "targetUrl": "/airport/iepl-meaning-and-value/",
+      "articleTitle": "机场推荐里的 IEPL 专线有什么意义？真实收益、溢价边界与真假查验",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/airport/recommend/",
+        "/routes/iepl/",
+        "/routes/iepl-vs-iplc-difference/",
+        "/airport/reliable/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "weitu",
+        "kexin"
+      ],
+      "conversionIntent": "decision-clarity",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "IEPL 二层以太网过境原理、入口 BGP 与海外落地成本模型及品牌声明冲突边界",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "自研客户端机场和第三方订阅哪个好",
+      "primaryKeyword": "自研客户端机场和第三方订阅哪个好",
+      "secondaryKeywords": [
+        "仅专属客户端机场缺点",
+        "第三方订阅机场优势",
+        "开源客户端迁移对比"
+      ],
+      "longTailQuestions": [
+        "自研客户端机场适合新手吗？",
+        "不支持 Clash 订阅有什么真实限制？",
+        "哪些品牌支持自研+第三方双模式？"
+      ],
+      "searchIntent": "Comparison",
+      "audience": "在“下载即用一键端”与“Clash/Shadowrocket 通用订阅”之间做选择的用户",
+      "contentType": "比较文章",
+      "parentTopic": "/airport/beginner/",
+      "parentCluster": "客户端交付模式与新手选型集群",
+      "targetUrl": "/airport/client-vs-third-party-subscription/",
+      "articleTitle": "自研专属客户端机场 vs 第三方通用订阅机场：新手与进阶分水岭全解析",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/airport/beginner/",
+        "/brands/alternatives/",
+        "/compare/guangsuyun-vs-feimao/",
+        "/reviews/feimao/",
+        "/reviews/guangsuyun/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "feimao",
+        "wuyou",
+        "yifan",
+        "kexin"
+      ],
+      "conversionIntent": "architecture-choice",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts 31 家 clientMode 统计（仅专属客户端 vs 自研+第三方 vs 第三方通用）",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "如何判断机场官网是否真实",
+      "primaryKeyword": "如何判断机场官网是否真实",
+      "secondaryKeywords": [
+        "机场运营时间怎么核实",
+        "如何看穿虚假机场评测",
+        "仿冒钓鱼官网识别"
+      ],
+      "longTailQuestions": [
+        "怎么分辨真的机场官网和仿冒推广站？",
+        "机场宣称运营 5 年怎么去伪存真？",
+        "为什么有的品牌优惠码和链接格式不一样？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "准备注册付费前核验陌生机场官网与优惠码真实性的用户",
+      "contentType": "风险文章",
+      "parentTopic": "/brands/status/",
+      "parentCluster": "官网入口审计与资料冲突核验集群",
+      "targetUrl": "/brands/how-to-verify-airport-legitimacy/",
+      "articleTitle": "如何核实机场官网真伪、运营时间与评测可信度？购买前六项尽调清单",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/status/",
+        "/airport/reliable/",
+        "/safety/how-to-verify-airport-closure/",
+        "/reviews/firefly/"
+      ],
+      "relatedBrands": [
+        "firefly",
+        "yunjiexian",
+        "huanqiuti",
+        "guangsuyun"
+      ],
+      "conversionIntent": "risk-mitigation",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts 链接格式异常记录（云界线/环球梯/榴莲云）与 Firefly 去重审计事实",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "VPN 与代理有什么区别",
+      "primaryKeyword": "VPN 与代理有什么区别",
+      "secondaryKeywords": [
+        "VPN 和游戏加速器区别",
+        "VPN 和代理客户端能同时开吗",
+        "L3 VPN 与应用层代理"
+      ],
+      "longTailQuestions": [
+        "VPN 和代理机场到底哪里不一样？",
+        "打海外联机游戏该用机场还是游戏加速器？",
+        "开着代理客户端能再开商业 VPN 吗？"
+      ],
+      "searchIntent": "Comparison",
+      "audience": "混淆传统 VPN、代理规则工具与网游加速器的入门与跨场景用户",
+      "contentType": "比较文章",
+      "parentTopic": "/vpn/compare/",
+      "parentCluster": "协议栈边界与多工具共存集群",
+      "targetUrl": "/vpn/vpn-vs-proxy-difference/",
+      "articleTitle": "VPN 与代理机场、游戏加速器有什么本质区别？技术栈与 12 场景选型指南",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/vpn/compare/",
+        "/vpn/gaming/",
+        "/vpn/recommend/",
+        "/troubleshooting/tun-wsl-docker-conflict/"
+      ],
+      "relatedBrands": [],
+      "conversionIntent": "educational-clarity",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "OSI 3 层/4-7 层转发机制、FullCone NAT 要求、Wintun/VpnService 互斥机制",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "FlClash 与 Clash Verge Rev 区别",
+      "primaryKeyword": "FlClash 与 Clash Verge Rev 区别",
+      "secondaryKeywords": [
+        "FlClash 教程与评测",
+        "Flutter 与 Tauri 客户端对比",
+        "Mihomo 桌面端二选一"
+      ],
+      "longTailQuestions": [
+        "电脑装 FlClash 还是 Clash Verge Rev 更好？",
+        "FlClash 支持 Android 和桌面端同步吗？",
+        "两者都用 Mihomo 内核功能一样吗？"
+      ],
+      "searchIntent": "Comparison",
+      "audience": "在现代 Mihomo 开源客户端之间选型的桌面与跨平台用户",
+      "contentType": "比较文章",
+      "parentTopic": "/clients/clash-verge-rev/",
+      "parentCluster": "现代 Mihomo 客户端横向选型集群",
+      "targetUrl": "/clients/flclash-vs-clash-verge/",
+      "articleTitle": "FlClash 与 Clash Verge Rev 有什么区别？内存占用、UI 框架与多端同步选型",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/clients/clash-verge-rev/",
+        "/clients/flclash/",
+        "/clients/mihomo/",
+        "/guides/clash-verge-rev-setup/"
+      ],
+      "relatedBrands": [],
+      "conversionIntent": "client-selection",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "clients.ts 中 Clash Verge Rev (Tauri/WebView2) 与 FlClash (Flutter) 官方仓库信息与特性",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "ChatGPT 提示地区不支持怎么办",
+      "primaryKeyword": "ChatGPT 提示地区不支持怎么办",
+      "secondaryKeywords": [
+        "ChatGPT 无法连接排查",
+        "OpenAI Cloudflare 1020 拦截",
+        "ChatGPT 降智 IP 检测"
+      ],
+      "longTailQuestions": [
+        "开了代理为什么 ChatGPT 还是提示不可用地区？",
+        "为什么网页版打不开但手机 App 能用？",
+        "怎么把 OpenAI 域名单独分流到美日节点？"
+      ],
+      "searchIntent": "Troubleshooting",
+      "audience": "使用 ChatGPT Web/App 时频繁遇到地区拦截或降智的用户",
+      "contentType": "排障文章",
+      "parentTopic": "/ai-streaming/chatgpt/",
+      "parentCluster": "AI 服务地区风控与分流规则集群",
+      "targetUrl": "/ai-streaming/chatgpt-region-and-block-fix/",
+      "articleTitle": "ChatGPT 无法访问、提示地区不支持与降智排查：5 层定位与分流修复实操",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/ai-streaming/chatgpt/",
+        "/ai-streaming/claude/",
+        "/guides/routing/",
+        "/reviews/guangsuyun/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "muguang",
+        "weifeng",
+        "sujie"
+      ],
+      "conversionIntent": "ai-compatibility",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "香港 IP 对 OpenAI 网页封锁事实、geosite:openai 分流规则写法、DNS 防泄漏验证",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "Netflix 解锁失败如何检查",
+      "primaryKeyword": "Netflix 解锁失败如何检查",
+      "secondaryKeywords": [
+        "Netflix 自制剧和全区剧区别",
+        "为什么台湾节点识别为英国区",
+        "DNS 解锁与原生 IP"
+      ],
+      "longTailQuestions": [
+        "为什么 Netflix 打开搜不到日韩热剧只显示原创剧？",
+        "同一个机场的香港节点为什么有时解锁有时不解锁？",
+        "如何自测节点到底解锁哪些片库？"
+      ],
+      "searchIntent": "How-to",
+      "audience": "遇到 Netflix 锁区、只出 Originals 或提示代理错误（M7111-5059）的用户",
+      "contentType": "教程文章",
+      "parentTopic": "/ai-streaming/netflix/",
+      "parentCluster": "流媒体版权区解锁验证与误差排查集群",
+      "targetUrl": "/ai-streaming/netflix-unlock-check-guide/",
+      "articleTitle": "Netflix 解锁失败与只看自制剧怎么检查？非原生 IP 识别与测试片号方法",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/ai-streaming/netflix/",
+        "/ai-streaming/disney/",
+        "/ai-streaming/youtube/",
+        "/reviews/lingdong/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "lingdong",
+        "feimao"
+      ],
+      "conversionIntent": "streaming-verify",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "Netflix 自制剧(80197526)/非自制剧测试原理、MiaoKo 归档台湾识别 GB 实例、DNS 分流注意事项",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "IEPL 和 IPLC 有什么区别",
+      "primaryKeyword": "IEPL 和 IPLC 有什么区别",
+      "secondaryKeywords": [
+        "专线机场与公网中转差异",
+        "BGP 隧道中转是什么",
+        "混线节点识别方法"
+      ],
+      "longTailQuestions": [
+        "IEPL 和 IPLC 哪个延迟更低更稳？",
+        "普通用户日常用分得出 IEPL 和公网中转吗？",
+        "如何从价格反推是不是纯物理专线？"
+      ],
+      "searchIntent": "Informational",
+      "audience": "选购前想搞懂专线术语与公网隧道区别的进阶用户",
+      "contentType": "知识文章",
+      "parentTopic": "/routes/iepl/",
+      "parentCluster": "跨境传输底层架构对比集群",
+      "targetUrl": "/routes/iepl-vs-iplc-difference/",
+      "articleTitle": "IEPL 与 IPLC 专线有什么区别？企业级跨境传输架构与常见营销误区拆解",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/routes/iepl/",
+        "/routes/iplc/",
+        "/airport/iepl-meaning-and-value/",
+        "/routes/latency/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "weitu",
+        "yinxingren"
+      ],
+      "conversionIntent": "technical-clarity",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "L2 以太网专线 vs SDH TDM 专线 vs 公网加密隧道差异、成本门槛区间",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "机场线路倍率怎么算",
+      "primaryKeyword": "机场线路倍率怎么算",
+      "secondaryKeywords": [
+        "2x 3x 节点流量损耗",
+        "1 倍率机场怎么挑",
+        "Clash 排除高倍率节点脚本"
+      ],
+      "longTailQuestions": [
+        "看 10GB 视频用 2 倍率节点扣多少流量？",
+        "怎么用脚本自动把 3x/5x 节点屏蔽出测速组？",
+        "哪些品牌注明全节点 1 倍率？"
+      ],
+      "searchIntent": "How-to",
+      "audience": "发现套餐流量消耗异常快、想核算实际单价并屏蔽高倍率节点的用户",
+      "contentType": "教程文章",
+      "parentTopic": "/routes/multipliers/",
+      "parentCluster": "流量倍率核算与客户端规则隔离集群",
+      "targetUrl": "/routes/multiplier-billing-explained/",
+      "articleTitle": "机场线路倍率怎么算？双向流量扣费、0.2x–5x 倍率实算与 Mihomo 防偷跑过滤",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/routes/multipliers/",
+        "/guides/automatic-update/",
+        "/plans/traffic-100gb-vs-300gb/",
+        "/reviews/weitu/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "weitu",
+        "xingdaomeng",
+        "wuyou"
+      ],
+      "conversionIntent": "cost-control",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "双向计费模型、等效每 GB 成本公式与 Mihomo exclude-filter 正则脚本",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "Clash Verge Rev 如何导入订阅",
+      "primaryKeyword": "Clash Verge Rev 如何导入订阅",
+      "secondaryKeywords": [
+        "Clash 订阅链接一键导入无效",
+        "Clash Verge 更新订阅间隔",
+        "User-Agent 分发设置"
+      ],
+      "longTailQuestions": [
+        "复制了订阅链接在 Clash Verge Rev 里粘哪？",
+        "点网页“一键导入 Clash”浏览器没反应怎么办？",
+        "更新订阅后原修改的配置被覆盖怎么防？"
+      ],
+      "searchIntent": "How-to",
+      "audience": "已经安装好桌面客户端、卡在“导入订阅链接并拉取节点”步骤的新手",
+      "contentType": "教程文章",
+      "parentTopic": "/guides/subscription/",
+      "parentCluster": "集群 2：全平台客户端首次导入与防坑实操",
+      "targetUrl": "/guides/clash-verge-rev-import-subscription/",
+      "articleTitle": "Clash Verge Rev 如何导入订阅与自动更新？完整图文步骤与 UA 排雷",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/guides/subscription/",
+        "/guides/clash-verge-rev-setup/",
+        "/guides/automatic-update/",
+        "/troubleshooting/subscription-200-empty-fix/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "yifan",
+        "ermao"
+      ],
+      "conversionIntent": "onboarding-help",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "Clash Verge Rev Profiles 面板字段、clash:// scheme、Merge 覆写与 UA 分发机制",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "v2rayN 如何导入订阅链接",
+      "primaryKeyword": "v2rayN 如何导入订阅链接",
+      "secondaryKeywords": [
+        "v2rayN 怎么切换 sing-box 核心",
+        "v2rayN Tun 模式设置",
+        "v2rayN 订阅更新失败"
+      ],
+      "longTailQuestions": [
+        "为什么 v2rayN 导入 Clash YAML 链接提示找不到服务器？",
+        "v2rayN 里该选 Xray 还是 sing-box 核心？",
+        "v2rayN 最新版支持 macOS 和 Linux 吗？"
+      ],
+      "searchIntent": "How-to",
+      "audience": "使用 v2rayN 管理多订阅或多核心的 Windows / macOS / Linux 用户",
+      "contentType": "教程文章",
+      "parentTopic": "/clients/v2rayn/",
+      "parentCluster": "v2rayN 订阅分组与多核心路由实操集群",
+      "targetUrl": "/guides/v2rayn-subscription-and-core/",
+      "articleTitle": "v2rayN 如何导入订阅与切换 Xray/sing-box/Mihomo 多核心？跨平台操作教程",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/clients/v2rayn/",
+        "/guides/subscription-formats-explained/",
+        "/clients/sing-box/",
+        "/guides/installation/"
+      ],
+      "relatedBrands": [
+        "yifan",
+        "kexin",
+        "guangsuyun"
+      ],
+      "conversionIntent": "client-tutorial",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "2dust/v2rayN 现代跨平台特性、CoreType 选择逻辑与 Base64/YAML 兼容边界",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "Shadowrocket 如何添加订阅",
+      "primaryKeyword": "Shadowrocket 如何添加订阅",
+      "secondaryKeywords": [
+        "iPhone 小火箭配置分流规则",
+        "小火箭连通性测试",
+        "外区 Apple ID 防盗风险"
+      ],
+      "longTailQuestions": [
+        "苹果小火箭怎么粘贴订阅链接？",
+        "小火箭全局路由选“配置”还是“代理”？",
+        "小火箭怎么开启定时自动更新节点？"
+      ],
+      "searchIntent": "How-to",
+      "audience": "iPhone / iPad 上首次配置 Shadowrocket 的 iOS 用户",
+      "contentType": "教程文章",
+      "parentTopic": "/clients/shadowrocket/",
+      "parentCluster": "iOS 小火箭首次导入、配置分流与安全获取集群",
+      "targetUrl": "/guides/shadowrocket-ios-setup/",
+      "articleTitle": "Shadowrocket（小火箭）iPhone 如何添加订阅与开启配置分流？新手安全指南",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/clients/shadowrocket/",
+        "/clients/platform/ios/",
+        "/guides/subscription/",
+        "/safety/security/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "yifan",
+        "muguang"
+      ],
+      "conversionIntent": "client-tutorial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "Shadowrocket Subscribe 流程、Routing Configuration vs Proxy 区别与外区账号安全警告",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "Clash 规则模式与全局模式区别",
+      "primaryKeyword": "Clash 规则模式与全局模式区别",
+      "secondaryKeywords": [
+        "全局模式为什么很卡",
+        "Rule 模式国内网站走代理怎么办",
+        "Direct 直连模式作用"
+      ],
+      "longTailQuestions": [
+        "日常用应该选 Rule 规则还是 Global 全局？",
+        "为什么开了全局模式国内网页打不开且流量掉得飞快？",
+        "什么时候才需要临时切到全局模式？"
+      ],
+      "searchIntent": "Informational",
+      "audience": "分不清 Rule / Global / Direct 开关而引发速度变慢或流量剧增的新手",
+      "contentType": "知识文章",
+      "parentTopic": "/guides/routing/",
+      "parentCluster": "出站模式与策略组命中原则集群",
+      "targetUrl": "/guides/clash-rule-vs-global-mode/",
+      "articleTitle": "Clash 规则模式（Rule）与全局模式（Global）有什么区别？误用导致的流血与排障",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/guides/routing/",
+        "/guides/clash-config/",
+        "/ai-streaming/chatgpt-region-and-block-fix/",
+        "/troubleshooting/connected-no-internet-fix/"
+      ],
+      "relatedBrands": [],
+      "conversionIntent": "pure-education",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "Mihomo mode: rule/global/direct 路由优先级、国内 GeoIP 绕过与带宽成本影响",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "所有机场节点突然超时怎么办",
+      "primaryKeyword": "所有机场节点突然超时怎么办",
+      "secondaryKeywords": [
+        "节点全部红字超时",
+        "真连接 -1ms 怎么解决",
+        "机场节点全挂排查"
+      ],
+      "longTailQuestions": [
+        "昨天还好好的今天所有节点全超时怎么排查？",
+        "怎么区分是电脑问题还是机场全挂了？",
+        "为什么 Ping 得通端口但延迟测试返回 -1ms？"
+      ],
+      "searchIntent": "Troubleshooting",
+      "audience": "遭遇全节点不可用、急需快速判断本地故障或上游故障的用户",
+      "contentType": "排障文章",
+      "parentTopic": "/troubleshooting/timeout/",
+      "parentCluster": "集群 1：系统时钟、TLS 握手与协议鉴权排障",
+      "targetUrl": "/troubleshooting/all-nodes-timeout-check/",
+      "articleTitle": "所有机场节点突然全部超时怎么办？6 步定位本地时钟、订阅失效与入口故障",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/troubleshooting/timeout/",
+        "/guides/system-time-tls-fix/",
+        "/safety/how-to-verify-airport-closure/",
+        "/troubleshooting/subscription-200-empty-fix/"
+      ],
+      "relatedBrands": [],
+      "conversionIntent": "pure-troubleshooting",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "6 层排查树（时钟偏差/套餐到期/内核协议/本地防火墙/UDP QoS/上游切换）与 PowerShell/curl 验证命令",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "订阅链接返回 200 但内容为空",
+      "primaryKeyword": "订阅链接返回 200 但内容为空",
+      "secondaryKeywords": [
+        "Clash 更新订阅失败",
+        "机场订阅报错 YAML parse error",
+        "关闭代理更新订阅"
+      ],
+      "longTailQuestions": [
+        "导入订阅显示 200+0 字节是什么原因？",
+        "为什么开着代理更新订阅反而一直转圈报错？",
+        "浏览器能打开订阅链接为什么客户端更新失败？"
+      ],
+      "searchIntent": "Troubleshooting",
+      "audience": "在拉取或自动更新订阅环节卡死、遇到空内容或解析报错的用户",
+      "contentType": "排障文章",
+      "parentTopic": "/troubleshooting/subscription/",
+      "parentCluster": "订阅更新死循环、UA 伪装与域名阻断排查集群",
+      "targetUrl": "/troubleshooting/subscription-200-empty-fix/",
+      "articleTitle": "订阅链接返回 200 但内容为空或更新失败怎么办？代理环路与 UA 拦截修复",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/troubleshooting/subscription/",
+        "/guides/subscription/",
+        "/guides/subscription-formats-explained/",
+        "/troubleshooting/dns-leak-and-hijack-fix/"
+      ],
+      "relatedBrands": [],
+      "conversionIntent": "pure-troubleshooting",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "curl -A User-Agent 诊断、HTTP 200 Content-Length 0 原因、DNS 污染与系统代理回环清理",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "节点连接成功但打不开网页怎么办",
+      "primaryKeyword": "节点连接成功但打不开网页怎么办",
+      "secondaryKeywords": [
+        "关闭代理后上不了网",
+        "7890 端口冲突",
+        "ERR_PROXY_CONNECTION_FAILED 修复"
+      ],
+      "longTailQuestions": [
+        "节点延迟只有 30ms 但所有浏览器打不开网页是什么问题？",
+        "为什么关掉 Clash 后国内网页也全部断网了？",
+        "Chrome 显示无法连接到代理服务器怎么恢复？"
+      ],
+      "searchIntent": "Troubleshooting",
+      "audience": "节点看似连接正常或关闭软件后反而完全断网的排查用户",
+      "contentType": "排障文章",
+      "parentTopic": "/troubleshooting/disconnected/",
+      "parentCluster": "系统代理残留、端口抢占与断网急救集群",
+      "targetUrl": "/troubleshooting/connected-no-internet-fix/",
+      "articleTitle": "节点连接成功但打不开网页怎么办？端口占用、残留系统代理与异常退出修复",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/troubleshooting/disconnected/",
+        "/troubleshooting/tun/",
+        "/troubleshooting/startup/",
+        "/troubleshooting/dns-leak-and-hijack-fix/"
+      ],
+      "relatedBrands": [],
+      "conversionIntent": "pure-troubleshooting",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "Windows 注册表 ProxyEnable、netsh winhttp reset proxy、netstat -ano 端口排查命令",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "代理 DNS 错误与泄漏怎么排查",
+      "primaryKeyword": "代理 DNS 错误与泄漏怎么排查",
+      "secondaryKeywords": [
+        "Fake-IP 残留 198.18.0.0 无法上网",
+        "关闭 DNS 泄漏检测",
+        "Google 送中 DNS 修复"
+      ],
+      "longTailQuestions": [
+        "关闭代理后网站解析出 198.18 开头 IP 怎么解决？",
+        "怎样检测自己的代理有没有 DNS 泄漏？",
+        "Clash DNS 配置里 enhanced-mode 选 fake-ip 还是 redir-host？"
+      ],
+      "searchIntent": "Troubleshooting",
+      "audience": "因 DNS 缓存污染、Fake-IP 残留或本地直连泄漏导致访问失败或风控的用户",
+      "contentType": "排障文章",
+      "parentTopic": "/troubleshooting/dns/",
+      "parentCluster": "Fake-IP 清理、DoH 防劫持与泄漏自测集群",
+      "targetUrl": "/troubleshooting/dns-leak-and-hijack-fix/",
+      "articleTitle": "DNS 错误与代理环境下的 DNS 泄漏怎么排查？Fake-IP 残留一键恢复方案",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/troubleshooting/dns/",
+        "/guides/tun/",
+        "/ai-streaming/youtube/",
+        "/guides/clash-config/"
+      ],
+      "relatedBrands": [],
+      "conversionIntent": "pure-troubleshooting",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "ipconfig /flushdns、nslookup 检测、198.18.0.0/16 清理与 Mihomo nameserver/fallback 分流",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "如何确认机场是否停运跑路",
+      "primaryKeyword": "如何确认机场是否停运跑路",
+      "secondaryKeywords": [
+        "机场官网打不开是跑路还是被墙",
+        "订阅更新失败怎么核实",
+        "主备双订阅灾备策略"
+      ],
+      "longTailQuestions": [
+        "机场官网突然打不开了是不是跑路了？",
+        "怎么区分节点临时维护和长期失联？",
+        "服务异常时怎么平滑切换到备用订阅？"
+      ],
+      "searchIntent": "Informational",
+      "audience": "发现现有机场官网无法打开或全节点失联、需要客观核验与应急迁移的用户",
+      "contentType": "风险文章",
+      "parentTopic": "/safety/closures/",
+      "parentCluster": "停服核验、故障归因与异构备用集群",
+      "targetUrl": "/safety/how-to-verify-airport-closure/",
+      "articleTitle": "如何区分机场临时维护、域名被墙与停止运营？跑路核验流程与应急迁移",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/safety/closures/",
+        "/safety/alternatives/",
+        "/brands/status/",
+        "/safety/subscription-leak-and-refund-evidence/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "yifan",
+        "weitu"
+      ],
+      "conversionIntent": "disaster-recovery",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "本地 DNS/SNI 阻断与服务器关闭的抓包/状态码区分、不限时小包备用机制",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "机场订阅链接泄露有什么风险",
+      "primaryKeyword": "机场订阅链接泄露有什么风险",
+      "secondaryKeywords": [
+        "机场不退款怎么办",
+        "在线订阅转换安全风险",
+        "付费记录与工单取证"
+      ],
+      "longTailQuestions": [
+        "把订阅链接贴给别人或公共转换站会怎样？",
+        "订阅链接疑被泄露怎么重置密钥？",
+        "买机场前怎么保留凭证以防扯皮？"
+      ],
+      "searchIntent": "Informational",
+      "audience": "希望保护订阅权限安全并在购买前明晰退款证据链的理性消费者",
+      "contentType": "风险文章",
+      "parentTopic": "/safety/privacy/",
+      "parentCluster": "订阅密钥安全、账单取证与退款边界集群",
+      "targetUrl": "/safety/subscription-leak-and-refund-evidence/",
+      "articleTitle": "机场订阅链接泄露风险与付费凭证留存指南：退款边界与账号防护操作",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/safety/privacy/",
+        "/safety/refunds/",
+        "/safety/avoid-scams/",
+        "/safety/how-to-verify-airport-closure/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "muguang"
+      ],
+      "conversionIntent": "consumer-protection",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "订阅 Token 重置原理、公开转换接口风险与真实账单/条款截图四项留证流程",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "光速云评测",
+      "primaryKeyword": "光速云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "光速云机场评测",
+        "光速云测速与线路分析",
+        "光速云适合谁用"
+      ],
+      "longTailQuestions": [
+        "光速云怎么样值得买吗？",
+        "光速云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "光速云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索光速云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/guangsuyun/",
+      "articleTitle": "光速云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/guangsuyun/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "muguang",
+        "feimao",
+        "quanqiu"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (guangsuyun)、data-conflicts.md、5张 MiaoKo 归档截图",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "暮光加速评测",
+      "primaryKeyword": "暮光加速怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "暮光加速机场评测",
+        "暮光加速测速与线路分析",
+        "暮光加速适合谁用"
+      ],
+      "longTailQuestions": [
+        "暮光加速怎么样值得买吗？",
+        "暮光加速支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "暮光加速有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索暮光加速真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/muguang/",
+      "articleTitle": "暮光加速深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/muguang/"
+      ],
+      "relatedBrands": [
+        "muguang",
+        "guangsuyun",
+        "xingdaomeng",
+        "lingdong"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (muguang)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "飞猫云评测",
+      "primaryKeyword": "飞猫云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "飞猫云机场评测",
+        "飞猫云测速与线路分析",
+        "飞猫云适合谁用"
+      ],
+      "longTailQuestions": [
+        "飞猫云怎么样值得买吗？",
+        "飞猫云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "飞猫云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索飞猫云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/feimao/",
+      "articleTitle": "飞猫云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/feimao/"
+      ],
+      "relatedBrands": [
+        "feimao",
+        "wuyou",
+        "tiziyun",
+        "lingmao"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (feimao)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "微风网络评测",
+      "primaryKeyword": "微风网络怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "微风网络机场评测",
+        "微风网络测速与线路分析",
+        "微风网络适合谁用"
+      ],
+      "longTailQuestions": [
+        "微风网络怎么样值得买吗？",
+        "微风网络支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "微风网络有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索微风网络真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/weifeng/",
+      "articleTitle": "微风网络深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/weifeng/"
+      ],
+      "relatedBrands": [
+        "weifeng",
+        "firefly",
+        "xingdaomeng",
+        "guangsuyun"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (weifeng)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "大佬云评测",
+      "primaryKeyword": "大佬云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "大佬云机场评测",
+        "大佬云测速与线路分析",
+        "大佬云适合谁用"
+      ],
+      "longTailQuestions": [
+        "大佬云怎么样值得买吗？",
+        "大佬云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "大佬云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索大佬云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "基础透明披露评测梯队",
+      "targetUrl": "/reviews/dalaoyun/",
+      "articleTitle": "大佬云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/dalaoyun/"
+      ],
+      "relatedBrands": [
+        "dalaoyun",
+        "shandianshu",
+        "yunjiexian",
+        "liulianyun"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (dalaoyun)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "星岛梦评测",
+      "primaryKeyword": "星岛梦怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "星岛梦机场评测",
+        "星岛梦测速与线路分析",
+        "星岛梦适合谁用"
+      ],
+      "longTailQuestions": [
+        "星岛梦怎么样值得买吗？",
+        "星岛梦支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "星岛梦有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索星岛梦真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/xingdaomeng/",
+      "articleTitle": "星岛梦深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/xingdaomeng/"
+      ],
+      "relatedBrands": [
+        "xingdaomeng",
+        "guangsuyun",
+        "weitu",
+        "yifan"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (xingdaomeng)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "隐形人评测",
+      "primaryKeyword": "隐形人怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "隐形人机场评测",
+        "隐形人测速与线路分析",
+        "隐形人适合谁用"
+      ],
+      "longTailQuestions": [
+        "隐形人怎么样值得买吗？",
+        "隐形人支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "隐形人有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索隐形人真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "中完整度档案评测梯队",
+      "targetUrl": "/reviews/yinxingren/",
+      "articleTitle": "隐形人深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/yinxingren/"
+      ],
+      "relatedBrands": [
+        "yinxingren",
+        "tiziyun",
+        "sogo",
+        "feimao"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (yinxingren)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "二猫云评测",
+      "primaryKeyword": "二猫云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "二猫云机场评测",
+        "二猫云测速与线路分析",
+        "二猫云适合谁用"
+      ],
+      "longTailQuestions": [
+        "二猫云怎么样值得买吗？",
+        "二猫云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "二猫云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索二猫云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/ermao/",
+      "articleTitle": "二猫云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/ermao/"
+      ],
+      "relatedBrands": [
+        "ermao",
+        "xingdaomeng",
+        "u1s1",
+        "muguang"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (ermao)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "无忧链接评测",
+      "primaryKeyword": "无忧链接怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "无忧链接机场评测",
+        "无忧链接测速与线路分析",
+        "无忧链接适合谁用"
+      ],
+      "longTailQuestions": [
+        "无忧链接怎么样值得买吗？",
+        "无忧链接支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "无忧链接有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索无忧链接真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/wuyou/",
+      "articleTitle": "无忧链接深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/wuyou/"
+      ],
+      "relatedBrands": [
+        "wuyou",
+        "feimao",
+        "tiziyun",
+        "weitu"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (wuyou)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "唯兔云评测",
+      "primaryKeyword": "唯兔云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "唯兔云机场评测",
+        "唯兔云测速与线路分析",
+        "唯兔云适合谁用"
+      ],
+      "longTailQuestions": [
+        "唯兔云怎么样值得买吗？",
+        "唯兔云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "唯兔云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索唯兔云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/weitu/",
+      "articleTitle": "唯兔云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/weitu/"
+      ],
+      "relatedBrands": [
+        "weitu",
+        "firefly",
+        "xingdaomeng",
+        "guangsuyun"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (weitu)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "Firefly（萤火虫）评测",
+      "primaryKeyword": "Firefly（萤火虫）怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "Firefly（萤火虫）机场评测",
+        "Firefly（萤火虫）测速与线路分析",
+        "Firefly（萤火虫）适合谁用"
+      ],
+      "longTailQuestions": [
+        "Firefly（萤火虫）怎么样值得买吗？",
+        "Firefly（萤火虫）支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "Firefly（萤火虫）有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索Firefly（萤火虫）真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/firefly/",
+      "articleTitle": "Firefly（萤火虫）深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/firefly/"
+      ],
+      "relatedBrands": [
+        "firefly",
+        "weifeng",
+        "shanyue",
+        "weitu"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (firefly)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "U1S1评测",
+      "primaryKeyword": "U1S1怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "U1S1机场评测",
+        "U1S1测速与线路分析",
+        "U1S1适合谁用"
+      ],
+      "longTailQuestions": [
+        "U1S1怎么样值得买吗？",
+        "U1S1支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "U1S1有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索U1S1真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "中完整度档案评测梯队",
+      "targetUrl": "/reviews/u1s1/",
+      "articleTitle": "U1S1深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/u1s1/"
+      ],
+      "relatedBrands": [
+        "u1s1",
+        "ermao",
+        "muguang",
+        "yifan"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (u1s1)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "灵猫网络评测",
+      "primaryKeyword": "灵猫网络怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "灵猫网络机场评测",
+        "灵猫网络测速与线路分析",
+        "灵猫网络适合谁用"
+      ],
+      "longTailQuestions": [
+        "灵猫网络怎么样值得买吗？",
+        "灵猫网络支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "灵猫网络有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索灵猫网络真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "中完整度档案评测梯队",
+      "targetUrl": "/reviews/lingmao/",
+      "articleTitle": "灵猫网络深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/lingmao/"
+      ],
+      "relatedBrands": [
+        "lingmao",
+        "feimao",
+        "wuyou",
+        "tiziyun"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (lingmao)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "一翻云评测",
+      "primaryKeyword": "一翻云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "一翻云机场评测",
+        "一翻云测速与线路分析",
+        "一翻云适合谁用"
+      ],
+      "longTailQuestions": [
+        "一翻云怎么样值得买吗？",
+        "一翻云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "一翻云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索一翻云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/yifan/",
+      "articleTitle": "一翻云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/yifan/"
+      ],
+      "relatedBrands": [
+        "yifan",
+        "guangsuyun",
+        "tiziyun",
+        "sujie"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (yifan)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "SOGO 云评测",
+      "primaryKeyword": "SOGO 云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "SOGO 云机场评测",
+        "SOGO 云测速与线路分析",
+        "SOGO 云适合谁用"
+      ],
+      "longTailQuestions": [
+        "SOGO 云怎么样值得买吗？",
+        "SOGO 云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "SOGO 云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索SOGO 云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/sogo/",
+      "articleTitle": "SOGO 云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/sogo/"
+      ],
+      "relatedBrands": [
+        "sogo",
+        "quanqiu",
+        "yinxingren",
+        "tiziyun"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (sogo)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "闪跃评测",
+      "primaryKeyword": "闪跃怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "闪跃机场评测",
+        "闪跃测速与线路分析",
+        "闪跃适合谁用"
+      ],
+      "longTailQuestions": [
+        "闪跃怎么样值得买吗？",
+        "闪跃支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "闪跃有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索闪跃真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "中完整度档案评测梯队",
+      "targetUrl": "/reviews/shanyue/",
+      "articleTitle": "闪跃深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/shanyue/"
+      ],
+      "relatedBrands": [
+        "shanyue",
+        "firefly",
+        "weitu",
+        "yinxingren"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (shanyue)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "全球云评测",
+      "primaryKeyword": "全球云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "全球云机场评测",
+        "全球云测速与线路分析",
+        "全球云适合谁用"
+      ],
+      "longTailQuestions": [
+        "全球云怎么样值得买吗？",
+        "全球云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "全球云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索全球云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/quanqiu/",
+      "articleTitle": "全球云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/quanqiu/"
+      ],
+      "relatedBrands": [
+        "quanqiu",
+        "sogo",
+        "guangsuyun",
+        "muguang"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (quanqiu)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "梯子云评测",
+      "primaryKeyword": "梯子云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "梯子云机场评测",
+        "梯子云测速与线路分析",
+        "梯子云适合谁用"
+      ],
+      "longTailQuestions": [
+        "梯子云怎么样值得买吗？",
+        "梯子云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "梯子云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索梯子云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "中完整度档案评测梯队",
+      "targetUrl": "/reviews/tiziyun/",
+      "articleTitle": "梯子云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/tiziyun/"
+      ],
+      "relatedBrands": [
+        "tiziyun",
+        "yinxingren",
+        "guangsuyun",
+        "feimao"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (tiziyun)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "可信云评测",
+      "primaryKeyword": "可信云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "可信云机场评测",
+        "可信云测速与线路分析",
+        "可信云适合谁用"
+      ],
+      "longTailQuestions": [
+        "可信云怎么样值得买吗？",
+        "可信云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "可信云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索可信云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "基础透明披露评测梯队",
+      "targetUrl": "/reviews/kexin/",
+      "articleTitle": "可信云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/kexin/"
+      ],
+      "relatedBrands": [
+        "kexin",
+        "sujie",
+        "sogo",
+        "jilian"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (kexin)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "速界评测",
+      "primaryKeyword": "速界怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "速界机场评测",
+        "速界测速与线路分析",
+        "速界适合谁用"
+      ],
+      "longTailQuestions": [
+        "速界怎么样值得买吗？",
+        "速界支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "速界有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索速界真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "基础透明披露评测梯队",
+      "targetUrl": "/reviews/sujie/",
+      "articleTitle": "速界深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/sujie/"
+      ],
+      "relatedBrands": [
+        "sujie",
+        "kexin",
+        "jilian",
+        "guangnian"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (sujie)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "极连云评测",
+      "primaryKeyword": "极连云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "极连云机场评测",
+        "极连云测速与线路分析",
+        "极连云适合谁用"
+      ],
+      "longTailQuestions": [
+        "极连云怎么样值得买吗？",
+        "极连云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "极连云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索极连云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "基础透明披露评测梯队",
+      "targetUrl": "/reviews/jilian/",
+      "articleTitle": "极连云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/jilian/"
+      ],
+      "relatedBrands": [
+        "jilian",
+        "guangnian",
+        "sujie",
+        "kexin"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (jilian)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "光年梯评测",
+      "primaryKeyword": "光年梯怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "光年梯机场评测",
+        "光年梯测速与线路分析",
+        "光年梯适合谁用"
+      ],
+      "longTailQuestions": [
+        "光年梯怎么样值得买吗？",
+        "光年梯支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "光年梯有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索光年梯真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "基础透明披露评测梯队",
+      "targetUrl": "/reviews/guangnian/",
+      "articleTitle": "光年梯深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/guangnian/"
+      ],
+      "relatedBrands": [
+        "guangnian",
+        "jilian",
+        "sujie",
+        "yifan"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (guangnian)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "宇宙云评测",
+      "primaryKeyword": "宇宙云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "宇宙云机场评测",
+        "宇宙云测速与线路分析",
+        "宇宙云适合谁用"
+      ],
+      "longTailQuestions": [
+        "宇宙云怎么样值得买吗？",
+        "宇宙云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "宇宙云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索宇宙云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "基础透明披露评测梯队",
+      "targetUrl": "/reviews/yuzhou/",
+      "articleTitle": "宇宙云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/yuzhou/"
+      ],
+      "relatedBrands": [
+        "yuzhou",
+        "weitu",
+        "guangsuyun",
+        "kexin"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (yuzhou)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "闪电鼠评测",
+      "primaryKeyword": "闪电鼠怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "闪电鼠机场评测",
+        "闪电鼠测速与线路分析",
+        "闪电鼠适合谁用"
+      ],
+      "longTailQuestions": [
+        "闪电鼠怎么样值得买吗？",
+        "闪电鼠支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "闪电鼠有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索闪电鼠真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "基础透明披露评测梯队",
+      "targetUrl": "/reviews/shandianshu/",
+      "articleTitle": "闪电鼠深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/shandianshu/"
+      ],
+      "relatedBrands": [
+        "shandianshu",
+        "dalaoyun",
+        "yunjiexian",
+        "liulianyun"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (shandianshu)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "神行加速评测",
+      "primaryKeyword": "神行加速怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "神行加速机场评测",
+        "神行加速测速与线路分析",
+        "神行加速适合谁用"
+      ],
+      "longTailQuestions": [
+        "神行加速怎么样值得买吗？",
+        "神行加速支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "神行加速有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索神行加速真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "基础透明披露评测梯队",
+      "targetUrl": "/reviews/shenxing/",
+      "articleTitle": "神行加速深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/shenxing/"
+      ],
+      "relatedBrands": [
+        "shenxing",
+        "dalaoyun",
+        "shandianshu",
+        "jilian"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (shenxing)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "云界线评测",
+      "primaryKeyword": "云界线怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "云界线机场评测",
+        "云界线测速与线路分析",
+        "云界线适合谁用"
+      ],
+      "longTailQuestions": [
+        "云界线怎么样值得买吗？",
+        "云界线支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "云界线有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索云界线真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "基础透明披露评测梯队",
+      "targetUrl": "/reviews/yunjiexian/",
+      "articleTitle": "云界线深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/yunjiexian/"
+      ],
+      "relatedBrands": [
+        "yunjiexian",
+        "huanqiuti",
+        "shandianshu",
+        "dalaoyun"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (yunjiexian)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "榴莲云评测",
+      "primaryKeyword": "榴莲云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "榴莲云机场评测",
+        "榴莲云测速与线路分析",
+        "榴莲云适合谁用"
+      ],
+      "longTailQuestions": [
+        "榴莲云怎么样值得买吗？",
+        "榴莲云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "榴莲云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索榴莲云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "基础透明披露评测梯队",
+      "targetUrl": "/reviews/liulianyun/",
+      "articleTitle": "榴莲云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/liulianyun/"
+      ],
+      "relatedBrands": [
+        "liulianyun",
+        "dalaoyun",
+        "shandianshu",
+        "yunjiexian"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (liulianyun)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "环球梯评测",
+      "primaryKeyword": "环球梯怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "环球梯机场评测",
+        "环球梯测速与线路分析",
+        "环球梯适合谁用"
+      ],
+      "longTailQuestions": [
+        "环球梯怎么样值得买吗？",
+        "环球梯支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "环球梯有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索环球梯真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "基础透明披露评测梯队",
+      "targetUrl": "/reviews/huanqiuti/",
+      "articleTitle": "环球梯深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/huanqiuti/"
+      ],
+      "relatedBrands": [
+        "huanqiuti",
+        "yunjiexian",
+        "shandianshu",
+        "dalaoyun"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (huanqiuti)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "灵动云评测",
+      "primaryKeyword": "灵动云怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "灵动云机场评测",
+        "灵动云测速与线路分析",
+        "灵动云适合谁用"
+      ],
+      "longTailQuestions": [
+        "灵动云怎么样值得买吗？",
+        "灵动云支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "灵动云有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索灵动云真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "高完整度深度评测梯队",
+      "targetUrl": "/reviews/lingdong/",
+      "articleTitle": "灵动云深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/lingdong/"
+      ],
+      "relatedBrands": [
+        "lingdong",
+        "langwang",
+        "edgenova",
+        "muguang"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (lingdong)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "浪网评测",
+      "primaryKeyword": "浪网怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "浪网机场评测",
+        "浪网测速与线路分析",
+        "浪网适合谁用"
+      ],
+      "longTailQuestions": [
+        "浪网怎么样值得买吗？",
+        "浪网支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "浪网有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索浪网真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "中完整度档案评测梯队",
+      "targetUrl": "/reviews/langwang/",
+      "articleTitle": "浪网深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/langwang/"
+      ],
+      "relatedBrands": [
+        "langwang",
+        "lingdong",
+        "muguang",
+        "edgenova"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (langwang)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "边缘节点 EdgeNova评测",
+      "primaryKeyword": "边缘节点 EdgeNova怎么样 靠谱吗",
+      "secondaryKeywords": [
+        "边缘节点 EdgeNova机场评测",
+        "边缘节点 EdgeNova测速与线路分析",
+        "边缘节点 EdgeNova适合谁用"
+      ],
+      "longTailQuestions": [
+        "边缘节点 EdgeNova怎么样值得买吗？",
+        "边缘节点 EdgeNova支持 Clash 或 Shadowrocket 第三方订阅吗？",
+        "边缘节点 EdgeNova有哪些资料冲突与使用限制？"
+      ],
+      "searchIntent": "Commercial Investigation",
+      "audience": "搜索边缘节点 EdgeNova真实口碑、优缺点与替代方案的决策用户",
+      "contentType": "品牌评测",
+      "parentTopic": "/brands/reviews/",
+      "parentCluster": "中完整度档案评测梯队",
+      "targetUrl": "/reviews/edgenova/",
+      "articleTitle": "边缘节点 EdgeNova深度评测与资料审计：真实套餐、线路证据与适用边界（2026）",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/reviews/",
+        "/brands/directory/",
+        "/brands/edgenova/"
+      ],
+      "relatedBrands": [
+        "edgenova",
+        "lingdong",
+        "langwang",
+        "weifeng"
+      ],
+      "conversionIntent": "review-to-commercial",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "brands.ts (edgenova)、data-conflicts.md",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "光速云官网与套餐",
+      "primaryKeyword": "光速云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "光速云官网入口",
+        "光速云优惠码",
+        "光速云月付价格"
+      ],
+      "longTailQuestions": [
+        "光速云优惠码是什么及有哪些排除条款？",
+        "光速云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解光速云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/guangsuyun/",
+      "articleTitle": "光速云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/guangsuyun/",
+      "relatedArticles": [
+        "/reviews/guangsuyun/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "guangsuyun"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 6603,
+      "sourceRequirements": "brands.ts (guangsuyun) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "暮光加速官网与套餐",
+      "primaryKeyword": "暮光加速价格套餐与优惠码",
+      "secondaryKeywords": [
+        "暮光加速官网入口",
+        "暮光加速优惠码",
+        "暮光加速月付价格"
+      ],
+      "longTailQuestions": [
+        "暮光加速优惠码是什么及有哪些排除条款？",
+        "暮光加速官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解暮光加速准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/muguang/",
+      "articleTitle": "暮光加速套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/muguang/",
+      "relatedArticles": [
+        "/reviews/muguang/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "muguang"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1240,
+      "sourceRequirements": "brands.ts (muguang) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "飞猫云官网与套餐",
+      "primaryKeyword": "飞猫云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "飞猫云官网入口",
+        "飞猫云优惠码",
+        "飞猫云月付价格"
+      ],
+      "longTailQuestions": [
+        "飞猫云优惠码是什么及有哪些排除条款？",
+        "飞猫云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解飞猫云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/feimao/",
+      "articleTitle": "飞猫云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/feimao/",
+      "relatedArticles": [
+        "/reviews/feimao/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "feimao"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1266,
+      "sourceRequirements": "brands.ts (feimao) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "微风网络官网与套餐",
+      "primaryKeyword": "微风网络价格套餐与优惠码",
+      "secondaryKeywords": [
+        "微风网络官网入口",
+        "微风网络优惠码",
+        "微风网络月付价格"
+      ],
+      "longTailQuestions": [
+        "微风网络优惠码是什么及有哪些排除条款？",
+        "微风网络官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解微风网络准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/weifeng/",
+      "articleTitle": "微风网络套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/weifeng/",
+      "relatedArticles": [
+        "/reviews/weifeng/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "weifeng"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1132,
+      "sourceRequirements": "brands.ts (weifeng) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "大佬云官网与套餐",
+      "primaryKeyword": "大佬云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "大佬云官网入口",
+        "大佬云优惠码",
+        "大佬云月付价格"
+      ],
+      "longTailQuestions": [
+        "大佬云优惠码是什么及有哪些排除条款？",
+        "大佬云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解大佬云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/dalaoyun/",
+      "articleTitle": "大佬云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/dalaoyun/",
+      "relatedArticles": [
+        "/reviews/dalaoyun/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "dalaoyun"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1088,
+      "sourceRequirements": "brands.ts (dalaoyun) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "星岛梦官网与套餐",
+      "primaryKeyword": "星岛梦价格套餐与优惠码",
+      "secondaryKeywords": [
+        "星岛梦官网入口",
+        "星岛梦优惠码",
+        "星岛梦月付价格"
+      ],
+      "longTailQuestions": [
+        "星岛梦优惠码是什么及有哪些排除条款？",
+        "星岛梦官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解星岛梦准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/xingdaomeng/",
+      "articleTitle": "星岛梦套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/xingdaomeng/",
+      "relatedArticles": [
+        "/reviews/xingdaomeng/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "xingdaomeng"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1132,
+      "sourceRequirements": "brands.ts (xingdaomeng) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "隐形人官网与套餐",
+      "primaryKeyword": "隐形人价格套餐与优惠码",
+      "secondaryKeywords": [
+        "隐形人官网入口",
+        "隐形人优惠码",
+        "隐形人月付价格"
+      ],
+      "longTailQuestions": [
+        "隐形人优惠码是什么及有哪些排除条款？",
+        "隐形人官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解隐形人准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/yinxingren/",
+      "articleTitle": "隐形人套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/yinxingren/",
+      "relatedArticles": [
+        "/reviews/yinxingren/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "yinxingren"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1155,
+      "sourceRequirements": "brands.ts (yinxingren) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "二猫云官网与套餐",
+      "primaryKeyword": "二猫云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "二猫云官网入口",
+        "二猫云优惠码",
+        "二猫云月付价格"
+      ],
+      "longTailQuestions": [
+        "二猫云优惠码是什么及有哪些排除条款？",
+        "二猫云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解二猫云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/ermao/",
+      "articleTitle": "二猫云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/ermao/",
+      "relatedArticles": [
+        "/reviews/ermao/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "ermao"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1203,
+      "sourceRequirements": "brands.ts (ermao) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "无忧链接官网与套餐",
+      "primaryKeyword": "无忧链接价格套餐与优惠码",
+      "secondaryKeywords": [
+        "无忧链接官网入口",
+        "无忧链接优惠码",
+        "无忧链接月付价格"
+      ],
+      "longTailQuestions": [
+        "无忧链接优惠码是什么及有哪些排除条款？",
+        "无忧链接官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解无忧链接准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/wuyou/",
+      "articleTitle": "无忧链接套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/wuyou/",
+      "relatedArticles": [
+        "/reviews/wuyou/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "wuyou"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1349,
+      "sourceRequirements": "brands.ts (wuyou) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "唯兔云官网与套餐",
+      "primaryKeyword": "唯兔云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "唯兔云官网入口",
+        "唯兔云优惠码",
+        "唯兔云月付价格"
+      ],
+      "longTailQuestions": [
+        "唯兔云优惠码是什么及有哪些排除条款？",
+        "唯兔云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解唯兔云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/weitu/",
+      "articleTitle": "唯兔云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/weitu/",
+      "relatedArticles": [
+        "/reviews/weitu/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "weitu"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1063,
+      "sourceRequirements": "brands.ts (weitu) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "Firefly（萤火虫）官网与套餐",
+      "primaryKeyword": "Firefly（萤火虫）价格套餐与优惠码",
+      "secondaryKeywords": [
+        "Firefly（萤火虫）官网入口",
+        "Firefly（萤火虫）优惠码",
+        "Firefly（萤火虫）月付价格"
+      ],
+      "longTailQuestions": [
+        "Firefly（萤火虫）优惠码是什么及有哪些排除条款？",
+        "Firefly（萤火虫）官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解Firefly（萤火虫）准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/firefly/",
+      "articleTitle": "Firefly（萤火虫）套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/firefly/",
+      "relatedArticles": [
+        "/reviews/firefly/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "firefly"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P0",
+      "contentStatus": "published",
+      "currentHanChars": 1267,
+      "sourceRequirements": "brands.ts (firefly) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "U1S1官网与套餐",
+      "primaryKeyword": "U1S1价格套餐与优惠码",
+      "secondaryKeywords": [
+        "U1S1官网入口",
+        "U1S1优惠码",
+        "U1S1月付价格"
+      ],
+      "longTailQuestions": [
+        "U1S1优惠码是什么及有哪些排除条款？",
+        "U1S1官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解U1S1准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/u1s1/",
+      "articleTitle": "U1S1套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/u1s1/",
+      "relatedArticles": [
+        "/reviews/u1s1/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "u1s1"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1031,
+      "sourceRequirements": "brands.ts (u1s1) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "灵猫网络官网与套餐",
+      "primaryKeyword": "灵猫网络价格套餐与优惠码",
+      "secondaryKeywords": [
+        "灵猫网络官网入口",
+        "灵猫网络优惠码",
+        "灵猫网络月付价格"
+      ],
+      "longTailQuestions": [
+        "灵猫网络优惠码是什么及有哪些排除条款？",
+        "灵猫网络官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解灵猫网络准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/lingmao/",
+      "articleTitle": "灵猫网络套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/lingmao/",
+      "relatedArticles": [
+        "/reviews/lingmao/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "lingmao"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1116,
+      "sourceRequirements": "brands.ts (lingmao) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "一翻云官网与套餐",
+      "primaryKeyword": "一翻云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "一翻云官网入口",
+        "一翻云优惠码",
+        "一翻云月付价格"
+      ],
+      "longTailQuestions": [
+        "一翻云优惠码是什么及有哪些排除条款？",
+        "一翻云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解一翻云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/yifan/",
+      "articleTitle": "一翻云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/yifan/",
+      "relatedArticles": [
+        "/reviews/yifan/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "yifan"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P1",
+      "contentStatus": "published",
+      "currentHanChars": 1184,
+      "sourceRequirements": "brands.ts (yifan) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "SOGO 云官网与套餐",
+      "primaryKeyword": "SOGO 云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "SOGO 云官网入口",
+        "SOGO 云优惠码",
+        "SOGO 云月付价格"
+      ],
+      "longTailQuestions": [
+        "SOGO 云优惠码是什么及有哪些排除条款？",
+        "SOGO 云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解SOGO 云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/sogo/",
+      "articleTitle": "SOGO 云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/sogo/",
+      "relatedArticles": [
+        "/reviews/sogo/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "sogo"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P1",
+      "contentStatus": "published",
+      "currentHanChars": 1167,
+      "sourceRequirements": "brands.ts (sogo) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "闪跃官网与套餐",
+      "primaryKeyword": "闪跃价格套餐与优惠码",
+      "secondaryKeywords": [
+        "闪跃官网入口",
+        "闪跃优惠码",
+        "闪跃月付价格"
+      ],
+      "longTailQuestions": [
+        "闪跃优惠码是什么及有哪些排除条款？",
+        "闪跃官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解闪跃准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/shanyue/",
+      "articleTitle": "闪跃套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/shanyue/",
+      "relatedArticles": [
+        "/reviews/shanyue/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "shanyue"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1120,
+      "sourceRequirements": "brands.ts (shanyue) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "全球云官网与套餐",
+      "primaryKeyword": "全球云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "全球云官网入口",
+        "全球云优惠码",
+        "全球云月付价格"
+      ],
+      "longTailQuestions": [
+        "全球云优惠码是什么及有哪些排除条款？",
+        "全球云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解全球云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/quanqiu/",
+      "articleTitle": "全球云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/quanqiu/",
+      "relatedArticles": [
+        "/reviews/quanqiu/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "quanqiu"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P1",
+      "contentStatus": "published",
+      "currentHanChars": 1030,
+      "sourceRequirements": "brands.ts (quanqiu) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "梯子云官网与套餐",
+      "primaryKeyword": "梯子云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "梯子云官网入口",
+        "梯子云优惠码",
+        "梯子云月付价格"
+      ],
+      "longTailQuestions": [
+        "梯子云优惠码是什么及有哪些排除条款？",
+        "梯子云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解梯子云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/tiziyun/",
+      "articleTitle": "梯子云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/tiziyun/",
+      "relatedArticles": [
+        "/reviews/tiziyun/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "tiziyun"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1098,
+      "sourceRequirements": "brands.ts (tiziyun) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "可信云官网与套餐",
+      "primaryKeyword": "可信云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "可信云官网入口",
+        "可信云优惠码",
+        "可信云月付价格"
+      ],
+      "longTailQuestions": [
+        "可信云优惠码是什么及有哪些排除条款？",
+        "可信云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解可信云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/kexin/",
+      "articleTitle": "可信云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/kexin/",
+      "relatedArticles": [
+        "/reviews/kexin/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "kexin"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1030,
+      "sourceRequirements": "brands.ts (kexin) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "速界官网与套餐",
+      "primaryKeyword": "速界价格套餐与优惠码",
+      "secondaryKeywords": [
+        "速界官网入口",
+        "速界优惠码",
+        "速界月付价格"
+      ],
+      "longTailQuestions": [
+        "速界优惠码是什么及有哪些排除条款？",
+        "速界官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解速界准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/sujie/",
+      "articleTitle": "速界套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/sujie/",
+      "relatedArticles": [
+        "/reviews/sujie/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "sujie"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1002,
+      "sourceRequirements": "brands.ts (sujie) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "极连云官网与套餐",
+      "primaryKeyword": "极连云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "极连云官网入口",
+        "极连云优惠码",
+        "极连云月付价格"
+      ],
+      "longTailQuestions": [
+        "极连云优惠码是什么及有哪些排除条款？",
+        "极连云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解极连云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/jilian/",
+      "articleTitle": "极连云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/jilian/",
+      "relatedArticles": [
+        "/reviews/jilian/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "jilian"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 925,
+      "sourceRequirements": "brands.ts (jilian) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "光年梯官网与套餐",
+      "primaryKeyword": "光年梯价格套餐与优惠码",
+      "secondaryKeywords": [
+        "光年梯官网入口",
+        "光年梯优惠码",
+        "光年梯月付价格"
+      ],
+      "longTailQuestions": [
+        "光年梯优惠码是什么及有哪些排除条款？",
+        "光年梯官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解光年梯准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/guangnian/",
+      "articleTitle": "光年梯套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/guangnian/",
+      "relatedArticles": [
+        "/reviews/guangnian/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "guangnian"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1006,
+      "sourceRequirements": "brands.ts (guangnian) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "宇宙云官网与套餐",
+      "primaryKeyword": "宇宙云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "宇宙云官网入口",
+        "宇宙云优惠码",
+        "宇宙云月付价格"
+      ],
+      "longTailQuestions": [
+        "宇宙云优惠码是什么及有哪些排除条款？",
+        "宇宙云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解宇宙云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/yuzhou/",
+      "articleTitle": "宇宙云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/yuzhou/",
+      "relatedArticles": [
+        "/reviews/yuzhou/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "yuzhou"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1070,
+      "sourceRequirements": "brands.ts (yuzhou) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "闪电鼠官网与套餐",
+      "primaryKeyword": "闪电鼠价格套餐与优惠码",
+      "secondaryKeywords": [
+        "闪电鼠官网入口",
+        "闪电鼠优惠码",
+        "闪电鼠月付价格"
+      ],
+      "longTailQuestions": [
+        "闪电鼠优惠码是什么及有哪些排除条款？",
+        "闪电鼠官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解闪电鼠准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/shandianshu/",
+      "articleTitle": "闪电鼠套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/shandianshu/",
+      "relatedArticles": [
+        "/reviews/shandianshu/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "shandianshu"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1000,
+      "sourceRequirements": "brands.ts (shandianshu) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "神行加速官网与套餐",
+      "primaryKeyword": "神行加速价格套餐与优惠码",
+      "secondaryKeywords": [
+        "神行加速官网入口",
+        "神行加速优惠码",
+        "神行加速月付价格"
+      ],
+      "longTailQuestions": [
+        "神行加速优惠码是什么及有哪些排除条款？",
+        "神行加速官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解神行加速准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/shenxing/",
+      "articleTitle": "神行加速套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/shenxing/",
+      "relatedArticles": [
+        "/reviews/shenxing/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "shenxing"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 948,
+      "sourceRequirements": "brands.ts (shenxing) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "云界线官网与套餐",
+      "primaryKeyword": "云界线价格套餐与优惠码",
+      "secondaryKeywords": [
+        "云界线官网入口",
+        "云界线优惠码",
+        "云界线月付价格"
+      ],
+      "longTailQuestions": [
+        "云界线优惠码是什么及有哪些排除条款？",
+        "云界线官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解云界线准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/yunjiexian/",
+      "articleTitle": "云界线套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/yunjiexian/",
+      "relatedArticles": [
+        "/reviews/yunjiexian/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "yunjiexian"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 981,
+      "sourceRequirements": "brands.ts (yunjiexian) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "榴莲云官网与套餐",
+      "primaryKeyword": "榴莲云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "榴莲云官网入口",
+        "榴莲云优惠码",
+        "榴莲云月付价格"
+      ],
+      "longTailQuestions": [
+        "榴莲云优惠码是什么及有哪些排除条款？",
+        "榴莲云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解榴莲云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/liulianyun/",
+      "articleTitle": "榴莲云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/liulianyun/",
+      "relatedArticles": [
+        "/reviews/liulianyun/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "liulianyun"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1007,
+      "sourceRequirements": "brands.ts (liulianyun) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "环球梯官网与套餐",
+      "primaryKeyword": "环球梯价格套餐与优惠码",
+      "secondaryKeywords": [
+        "环球梯官网入口",
+        "环球梯优惠码",
+        "环球梯月付价格"
+      ],
+      "longTailQuestions": [
+        "环球梯优惠码是什么及有哪些排除条款？",
+        "环球梯官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解环球梯准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/huanqiuti/",
+      "articleTitle": "环球梯套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/huanqiuti/",
+      "relatedArticles": [
+        "/reviews/huanqiuti/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "huanqiuti"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 895,
+      "sourceRequirements": "brands.ts (huanqiuti) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "灵动云官网与套餐",
+      "primaryKeyword": "灵动云价格套餐与优惠码",
+      "secondaryKeywords": [
+        "灵动云官网入口",
+        "灵动云优惠码",
+        "灵动云月付价格"
+      ],
+      "longTailQuestions": [
+        "灵动云优惠码是什么及有哪些排除条款？",
+        "灵动云官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解灵动云准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/lingdong/",
+      "articleTitle": "灵动云套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/lingdong/",
+      "relatedArticles": [
+        "/reviews/lingdong/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "lingdong"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P1",
+      "contentStatus": "published",
+      "currentHanChars": 1209,
+      "sourceRequirements": "brands.ts (lingdong) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "浪网官网与套餐",
+      "primaryKeyword": "浪网价格套餐与优惠码",
+      "secondaryKeywords": [
+        "浪网官网入口",
+        "浪网优惠码",
+        "浪网月付价格"
+      ],
+      "longTailQuestions": [
+        "浪网优惠码是什么及有哪些排除条款？",
+        "浪网官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解浪网准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/langwang/",
+      "articleTitle": "浪网套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/langwang/",
+      "relatedArticles": [
+        "/reviews/langwang/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "langwang"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1086,
+      "sourceRequirements": "brands.ts (langwang) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "边缘节点 EdgeNova官网与套餐",
+      "primaryKeyword": "边缘节点 EdgeNova价格套餐与优惠码",
+      "secondaryKeywords": [
+        "边缘节点 EdgeNova官网入口",
+        "边缘节点 EdgeNova优惠码",
+        "边缘节点 EdgeNova月付价格"
+      ],
+      "longTailQuestions": [
+        "边缘节点 EdgeNova优惠码是什么及有哪些排除条款？",
+        "边缘节点 EdgeNova官方注册入口与支付方式有哪些？"
+      ],
+      "searchIntent": "Transactional",
+      "audience": "已了解边缘节点 EdgeNova准备核查最新套餐与优惠条件的购买用户",
+      "contentType": "品牌商业页",
+      "parentTopic": "/brands/directory/",
+      "parentCluster": "31家去重品牌商业详情页",
+      "targetUrl": "/brands/edgenova/",
+      "articleTitle": "边缘节点 EdgeNova套餐价格、优惠码条款与官方注册入口",
+      "contentOutline": [],
+      "existingUrl": "/brands/edgenova/",
+      "relatedArticles": [
+        "/reviews/edgenova/",
+        "/brands/coupons/",
+        "/brands/directory/"
+      ],
+      "relatedBrands": [
+        "edgenova"
+      ],
+      "conversionIntent": "commercial-registration",
+      "contentPriority": "P2",
+      "contentStatus": "published",
+      "currentHanChars": 1008,
+      "sourceRequirements": "brands.ts (edgenova) 官方链接、affiliateUrl、优惠码与冲突审计",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "光速云和飞猫云对比",
+      "primaryKeyword": "光速云和飞猫云对比",
+      "secondaryKeywords": [
+        "光速云 vs 飞猫云",
+        "双模订阅 vs 仅专属客户端对比",
+        "99元 vs 84元年付对比"
+      ],
+      "longTailQuestions": [
+        "guangsuyun 和 feimao 哪个更适合新手或进阶用户？",
+        "两者套餐价格与客户端开放度差异在哪？"
+      ],
+      "searchIntent": "Comparison",
+      "audience": "在两家高相关性品牌之间二选一的决策用户",
+      "contentType": "品牌对比",
+      "parentTopic": "/brands/comparisons/",
+      "parentCluster": "同价位与同架构双品牌深度横向对比",
+      "targetUrl": "/compare/guangsuyun-vs-feimao/",
+      "articleTitle": "光速云 vs 飞猫云深度对比：自研+第三方双模式与仅专属客户端该如何选？",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/comparisons/",
+        "/reviews/guangsuyun/",
+        "/reviews/feimao/",
+        "/brands/guangsuyun/",
+        "/brands/feimao/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "feimao"
+      ],
+      "conversionIntent": "head-to-head-decision",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "客户端自由度分水岭 + 99/84 年付门槛 + 25元月付同价对比 + 147永久 vs 680/1TB门槛",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "光速云和二猫云哪个好",
+      "primaryKeyword": "光速云和二猫云哪个好",
+      "secondaryKeywords": [
+        "光速云 vs 二猫云",
+        "147永久 vs 99/100G不限时",
+        "25元 vs 20元月付对比"
+      ],
+      "longTailQuestions": [
+        "guangsuyun 和 ermao 哪个更适合新手或进阶用户？",
+        "两者套餐价格与客户端开放度差异在哪？"
+      ],
+      "searchIntent": "Comparison",
+      "audience": "在两家高相关性品牌之间二选一的决策用户",
+      "contentType": "品牌对比",
+      "parentTopic": "/brands/comparisons/",
+      "parentCluster": "同价位与同架构双品牌深度横向对比",
+      "targetUrl": "/compare/guangsuyun-vs-ermao/",
+      "articleTitle": "光速云 vs 二猫云套餐与架构对比：25元月付、百元不限时包与地区覆盖差异",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/comparisons/",
+        "/reviews/guangsuyun/",
+        "/reviews/ermao/",
+        "/brands/guangsuyun/",
+        "/brands/ermao/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "ermao"
+      ],
+      "conversionIntent": "head-to-head-decision",
+      "contentPriority": "P0",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "147/247G vs 99/100G 不限时成本核算、极速版 25/168G vs 白猫 20/120G 及客户端状态",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "光速云和全球云区别",
+      "primaryKeyword": "光速云和全球云区别",
+      "secondaryKeywords": [
+        "光速云 vs 全球云",
+        "99元轻量版 59G 69G 对比",
+        "680元独享版对比"
+      ],
+      "longTailQuestions": [
+        "guangsuyun 和 quanqiu 哪个更适合新手或进阶用户？",
+        "两者套餐价格与客户端开放度差异在哪？"
+      ],
+      "searchIntent": "Comparison",
+      "audience": "在两家高相关性品牌之间二选一的决策用户",
+      "contentType": "品牌对比",
+      "parentTopic": "/brands/comparisons/",
+      "parentCluster": "同价位与同架构双品牌深度横向对比",
+      "targetUrl": "/compare/guangsuyun-vs-quanqiu/",
+      "articleTitle": "光速云 vs 全球云参数对比审计：高度相似价目下的品牌年限、协议与订阅区别",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/comparisons/",
+        "/reviews/guangsuyun/",
+        "/reviews/quanqiu/",
+        "/brands/guangsuyun/",
+        "/brands/quanqiu/"
+      ],
+      "relatedBrands": [
+        "guangsuyun",
+        "quanqiu"
+      ],
+      "conversionIntent": "head-to-head-decision",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "同价位相似价目表冲突审计：2020年老牌+双模 vs 2026新品牌+仅专属端",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "飞猫云和星岛梦对比",
+      "primaryKeyword": "飞猫云和星岛梦对比",
+      "secondaryKeywords": [
+        "飞猫云 vs 星岛梦",
+        "入门年付小包横评",
+        "150G 25元 vs 100G 19元"
+      ],
+      "longTailQuestions": [
+        "feimao 和 xingdaomeng 哪个更适合新手或进阶用户？",
+        "两者套餐价格与客户端开放度差异在哪？"
+      ],
+      "searchIntent": "Comparison",
+      "audience": "在两家高相关性品牌之间二选一的决策用户",
+      "contentType": "品牌对比",
+      "parentTopic": "/brands/comparisons/",
+      "parentCluster": "同价位与同架构双品牌深度横向对比",
+      "targetUrl": "/compare/feimao-vs-xingdaomeng/",
+      "articleTitle": "飞猫云 vs 星岛梦对比评测：84元学生年付与96元小包新手选谁更合适？",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/comparisons/",
+        "/reviews/feimao/",
+        "/reviews/xingdaomeng/",
+        "/brands/feimao/",
+        "/brands/xingdaomeng/"
+      ],
+      "relatedBrands": [
+        "feimao",
+        "xingdaomeng"
+      ],
+      "conversionIntent": "head-to-head-decision",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "年付小包、月付入门门槛、不限时缺失 vs 100元/100G 对比及各自数据缺口",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "无忧链接和灵猫网络对比",
+      "primaryKeyword": "无忧链接和灵猫网络对比",
+      "secondaryKeywords": [
+        "无忧链接 vs 灵猫网络",
+        "79元年付 vs 85元年付",
+        "专属客户端机场低价对比"
+      ],
+      "longTailQuestions": [
+        "wuyou 和 lingmao 哪个更适合新手或进阶用户？",
+        "两者套餐价格与客户端开放度差异在哪？"
+      ],
+      "searchIntent": "Comparison",
+      "audience": "在两家高相关性品牌之间二选一的决策用户",
+      "contentType": "品牌对比",
+      "parentTopic": "/brands/comparisons/",
+      "parentCluster": "同价位与同架构双品牌深度横向对比",
+      "targetUrl": "/compare/wuyou-vs-lingmao/",
+      "articleTitle": "无忧链接 vs 灵猫网络横向对比：仅专属客户端低价门槛与不限时方案差距",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/comparisons/",
+        "/reviews/wuyou/",
+        "/reviews/lingmao/",
+        "/brands/wuyou/",
+        "/brands/lingmao/"
+      ],
+      "relatedBrands": [
+        "wuyou",
+        "lingmao"
+      ],
+      "conversionIntent": "head-to-head-decision",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "同样主打仅专属客户端的入门阵营：无忧19元月付/108永久包 vs 灵猫25元月付及双优惠码冲突",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "暮光加速和微风网络对比",
+      "primaryKeyword": "暮光加速和微风网络对比",
+      "secondaryKeywords": [
+        "暮光加速 vs 微风网络",
+        "20元月付 vs 27元月付",
+        "中端多档月付对比"
+      ],
+      "longTailQuestions": [
+        "muguang 和 weifeng 哪个更适合新手或进阶用户？",
+        "两者套餐价格与客户端开放度差异在哪？"
+      ],
+      "searchIntent": "Comparison",
+      "audience": "在两家高相关性品牌之间二选一的决策用户",
+      "contentType": "品牌对比",
+      "parentTopic": "/brands/comparisons/",
+      "parentCluster": "同价位与同架构双品牌深度横向对比",
+      "targetUrl": "/compare/muguang-vs-weifeng/",
+      "articleTitle": "暮光加速 vs 微风网络对比：多档月付阶梯、起步价矛盾与 120G/200G 成本拆解",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/comparisons/",
+        "/reviews/muguang/",
+        "/reviews/weifeng/",
+        "/brands/muguang/",
+        "/brands/weifeng/"
+      ],
+      "relatedBrands": [
+        "muguang",
+        "weifeng"
+      ],
+      "conversionIntent": "head-to-head-decision",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "月付 20/40/100/180 vs 27/49/99/160 多档成本、年付口径冲突与优惠码条件对照",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "一翻云和唯兔云对比",
+      "primaryKeyword": "一翻云和唯兔云对比",
+      "secondaryKeywords": [
+        "一翻云 vs 唯兔云",
+        "第三方订阅机场对比",
+        "20元 vs 29元月付对比"
+      ],
+      "longTailQuestions": [
+        "yifan 和 weitu 哪个更适合新手或进阶用户？",
+        "两者套餐价格与客户端开放度差异在哪？"
+      ],
+      "searchIntent": "Comparison",
+      "audience": "在两家高相关性品牌之间二选一的决策用户",
+      "contentType": "品牌对比",
+      "parentTopic": "/brands/comparisons/",
+      "parentCluster": "同价位与同架构双品牌深度横向对比",
+      "targetUrl": "/compare/yifan-vs-weitu/",
+      "articleTitle": "一翻云 vs 唯兔云全面对比：第三方通用订阅友好度、月付门槛与不限时包较量",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/comparisons/",
+        "/reviews/yifan/",
+        "/reviews/weitu/",
+        "/brands/yifan/",
+        "/brands/weitu/"
+      ],
+      "relatedBrands": [
+        "yifan",
+        "weitu"
+      ],
+      "conversionIntent": "head-to-head-decision",
+      "contentPriority": "P1",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "面向 Clash/Shadowrocket 进阶用户的第三方支持对比、98元年付 vs 119元年付、100/100G 不限时相同门槛",
+      "lastReviewedAt": "2026-11-24"
+    },
+    {
+      "keyword": "可信云和速界对比",
+      "primaryKeyword": "可信云和速界对比",
+      "secondaryKeywords": [
+        "可信云 vs 速界",
+        "25元 150GB 机场对比",
+        "纯第三方订阅 vs 双支持"
+      ],
+      "longTailQuestions": [
+        "kexin 和 sujie 哪个更适合新手或进阶用户？",
+        "两者套餐价格与客户端开放度差异在哪？"
+      ],
+      "searchIntent": "Comparison",
+      "audience": "在两家高相关性品牌之间二选一的决策用户",
+      "contentType": "品牌对比",
+      "parentTopic": "/brands/comparisons/",
+      "parentCluster": "同价位与同架构双品牌深度横向对比",
+      "targetUrl": "/compare/kexin-vs-sujie/",
+      "articleTitle": "可信云 vs 速界同价对比：25元 150GB、IEPL+VLESS 标注下的客户端与声明差异",
+      "contentOutline": [],
+      "existingUrl": null,
+      "relatedArticles": [
+        "/brands/comparisons/",
+        "/reviews/kexin/",
+        "/reviews/sujie/",
+        "/brands/kexin/",
+        "/brands/sujie/"
+      ],
+      "relatedBrands": [
+        "kexin",
+        "sujie"
+      ],
+      "conversionIntent": "head-to-head-decision",
+      "contentPriority": "P2",
+      "contentStatus": "planned",
+      "currentHanChars": 0,
+      "sourceRequirements": "基础档同价同流量下，可信云纯第三方+诚实未测声明 vs 速界双模式+AI场景主打的资料结构差异",
+      "lastReviewedAt": "2026-11-24"
+    }
+  ]
+}

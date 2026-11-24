@@ -1,0 +1,20 @@
+# 代理客户端 (dailikehuduan.cc)
+
+> 简体中文网络代理客户端文档知识库、客户端安装教程中心、故障排查手册与机场品牌可验证资料库。
+
+## 站点边界与事实原则
+- 主定位：代理客户端下载指引（仅指向官方项目主页或官方仓库）、订阅导入、Clash/Mihomo/sing-box 配置、TUN/DNS 排障与网络基础科普。
+- 品牌资料与评测：收录 31 个去重机场品牌。所有数据严格区分 `measured`（带测试环境与时间戳）、`vendor`（品牌方资料宣称）、`historical`（2026-08 / 2026-10 历史归档快照）与 `unknown`（待核实）。
+- 推荐位透明化：首页及推荐位默认展示为编辑精选排序（含推广合作关系标注），不伪装为客观实测排行榜。
+
+## 核心栏目入口
+- [客户端软件中心](https://dailikehuduan.cc/clients/)
+- [使用教程中心](https://dailikehuduan.cc/guides/)
+- [故障排查手册](https://dailikehuduan.cc/troubleshooting/)
+- [线路与节点科普](https://dailikehuduan.cc/routes/)
+- [AI 与流媒体兼容](https://dailikehuduan.cc/ai-streaming/)
+- [机场品牌数据库](https://dailikehuduan.cc/brands/directory/)
+- [机场推荐与选择方法](https://dailikehuduan.cc/airport/)
+- [价格与套餐计算](https://dailikehuduan.cc/plans/)
+- [VPN 与加速器对比](https://dailikehuduan.cc/vpn/)
+- [风险与替代核验](https://dailikehuduan.cc/safety/)

@@ -1,0 +1,362 @@
+/* ==========================================================================
+   代理客户端 (dailikehuduan.cc) — 文档情报工作台 / Documentation Intelligence Workspace
+   主底色：纯白 / 淡灰白 | 正文：墨蓝 | 强调：冷蓝 (#0284c7) & 湖青 (#0d9488)
+   图表系统：Dark Network Observatory（仅用于专业监测图表模块内部）
+   ========================================================================== */
+
+:root {
+  --vp-c-brand-1: #0284c7;
+  --vp-c-brand-2: #0369a1;
+  --vp-c-brand-3: #0ea5e9;
+  --vp-c-brand-soft: rgba(2, 132, 199, 0.12);
+
+  --diw-accent-teal: #0d9488;
+  --diw-accent-teal-soft: rgba(13, 148, 136, 0.12);
+  --diw-ink: #0f172a;
+  --diw-ink-muted: #475569;
+  --diw-surface: #ffffff;
+  --diw-surface-alt: #f8fafc;
+  --diw-border: #e2e8f0;
+  --diw-border-strong: #cbd5e1;
+
+  --diw-obs-bg: #0b1220;
+  --diw-obs-card: #111c30;
+  --diw-obs-border: #1e293b;
+  --diw-obs-text: #e2e8f0;
+  --diw-obs-muted: #94a3b8;
+
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f8fafc;
+  --vp-c-text-1: #0f172a;
+  --vp-c-text-2: #334155;
+  --vp-c-text-3: #64748b;
+  --vp-c-divider: #e2e8f0;
+
+  --vp-font-family-base: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --vp-font-family-mono: "JetBrains Mono", "Cascadia Code", "Fira Code", Consolas, monospace;
+}
+
+.dark {
+  --vp-c-bg: #0b1120;
+  --vp-c-bg-alt: #0f172a;
+  --vp-c-text-1: #f1f5f9;
+  --vp-c-text-2: #cbd5e1;
+  --vp-c-text-3: #94a3b8;
+  --vp-c-divider: #1e293b;
+
+  --diw-ink: #f1f5f9;
+  --diw-ink-muted: #94a3b8;
+  --diw-surface: #0f172a;
+  --diw-surface-alt: #162033;
+  --diw-border: #1e293b;
+  --diw-border-strong: #334155;
+}
+
+/* 防止全站出现意外横向滚动 */
+html, body {
+  overflow-x: clip;
+}
+
+/* 隐藏默认单层桌面菜单与移动端重复平铺菜单，改用支持 10 项全发现与二级折叠的 MegaNav */
+.VPNavBarMenu,
+.VPNavScreenMenu {
+  display: none !important;
+}
+
+/* 确保桌面顶栏右侧搜索框与主题切换按钮永不被挤压裁切，且不占多余空白 */
+.VPNavBar .wrapper {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+.VPNavBar .container {
+  max-width: 100% !important;
+}
+
+.VPNavBar .content {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.VPNavBar .content-body {
+  min-width: 0;
+  gap: 0.35rem;
+}
+
+.VPNavBarSearch {
+  flex-grow: 0 !important;
+  flex-shrink: 0 !important;
+  padding-left: 6px !important;
+}
+
+.VPNavBarTitle,
+.VPNavBarAppearance,
+.VPNavBarExtra {
+  flex-shrink: 0;
+}
+
+.VPNavBarTitle .logo {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--diw-border-strong);
+}
+
+.VPNavScreen {
+  background-color: var(--vp-c-bg) !important;
+}
+
+/* 修复移动端/平板端“本页目录”下拉层透明穿透与长标题溢出 */
+.VPLocalNav {
+  z-index: 35 !important;
+  background-color: var(--vp-c-bg) !important;
+}
+
+.VPLocalNavOutlineDropdown .items {
+  z-index: 45 !important;
+  background-color: var(--vp-c-bg) !important;
+  border: 1px solid var(--diw-border-strong) !important;
+  box-shadow: 0 16px 36px -12px rgba(15, 23, 42, 0.25) !important;
+  max-height: 68vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.VPLocalNavOutlineDropdown .items a,
+.VPLocalNavOutlineDropdown .outline-link {
+  white-space: normal !important;
+  word-break: break-word !important;
+  line-height: 1.45 !important;
+}
+
+/* 长英文技术词、域名、YAML/CLI 键名在 375px 下安全折行 */
+.vp-doc p,
+.vp-doc li,
+.vp-doc td,
+.vp-doc th {
+  overflow-wrap: anywhere;
+}
+
+/* 文档阅读舒适度优化（中文长文排版） */
+.vp-doc {
+  font-size: 15.5px;
+  line-height: 1.78;
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc h1 {
+  font-size: 1.9rem;
+  line-height: 1.32;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.75rem;
+}
+
+.vp-doc h2 {
+  font-size: 1.38rem;
+  margin-top: 2.2rem;
+  border-top: 1px solid var(--diw-border);
+  padding-top: 1.3rem;
+}
+
+.vp-doc table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+/* Answer-First 核心结论块 */
+.answer-first-box {
+  background: linear-gradient(135deg, var(--diw-surface-alt) 0%, rgba(2, 132, 199, 0.04) 100%);
+  border: 1px solid var(--diw-border);
+  border-left: 4px solid var(--vp-c-brand-1);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.answer-first-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--vp-c-brand-2);
+  margin-bottom: 0.35rem;
+}
+
+.answer-first-box p {
+  margin: 0.25rem 0;
+  color: var(--vp-c-text-1);
+}
+
+/* 统一卡片与徽章 */
+.diw-card {
+  background: var(--diw-surface);
+  border: 1px solid var(--diw-border);
+  border-radius: 12px;
+  padding: 1.1rem 1.2rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+.diw-card:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 8px 24px -12px rgba(2, 132, 199, 0.22);
+}
+
+.diw-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 0.22rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--diw-border);
+  background: var(--diw-surface-alt);
+  color: var(--diw-ink-muted);
+  white-space: nowrap;
+}
+
+.diw-badge--blue {
+  background: rgba(2, 132, 199, 0.1);
+  border-color: rgba(2, 132, 199, 0.28);
+  color: #0369a1;
+}
+
+.diw-badge--teal {
+  background: rgba(13, 148, 136, 0.1);
+  border-color: rgba(13, 148, 136, 0.28);
+  color: #0f766e;
+}
+
+.diw-badge--amber {
+  background: rgba(217, 119, 6, 0.1);
+  border-color: rgba(217, 119, 6, 0.3);
+  color: #b45309;
+}
+
+.diw-badge--slate {
+  background: rgba(100, 116, 139, 0.12);
+  border-color: rgba(100, 116, 139, 0.28);
+  color: #475569;
+}
+
+.dark .diw-badge--blue { color: #38bdf8; }
+.dark .diw-badge--teal { color: #2dd4bf; }
+.dark .diw-badge--amber { color: #fbbf24; }
+.dark .diw-badge--slate { color: #cbd5e1; }
+
+/* Dark Network Observatory 容器（仅图表组件使用） */
+.obs-panel {
+  background: var(--diw-obs-bg);
+  color: var(--diw-obs-text);
+  border: 1px solid var(--diw-obs-border);
+  border-radius: 14px;
+  padding: 1.25rem;
+  margin: 1.25rem 0;
+  box-shadow: 0 12px 32px -18px rgba(15, 23, 42, 0.65);
+}
+
+.obs-panel__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding-bottom: 0.85rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--diw-obs-border);
+}
+
+.obs-panel__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f8fafc;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.obs-panel__meta {
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.76rem;
+  color: var(--diw-obs-muted);
+}
+
+.obs-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.58rem;
+  border-radius: 999px;
+  font-size: 0.73rem;
+  font-weight: 600;
+  font-family: var(--vp-font-family-mono);
+  border: 1px solid transparent;
+}
+
+.obs-status-pill--measured {
+  background: rgba(16, 185, 129, 0.14);
+  border-color: rgba(16, 185, 129, 0.35);
+  color: #34d399;
+}
+
+.obs-status-pill--vendor {
+  background: rgba(56, 189, 248, 0.14);
+  border-color: rgba(56, 189, 248, 0.35);
+  color: #38bdf8;
+}
+
+.obs-status-pill--historical {
+  background: rgba(245, 158, 11, 0.14);
+  border-color: rgba(245, 158, 11, 0.35);
+  color: #fbbf24;
+}
+
+.obs-status-pill--unknown {
+  background: rgba(148, 163, 184, 0.14);
+  border-color: rgba(148, 163, 184, 0.32);
+  color: #94a3b8;
+}
+
+.obs-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+/* 响应式网格工具 */
+.diw-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.diw-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+@media (max-width: 960px) {
+  .diw-grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .diw-grid-2,
+  .diw-grid-3 {
+    grid-template-columns: 1fr;
+  }
+  .vp-doc h1 {
+    font-size: 1.55rem;
+  }
+}
